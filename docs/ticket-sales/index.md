@@ -17,14 +17,17 @@ This is the working guide to PBG's **Ticketing** app in Salesforce. Start with t
 | Learn the essentials in 15 minutes | [Your first 15 minutes](getting-started/quick-start.md) |
 | Understand the homepage | [Navigate your workspace](getting-started/workspace.md) |
 | Find or create the right customer | [Accounts and contacts](getting-started/accounts-contacts.md) |
+| Customize my columns and work list | [Personal list views](getting-started/list-views.md) |
 | Enter a new sale | [Create a Ticketing Opportunity](sales/create-opportunity.md) |
 | Choose the correct ticket offering | [Ticket categories and products](sales/products.md) |
 | Record a call and set the next step | [Log activities](sales/log-activities.md) |
+| Schedule or find a future task | [Future tasks and reminders](sales/future-tasks.md) |
 | Organize today's work | [Track your pipeline](sales/pipeline.md) |
 | Send a season-ticket agreement | [Agreement overview](agreements/overview.md) |
 | Understand purchase and attendance history | [Ticket orders and customer history](customers/ticket-orders.md) |
+| Resolve duplicates or missing CRM history | [Customer data quality](customers/data-quality.md) |
 | Understand my numbers | [Hustle Score](reporting/hustle-score.md) · [Reports and dashboards](reporting/reports.md) |
-| Resolve a problem | [Troubleshooting](help/troubleshooting.md) |
+| Get a quick answer or resolve a problem | [Frequently asked questions](help/common-questions.md) · [Troubleshooting](help/troubleshooting.md) |
 
 ## A guide built around your day
 

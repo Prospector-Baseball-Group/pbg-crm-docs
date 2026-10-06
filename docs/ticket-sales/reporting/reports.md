@@ -29,6 +29,8 @@ The most common reasons for different totals are a different record type, person
 
 A report including related contacts or line items can show several rows for one Task or Opportunity. Inspect the report's record grain and summary calculation before summing exported rows.
 
+Call counts and talk time also answer different questions. A logged call with no usable duration cannot establish how many minutes were spent on the phone. Compare call direction, time range, user mapping, and captured duration before treating Salesforce and a phone-system report as equivalent.
+
 ## Dashboards and the old homepage
 
 Choose **Dashboards** to view the dashboards shared with you. **Old Homepage** on Ticket Sales Home opens the previous Ticketing dashboard. Check the dashboard's filters, running-user/viewing context, and refresh timestamp.
@@ -36,5 +38,13 @@ Choose **Dashboards** to view the dashboards shared with you. **Old Homepage** o
 ## Save your own view
 
 When permissions allow, use **Save As** to create a personal variation rather than changing a shared team's report definition. Give it a clear name that includes its purpose and scope. Follow team policy before sharing or exporting customer data.
+
+For a working queue inside the Opportunities tab, follow [Personal list views](../getting-started/list-views.md). Cloning a list view and saving a report copy are separate actions.
+
+## Export details for follow-up
+
+Open the report's action menu and choose **Export**. Use the details-only option when you need rows for analysis, then choose an available file format. Export options depend on the report and your permissions; ask for an access check if the action is absent.
+
+Check the columns and row count in the downloaded file. A report that includes every contact on an Account can repeat the same opportunity several times. Treat those rows as contact-level outreach detail, not additional sales. Keep customer exports in approved internal locations.
 
 See [Hustle Score](hustle-score.md) for activity definitions and [manager review](manager-review.md) for a weekly review pattern.

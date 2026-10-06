@@ -14,6 +14,8 @@ The Home **View all open opportunities** link takes you to an owner-filtered Eve
 
 If inline editing is unavailable, open the record and use Edit. Available inline fields depend on the list, field type, record type, and your permissions.
 
+For your own filters or columns, clone an appropriate view and choose **Only I can see this list view**. A shared view can be locked for customization even when you can edit the records inside it. See the shared [personal list-view walkthrough](../../ticket-sales/getting-started/list-views); in Event Sales, retain the Event Sales record-type filter.
+
 ## Use a report
 
 1. Open **Reports** and find the report or appropriate folder.
@@ -23,6 +25,14 @@ If inline editing is unavailable, open the record and use Edit. Available inline
 5. Open individual records to investigate differences.
 
 For unsuccessful events, use **Event Sales Reports → Event Sales Lost & Turned Down**. Its summed Amount represents estimated opportunity value, not collected revenue.
+
+## Understand the revenue breakdown limit
+
+Event Sales Home totals sum the **Opportunity Amount** for the selected scope. A total alone does not separate facility rental, food, and bar revenue, or establish that payment was collected.
+
+As of this guide's October 6, 2026 review, a standardized component-revenue breakdown for Event Sales has not been rolled out. The Partnership approach of reporting agreement line items by Product Family / Sub-Family does not automatically apply to Event Sales. Agreement fee fields and scheduled payments also serve different purposes; do not add a deposit to the full fee and count it as extra revenue.
+
+When Finance needs a component breakdown, agree on the source and definitions with the administrator and Finance team before distributing a report. Do not present an Opportunity Amount report as a verified facility-rental / food / bar allocation.
 
 ## Compare dates correctly
 

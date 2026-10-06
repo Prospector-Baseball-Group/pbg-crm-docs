@@ -21,9 +21,13 @@ Use **Home → Email Templates** or the app navigation menu. Search the template
 
 Mailbox connections and Salesforce email features affect what appears on a timeline and what becomes a reportable Task. An email visible in Outlook or Gmail is not, by itself, proof that it will count in Salesforce activity reporting.
 
+The Salesforce Outlook add-in provides a way to work with Salesforce from Outlook; Einstein Activity Capture handles configured automatic capture. Installing the add-in alone does not confirm that your mailbox is connected for automatic capture. If Salesforce asks you to connect or reconnect your work mailbox, follow that sign-in flow; an organizational consent or access error may need your IT team and Salesforce administrator.
+
 If expected email is missing, check the account/contact address, the related record, timeline filters, and your connected-mailbox status. Send your administrator the record link, approximate send time, and symptom. Do not disconnect and reconnect services repeatedly to troubleshoot an isolated message.
 
 **Inbound email is excluded from today's Hustle Score.** For outbound email, the saved activity type, closed status, and activity timestamp determine inclusion.
+
+A shared mailbox or alias needs separate verification of capture and attribution. Do not assume all messages from a general team inbox are automatically credited to your user. Report a specific example with sender, recipient, time, and related record through internal support.
 
 ## Use campaigns as context
 

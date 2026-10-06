@@ -36,4 +36,6 @@ The latest repair is also deployed and reflected in this guide:
 
 ## Guide maintenance
 
+The October 6 edition also clarifies future-task timeline filters, personal versus shared list views, and the current limit on component-revenue reporting. These additions reconcile recent support questions with current Salesforce behavior; they do not announce new Salesforce functionality.
+
 The public guide was checked against live Salesforce components, live browser views, and the latest related implementation chat on **October 6, 2026**. Screens can change after that date. See [About this guide](./about) for the update process.

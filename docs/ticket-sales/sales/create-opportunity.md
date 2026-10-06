@@ -36,7 +36,7 @@ Find the customer Account, identify the main contact, and confirm the division a
 | Next Step | A specific action, including the person or decision you are waiting on. |
 | Ticket Category | The broad offering, such as Full Season, Group, Picnic, or Suite. |
 | Ticket Product | Optional, more specific offering available for the selected Division. |
-| Amount / Number of Tickets | The intended deal value and ticket quantity. |
+| Amount / Number of Tickets | The full agreed package value, including food and beverage, and the ticket quantity. See [revenue definitions](../customers/revenue.md). |
 | Quota Credit Rep | The approved rep for quota attribution, if your workflow requires it. Confirm rather than guessing. |
 
 **Primary Division**, if shown, is a separate division lookup. It does not replace the **Division** field that controls Ticket Product choices. Follow your team's setup for this field.

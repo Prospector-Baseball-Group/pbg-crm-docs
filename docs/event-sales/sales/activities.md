@@ -18,6 +18,20 @@ Update **Next Step** with a concrete action, such as “Send revised room layout
 
 For a task, verify the assigned owner, due date, subject, status, and related record. Complete it after doing the work, then create the next action if the sale remains open.
 
+## Find a future task that seems to disappear
+
+A saved task can be hidden by the record's Activity Timeline filters. With Einstein Activity Capture enabled, the default **Within 2 months** date range can exclude tasks due farther in the future.
+
+1. Open the record's Activity Timeline filter/settings control.
+2. Change **Date Range** to **All time**.
+3. Include **Tasks** in **Activity Types**.
+4. Choose **My activities** for work involving you, or **All activities** for all activities you have access to.
+5. Apply the filters; use **Apply & Save** when available to keep the preference.
+
+If the task is still missing, check the Tasks list and confirm its owner, due date, status, and **Related To** record before creating a duplicate. Timeline settings do not change the Home task card's filters or grant access to another user's records.
+
+The [timeline-filter walkthrough](../../ticket-sales/sales/future-tasks#a-task-appeared-then-disappeared) also applies in Event Sales. Salesforce describes the date and ownership filters in [Activity Timeline Settings Filters](https://help.salesforce.com/s/articleView?id=sales.activity_timeline_filters.htm&language=en_US&type=5).
+
 ## Work the daily queue
 
 1. Open Home and choose **My Data**.

@@ -1,5 +1,20 @@
 # Recent changes and verification
 
+## October 6, 2026 — Questions from daily use
+
+Added a [frequently asked questions](../help/common-questions.md) page and walkthroughs for personal list views, future tasks, and customer data quality. The update draws on historical Salesforce support conversations, follows later replies that supersede earlier answers, and checks the resulting instructions against current behavior.
+
+Additional verification:
+
+- Live list controls, the Amount lock and editable Next Step, the record's Edit Amount control, and the Activity Timeline filter panel.
+- Active duplicate-flag and B2B-conversion flows, including the related-business prerequisite and preservation of the existing opportunity.
+- Current Company Email, Notes, Phone 1 Extension, and LinkedIn Message configuration.
+- The daily duplicate-review schedule, with a clear distinction between a review flag and a completed merge.
+- Current October fiscal calendar and ending-year naming.
+- Full-package Opportunity Amount guidance, the separate imported revenue fields, and the remaining limit on ticket/F&B component reporting.
+
+Earlier proposals for account ownership, unresolved migration cases, and requested integrations are not presented as completed capabilities. Event Sales includes corresponding clarifications and links to the shared list-view and timeline instructions.
+
 ## October 6, 2026 — Ticket Sales handbook
 
 This edition establishes task-based Ticket Sales documentation alongside Event Sales. The organization follows the Partnerships guide's pattern of getting started, everyday sales, agreements, reporting, and administration, with original instructions for PBG's Ticketing module.
@@ -16,7 +31,7 @@ Verified for this edition:
 
 ## Visuals
 
-Homepage, activity-logging, and Opportunity-creation screenshots were captured October 6, 2026. The agreement launcher, Payment Schedule, and Documents images are prior JG demo captures used in the earlier agreement walkthrough. They are labeled where used and contain training examples.
+Homepage, activity-logging, Opportunity-creation, list-control, and timeline-filter screenshots were captured October 6, 2026. The agreement launcher, Payment Schedule, and Documents images are prior JG demo captures used in the earlier agreement walkthrough. They are labeled where used and contain training examples.
 
 Screenshots show an empty personal workspace, blank form, or demonstration agreement. Customer data, private conversations, credentials, and internal evidence exports are excluded from the public site.
 

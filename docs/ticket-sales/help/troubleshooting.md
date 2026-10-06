@@ -15,6 +15,10 @@ Start with the exact record and action that failed. These checks resolve common 
 | Log Task is missing | Header actions and overflow menu | Check those locations; then report the record type and user. |
 | Follow-up did not change after logging | Related To and both Opportunity transfer fields | Fill both fields or edit the Opportunity's Next Step and Follow-Up By directly. |
 | Task appears on the wrong record | Name/Contacts versus Related To | Correct the relationship through the approved edit action. |
+| A future task disappears after save | Timeline date range, activity types, and owner scope | Set All time, include Tasks, and Apply & Save; [check the saved task](../sales/future-tasks.md). |
+| Shared-list columns cannot be changed | Permissions to edit the shared list definition | [Clone a personal list](../getting-started/list-views.md) and choose Select Fields to Display. |
+| Amount is locked in the Opportunity list | Standard list inline-edit limitation | Open the Opportunity and use Edit; a locked Amount cell alone is not an access defect. |
+| Flagged duplicate is still visible | Review schedule and any unresolved identity/relationship issues | Follow [duplicate guidance](../customers/data-quality.md); do not delete the record yourself. |
 | Hustle Score does not include a call | Closed status, Activity Type, 3CX start time or completion time | Follow the [Hustle Score checks](../reporting/hustle-score.md). |
 | An email is missing | Record email address, timeline filter, mailbox connection, saved activity | Ask your administrator to trace the message; avoid duplicate logging. |
 | Team view is absent | Manager permission | Request the control only if it is needed for the role. |
@@ -50,3 +54,5 @@ Use **Sync Status**, then check Documents. If it remains inconsistent, send the 
 ## A useful support request
 
 Include: **what you tried, record link, expected result, actual result, exact error, your division, and approximate time**. A cropped screenshot of the relevant controls is often enough. Keep customer information in the approved internal support channel rather than posting it to this public documentation repository.
+
+For quick explanations of common behavior, start with [Frequently asked questions](common-questions.md).
