@@ -13,6 +13,7 @@ Start with the exact record and action that failed. These checks resolve common 
 | Closed Won is blocked | Missing Season or Ticket Category | Complete the missing field and retry. |
 | Stage is rejected | Wrong sales process/record type | Confirm Ticketing Opportunity and use a valid Ticketing stage. |
 | Log Task is missing | Header actions and overflow menu | Check those locations; then report the record type and user. |
+| Notes or New is missing | Account versus Contact navigation; page and record/note access | Use Account **Notes** or Contact **Related → Notes**, refresh, then follow [Notes troubleshooting](../sales/notes.md#if-notes-is-missing-or-a-note-cannot-be-found). |
 | Follow-up did not change after logging | Related To and both Opportunity transfer fields | Fill both fields or edit the Opportunity's Next Step and Follow-Up By directly. |
 | Task appears on the wrong record | Name/Contacts versus Related To | Correct the relationship through the approved edit action. |
 | A future task disappears after save | Timeline date range, activity types, and owner scope | Set All time, include Tasks, and Apply & Save; [check the saved task](../sales/future-tasks.md). |

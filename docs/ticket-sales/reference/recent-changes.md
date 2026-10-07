@@ -1,5 +1,14 @@
 # Recent changes and verification
 
+## October 7, 2026 — Notes on Accounts and Contacts
+
+- **Person Accounts and Business Accounts:** use **Notes → New**.
+- **Contacts:** use **Related → Notes → New**.
+- Notes are available in Ticketing, Event Sales, and Partnership, including the added Notes tab on Partnership Business Accounts.
+- The [Notes walkthrough](../sales/notes.md) explains saving, reopening, choosing the right record, and keeping reference notes separate from activities and follow-up tasks. Notes do not count as completed Tasks in Hustle Score.
+
+Verified in live Salesforce: saving and reopening notes on Person Accounts and Contacts, plus a Business Account note visible across all three apps. Temporary verification notes and records were removed. The handbook update adds navigation, account/contact guidance, and troubleshooting links for the deployed behavior.
+
 ## October 6, 2026 — Questions from daily use
 
 Added a [frequently asked questions](../help/common-questions.md) page and walkthroughs for personal list views, future tasks, and customer data quality. The update draws on historical Salesforce support conversations, follows later replies that supersede earlier answers, and checks the resulting instructions against current behavior.

@@ -57,6 +57,12 @@ The active flow changes the Account on the same opportunity and sets the person 
 Use the Opportunity for deal-specific outreach. Use the Business Account for a broader organizational conversation. Selecting contacts preserves the people involved. See [Log activities](../sales/log-activities.md).
 :::
 
+## Keep customer context in Notes
+
+On a **Business Account** or **Person Account**, choose **Notes → New**. On a **Contact**, choose **Related → Notes → New**. Add a title and the useful context, then choose **Done** and reopen the saved note to check it.
+
+This is available in Ticketing, Event Sales, and Partnership. See [Keep customer context in Notes](../sales/notes.md) for the record paths, saving steps, and the difference between Notes and activities.
+
 ## After saving
 
 Check the account type, owner, spelling, and contact details. Reopen the Opportunity and confirm it points to the intended Account and Primary Contact. Ask an administrator to handle a mistaken account type or a duplicate merge.

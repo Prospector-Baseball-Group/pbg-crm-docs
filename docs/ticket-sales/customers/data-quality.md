@@ -24,7 +24,7 @@ Historical activities can show an integration user when the original legacy owne
 
 ## Keep reference notes separate from outreach
 
-Use the Account's **Notes** tab for durable relationship context: preferences, decision-making process, or information the next seller should know. Use a Task for a call, meeting, message, or promised action. A note is not a completed outreach activity in Hustle Score.
+Use **Notes** on a Business Account or Person Account, or **Related → Notes** on a Contact, for durable relationship context: preferences, decision-making process, or information the next seller should know. Follow [the Notes walkthrough](../sales/notes.md) to create, reopen, and update a note. Use a Task for a call, meeting, message, or promised action. A note is not a completed outreach activity in Hustle Score.
 
 For a general company inbox, use **Company Email** on the Business Account. Add a named Contact when you know the person. **Phone 1 Extension** stores an extension separately from the main phone number. These fields help preserve useful information without inventing a person for a shared inbox.
 
