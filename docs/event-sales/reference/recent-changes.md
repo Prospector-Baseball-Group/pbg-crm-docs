@@ -2,6 +2,15 @@
 
 This page records changes relevant to using Event Sales, with the release state distinguished from work still under verification.
 
+## October 7, 2026 — Notes on Accounts and Contacts
+
+- **Person Accounts and Business Accounts:** use **Notes → New**.
+- **Contacts:** use **Related → Notes → New**.
+- Notes are available in Event Sales, Ticketing, and Partnership, including the added Notes tab on Partnership Business Accounts.
+- The [Notes walkthrough](../sales/notes) explains saving, reopening, choosing the right record, and keeping reference notes separate from activities and follow-up tasks.
+
+Verified in live Salesforce: saving and reopening notes on Person Accounts and Contacts, plus a Business Account note visible across all three apps. Temporary verification notes and records were removed. The handbook update adds navigation, account/contact guidance, and troubleshooting links for the deployed behavior.
+
 ## October 6, 2026 — Agreement readiness and Adobe workflow
 
 Verified in deployed Salesforce code and the current implementation chat:

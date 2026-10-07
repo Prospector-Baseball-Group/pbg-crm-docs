@@ -30,6 +30,12 @@ A person can be related to more than one business. Use the existing relationship
 
 For a business, add or relate the appropriate contact through the account’s related-person or Contacts section. Use **New** for a genuinely new person, or the available relationship action for an existing individual. Required fields and available actions depend on your record type and permissions.
 
+## Keep customer context in Notes
+
+On a **Business Account** or **Person Account**, choose **Notes → New**. On a **Contact**, choose **Related → Notes → New**. Add a title and the useful context, then choose **Done** and reopen the saved note to check it.
+
+This is available in Event Sales, Ticketing, and Partnership. See [Keep customer context in Notes](../sales/notes) for the record paths, saving steps, and the difference between Notes and activities.
+
 ## Choose the Primary Contact
 
 The Event Sales opportunity form’s **Primary Contact** search becomes useful after you select a business account. It prioritizes people related to that account. Event Sales requires a contact who belongs to or is related to the company. The chosen person is also maintained as a primary Opportunity Contact Role.

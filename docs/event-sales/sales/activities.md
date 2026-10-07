@@ -12,6 +12,8 @@ Leave the record ready for the next person to act: what happened, what happens n
 
 Logging the interaction on the opportunity keeps it with the specific event. A note on the account alone can be harder to connect to the right booking.
 
+For lasting customer or individual context, use [Notes on Accounts and Contacts](./notes). Accounts have a **Notes** tab; Contacts expose Notes under **Related**. A Note does not create a follow-up task or replace the event's activity history.
+
 ## Set the next action
 
 Update **Next Step** with a concrete action, such as “Send revised room layout after attendance confirmation.” Set **Follow-Up By** and create a task for the person responsible when an assigned reminder is needed.

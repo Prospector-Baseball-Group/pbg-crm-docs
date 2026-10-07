@@ -10,6 +10,7 @@ Start with the visible message and the record’s current state. The fastest fix
 | Agreement shows a generic layout | Current Salesforce app | Switch to Event Sales and reopen |
 | Primary Contact is disabled | Has a business account been selected? | Choose the account first; allow related people to load |
 | Contact is not available | Relationship to the selected customer | Verify the existing account relationship; do not duplicate the person |
+| Notes or New is missing | Account versus Contact navigation; page and record/note access | Use Account **Notes** or Contact **Related → Notes**, refresh, then follow [Notes troubleshooting](../sales/notes#if-notes-is-missing-or-a-note-cannot-be-found) |
 | Event cannot save without a date | Current Stage | Supply Event Date at Quoted or later active stages |
 | Event Type is disabled | Event Category | Select the category first |
 | Location choices are missing | Division and active location catalog | Correct Division or ask the catalog administrator |

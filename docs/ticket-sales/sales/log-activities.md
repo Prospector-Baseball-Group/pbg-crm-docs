@@ -45,6 +45,6 @@ If a call or email is already captured by an integration, inspect that activity 
 
 Check the activity under the intended record. Expand it to confirm subject, type, status, assignee, contacts, and notes. If it is absent, review timeline filters and Related To before creating a second copy.
 
-An account relationship alone does not make every activity appear on every associated business. Check the saved Task's Name/Contacts and Related To. Use the Account's Notes tab for lasting reference information; Notes do not count as completed Tasks.
+An account relationship alone does not make every activity appear on every associated business. Check the saved Task's Name/Contacts and Related To. For lasting reference information, use **Notes** on a Business Account or Person Account, or **Related → Notes** on a Contact. Follow [the Notes walkthrough](./notes.md); Notes do not count as completed Tasks.
 
 See [Hustle Score](../reporting/hustle-score.md) for what counts in today's metrics and [email guidance](email-campaigns.md) for captured email.
