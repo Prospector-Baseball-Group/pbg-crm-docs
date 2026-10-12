@@ -6,7 +6,7 @@ Created **General** for workflows used across apps. Files and public links, cust
 
 The Files guide now distinguishes the top-level **Examples** library from the older Examples folder in Asset Library and explains division-library membership and upload completion. Library uploads and public links have separate permission requirements.
 
-**Verification boundary:** earlier rep testing verified file upload and preview. The library setup work also verified a rep upload into the intended division library. Sharing settings are being updated, so the complete public-link creation, signed-out retrieval, and revocation test remains pending. This reorganization does not change Salesforce permissions or claim that test has passed.
+**Verified end to end:** with the public-link permissions enabled, a sales rep uploaded and previewed a PDF in a division library, created its public link, and deleted the link after testing. Anonymous viewing succeeded; an unauthenticated download matched the original PDF byte-for-byte. A fresh visit after revocation showed that the content could no longer be accessed. The temporary link and upload were removed. Files tab visibility was also corrected for sales reps and verified through App Launcher. The Files guide now includes the exact working steps, a complete schedule example, and a short Public Links versus Content Deliveries explanation.
 
 ## Earlier workflow verification
 

@@ -6,10 +6,6 @@ Use **Salesforce Files** to keep a PDF, brochure, schedule, or other document in
 Use a file approved for external sharing, such as a customer-facing schedule or brochure. Anyone with a public link can forward it. Keep customer lists, signed agreements, payment details, and internal documents in their approved sharing workflow.
 :::
 
-::: info Verification status — October 12, 2026
-File upload and preview have been verified for a sales rep. Shared libraries are now available, but sharing settings are being updated. Public-link creation, signed-out access, and link removal still need a complete rep verification after those changes. Use the permission checks below if a control is missing.
-:::
-
 ## Choose where the file belongs
 
 | Location under **Files → Libraries** | Use it for | Who can manage files |
@@ -25,19 +21,19 @@ Library membership allows uploading, new versions, folder organization, internal
 
 ## Upload to your division library
 
-1. Open **Files → Libraries**, then select your division, such as **Akron RubberDucks**. If Files is absent from your app's navigation and App Launcher, ask your administrator for the Files page link.
+1. Open the **App Launcher** (nine dots), search for **Files**, and select **Files**. Choose **Libraries**, then your division, such as **Akron RubberDucks**.
 2. Select **Add Files**, then **Upload Files** in the file selector.
-3. Choose a clearly named file, such as **2027 Team Schedule.pdf**, without a duplicate-download suffix like **(1)**.
-4. Wait for the upload to finish. Complete the dialog with **Done** or **Add** as shown.
+3. Choose a clearly named file, such as **2027 Team Schedule.pdf**.
+4. Wait for the upload to reach **100%** and show **1 of 1 file uploaded**, then select **Done**.
 5. Return to the library and confirm the file is listed. Open it to check the title and preview.
 
 **Do not stop at the upload notification:** confirm that the document actually appears inside the intended library. If it only appears in **Owned by Me**, return to the library, choose **Add Files**, select the uploaded file, and choose **Add**. Reuse that upload instead of creating another copy.
 
 ## Upload to Owned by Me
 
-1. Open the **App Launcher** (the nine dots), search for **Files**, and select **Files**. If it is already in your app's navigation bar, select it there.
+1. Open the **App Launcher**, search for **Files**, and select **Files**. You can also use Files in your app navigation when it is present.
 2. Choose **Owned by Me**, then **Upload Files**.
-3. Select the file from your computer. Give it a clear name first—for example, **2027 Team Schedule.pdf**—and remove duplicate-download suffixes such as **(1)**.
+3. Select the file from your computer. Give it a clear name first—for example, **2027 Team Schedule.pdf**.
 4. Wait for the upload to finish, then choose **Done**.
 5. Open the file from the list and check that its title and contents are correct.
 
@@ -55,14 +51,16 @@ Open the file's action menu (**Show more actions** or **Show Actions**), select 
 
 ## Create a public link
 
-These steps require public links to be enabled and appropriate access to the file. If the option is missing, use the troubleshooting section below.
+1. In the library or Files list, select the file's title to open its preview.
+2. Select **Public Link** in the preview toolbar. If the toolbar does not show it, open **Show More → View File Details**, then select **Public Link** on the file details page.
+3. In **Create public link**, review **Expiration date**. When it is on, set the date and time through which recipients should have access.
+4. Review **Password**. Leave it off for a document intended to be openly accessible, or turn it on if the recipient should need a password.
+5. Select **Create Link**. If Salesforce displays **Create unrestricted public link?**, confirm that the file is intended for external sharing and select **Create**.
+6. Select **Copy Link**, or select and copy the full value in **Public link URL**.
 
-1. Open the uploaded file and select **Public Link**, if available. Another route is the file's action menu → **Share**, then **Who Can Access → Public Link Sharing**.
-2. Review the expiration and password options shown. Choose an expiration that covers the intended use. If you enable a password, retain it for the recipient.
-3. Select **Create Link** and confirm any sharing prompt.
-4. Select **Copy Link**, or copy the generated URL.
+**Expected result:** the dialog contains a public URL, **Copy Link**, and the **Delete public link** trash icon. You can return to **Public Link** to copy the same link again.
 
-An existing link can be copied again from the same dialog. Public-link recipients can read or download the file; this does not make them editors. Salesforce documents these controls in [Share Files Via Link](https://help.salesforce.com/s/articleView?id=sf.collab_files_sharing_via_link.htm&language=en_US&type=5).
+The link lets recipients view and download the file without making them editors. Salesforce documents these controls in [Share Files Via Link](https://help.salesforce.com/s/articleView?id=sf.collab_files_sharing_via_link.htm&language=en_US&type=5).
 
 ## Test the link before sending it
 
@@ -75,9 +73,17 @@ An existing link can be copied again from the same dialog. Public-link recipient
 
 A link to a PDF opens the document; it does not turn the PDF into the body of an email. Use your email editor for the message itself.
 
+## Public Links and Content Deliveries
+
+Use **Public Link** for a schedule, brochure, or other approved document that recipients should open without signing in. You can set an expiration date and password in the link dialog.
+
+**Content Deliveries** are a separate sharing workflow that adds view/download tracking. Salesforce documents their creation workflow in Classic; Lightning Email can also generate delivery-based attachment links for users with the feature. They are not a required extra step when using **Public Link**.
+
+If you need tracked deliveries, ask your administrator to confirm the intended workflow and access. See Salesforce's [Content Deliveries setup and tracking guidance](https://help.salesforce.com/s/articleView?id=sf.content_delivery_about.htm&language=en_US&type=5). The walkthrough on this page verifies **Public Link** creation and recipient access.
+
 ## Stop sharing or replace the file
 
-Return to the file's **Public Link** dialog and delete the link when it should no longer work. Confirm the old URL no longer opens the file in a signed-out window. Deleting a public link leaves the stored file in Salesforce; it cannot recall copies someone already downloaded. A replacement link has a different URL, so update any reusable email templates that contain the old one.
+Return to the file's **Public Link** dialog, select the **Delete public link** trash icon, and confirm **Delete**. Open the old URL in a fresh private/incognito tab to confirm that it no longer opens the file. A previously loaded preview may remain visible until it is closed. Deleting a public link leaves the stored file in Salesforce; it cannot recall copies someone already downloaded. A replacement link has a different URL, so update any reusable email templates that contain the old one.
 
 To revise the document, use **Upload New Version** on the existing file when appropriate. Recheck the public link afterward to confirm exactly which content recipients see. Uploading a separate file does not update links to the original.
 
@@ -93,3 +99,16 @@ To revise the document, use **Upload New Version** on the existing file when app
 | Recipient sees the wrong document | Check the file title and version. Test the exact link from your email in a signed-out window. |
 
 For an access problem, send the file's internal Salesforce link and the error to your administrator through your internal support channel. Salesforce's [public-link setup reference](https://help.salesforce.com/s/articleView?id=experience.admin_files_libraries_content_deliveries_public_links.htm&language=en_US&type=5) explains the required permissions.
+
+## Worked example: upload, share, and check a schedule
+
+1. Open **Files → Libraries → your division**.
+2. Choose **Add Files → Upload Files** and select **2027 Team Schedule.pdf**.
+3. When the upload finishes, select **Done** and confirm the schedule appears in the library.
+4. Open the schedule, check its preview, and select **Public Link**.
+5. Review the expiration and password settings, choose **Create Link**, then **Create** when prompted.
+6. Copy the **Public link URL** and open it in a private/incognito window.
+7. Confirm the correct schedule appears without a Salesforce login, then choose **Download** and open the downloaded PDF.
+8. Share the tested URL with the intended recipients. When it should no longer be accessible, use **Delete public link → Delete** and test the old URL in a fresh private tab.
+
+*Verified October 12, 2026 as a sales rep: division-library upload, PDF preview, public-link creation, access without Salesforce authentication, a download matching the original PDF, and link revocation. The temporary test link and upload were removed afterward.*

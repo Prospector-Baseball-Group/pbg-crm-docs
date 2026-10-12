@@ -4,15 +4,13 @@
 
 Shared guidance now lives in [General](/general/): Files and public links, Notes, customer-record basics, personal list views, and future-task troubleshooting. This handbook keeps its sales-specific workflows and links to the shared instructions.
 
-The Files guide includes the shared-library setup. Public-link retesting remains pending while sharing settings are updated; see [General verification status](/general/recent-changes). The earlier test below records the state before those library changes.
+The Files guide includes the shared-library setup. The full upload, public-link, anonymous-access, and revocation workflow is verified; see [General verification status](/general/recent-changes).
 
 ## October 12, 2026 — Files and public links
 
-Added [Files & public links](/general/files-public-links), covering upload, clear file names, record attachments, external links, signed-out testing, expiration/password controls, link removal, and troubleshooting. Both handbook sections include navigation and homepage links.
+[Files & public links](/general/files-public-links) covers library upload, record attachments, link creation, expiration/password controls, recipient checks, and link removal. Public-link permissions are enabled for sales reps and shared-library managers.
 
-**Live verification:** a Sales Rep uploaded and previewed the supplied PDF successfully from Files home, with the duplicate-download suffix removed. Files was absent from App Launcher, and the rep's sharing dialog did not offer public links. Permission inspection confirmed no Create Public Links grant for the tested user. The temporary duplicate upload was deleted; the existing file was retained.
-
-**Verification boundary:** public-link creation, signed-out retrieval, and revocation could not be tested as that rep. Those instructions follow Salesforce's documented workflow and are explicitly conditional on access. This documentation update changes no Salesforce permissions or sharing settings.
+**Live verification:** a sales rep uploaded and previewed a PDF in a division library, created a public link, and deleted that link after testing. Anonymous access succeeded, the downloaded PDF matched the source, and a fresh visit after revocation could no longer access the file. The temporary upload was removed.
 
 ## October 7, 2026 — Notes on Accounts and Contacts
 
