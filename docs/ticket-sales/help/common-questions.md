@@ -56,7 +56,7 @@ A separate opportunity can have its own owner and Division on the same business.
 
 ### Where should I store general notes or a company inbox?
 
-Use **Notes** for durable customer context and **Company Email** for a shared business inbox. On a Business Account or Person Account, choose **Notes → New**. On a Contact, choose **Related → Notes → New**. See [how to save and reopen Notes](../sales/notes.md). Use a Task for outreach or a follow-up; see [customer data guidance](../customers/data-quality.md#keep-reference-notes-separate-from-outreach).
+Use **Notes** for durable customer context and **Company Email** for a shared business inbox. On a Business Account or Person Account, choose **Notes → New**. On a Contact, choose **Related → Notes → New**. See [how to save and reopen Notes](/general/notes). Use a Task for outreach or a follow-up; see [customer data guidance](../customers/data-quality.md#keep-reference-notes-separate-from-outreach).
 
 ### Can I assume all old CRM history is in Salesforce?
 
@@ -106,4 +106,4 @@ Still stuck? Use the [support-request checklist](troubleshooting.md#a-useful-sup
 
 ## How do I send a PDF or schedule as a link?
 
-Upload the document to **Files**, create a **Public Link** if your access allows it, and test it in a signed-out window. Follow [Files & public links](../sales/files-public-links) for the steps and help with missing permissions.
+Upload the document to **Files**, create a **Public Link** if your access allows it, and test it in a signed-out window. Follow [Files & public links](/general/files-public-links) for the steps and help with missing permissions.

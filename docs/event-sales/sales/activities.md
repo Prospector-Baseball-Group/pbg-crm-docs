@@ -12,7 +12,7 @@ Leave the record ready for the next person to act: what happened, what happens n
 
 Logging the interaction on the opportunity keeps it with the specific event. A note on the account alone can be harder to connect to the right booking.
 
-For lasting customer or individual context, use [Notes on Accounts and Contacts](./notes). Accounts have a **Notes** tab; Contacts expose Notes under **Related**. A Note does not create a follow-up task or replace the event's activity history.
+For lasting customer or individual context, use [Notes on Accounts and Contacts](/general/notes). Accounts have a **Notes** tab; Contacts expose Notes under **Related**. A Note does not create a follow-up task or replace the event's activity history.
 
 ## Set the next action
 
@@ -32,7 +32,7 @@ A saved task can be hidden by the record's Activity Timeline filters. With Einst
 
 If the task is still missing, check the Tasks list and confirm its owner, due date, status, and **Related To** record before creating a duplicate. Timeline settings do not change the Home task card's filters or grant access to another user's records.
 
-The [timeline-filter walkthrough](../../ticket-sales/sales/future-tasks#a-task-appeared-then-disappeared) also applies in Event Sales. Salesforce describes the date and ownership filters in [Activity Timeline Settings Filters](https://help.salesforce.com/s/articleView?id=sales.activity_timeline_filters.htm&language=en_US&type=5).
+The [timeline-filter walkthrough](/general/future-tasks#a-task-appeared-then-disappeared) also applies in Event Sales. Salesforce describes the date and ownership filters in [Activity Timeline Settings Filters](https://help.salesforce.com/s/articleView?id=sales.activity_timeline_filters.htm&language=en_US&type=5).
 
 ## Work the daily queue
 
