@@ -1,40 +1,6 @@
-# Accounts & contacts
+# Accounts & contacts for Event Sales
 
-Start with the correct customer record. It connects the opportunity, onsite contact, and agreement signer.
-
-## Search first
-
-1. Open **Accounts** and search the customer’s name.
-2. Review likely matches, including corporate accounts and locations with similar names.
-3. Open the correct record and check the customer details and related people.
-4. Create a new record only if no appropriate record exists.
-
-If two records appear to represent the same customer, ask your Salesforce administrator to review them. Do not create a third record to work around uncertainty.
-
-## Choose the right customer structure
-
-| Customer | Typical structure | Opportunity contact |
-| --- | --- | --- |
-| Business or organization | Business Account plus related Contacts or related individuals | Select the person coordinating the sale |
-| Individual booking personally | Person Account | Salesforce uses the Person Account’s contact identity |
-
-A person can be related to more than one business. Use the existing relationship when it is valid rather than duplicating the person.
-
-## Create an account
-
-1. Open **Accounts → New**.
-2. If Salesforce asks for a record type, select the appropriate business or person type.
-3. Complete the required name and customer fields. Use the correct division where prompted.
-4. Enter reliable phone, email, and address details that are known.
-5. Select **Save**, then review the saved record.
-
-For a business, add or relate the appropriate contact through the account’s related-person or Contacts section. Use **New** for a genuinely new person, or the available relationship action for an existing individual. Required fields and available actions depend on your record type and permissions.
-
-## Keep customer context in Notes
-
-On a **Business Account** or **Person Account**, choose **Notes → New**. On a **Contact**, choose **Related → Notes → New**. Add a title and the useful context, then choose **Done** and reopen the saved note to check it.
-
-This is available in Event Sales, Ticketing, and Partnership. See [Keep customer context in Notes](../sales/notes) for the record paths, saving steps, and the difference between Notes and activities.
+Start with [General → Accounts & contacts](/general/accounts-contacts) to search, create the right customer record, relate people, and save Notes. Then use this page for Event Sales contact and signer rules.
 
 ## Choose the Primary Contact
 

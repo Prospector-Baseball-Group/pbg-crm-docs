@@ -1,8 +1,14 @@
 # Recent changes and verification
 
+## October 12, 2026 — General section and shared libraries
+
+Shared guidance now lives in [General](/general/): Files and public links, Notes, customer-record basics, personal list views, and future-task troubleshooting. This handbook keeps its sales-specific workflows and links to the shared instructions.
+
+The Files guide includes the shared-library setup. Public-link retesting remains pending while sharing settings are updated; see [General verification status](/general/recent-changes). The earlier test below records the state before those library changes.
+
 ## October 12, 2026 — Files and public links
 
-Added [Files & public links](../sales/files-public-links), covering upload, clear file names, record attachments, external links, signed-out testing, expiration/password controls, link removal, and troubleshooting. Both handbook sections include navigation and homepage links.
+Added [Files & public links](/general/files-public-links), covering upload, clear file names, record attachments, external links, signed-out testing, expiration/password controls, link removal, and troubleshooting. Both handbook sections include navigation and homepage links.
 
 **Live verification:** a Sales Rep uploaded and previewed the supplied PDF successfully from Files home, with the duplicate-download suffix removed. Files was absent from App Launcher, and the rep's sharing dialog did not offer public links. Permission inspection confirmed no Create Public Links grant for the tested user. The temporary duplicate upload was deleted; the existing file was retained.
 
@@ -13,7 +19,7 @@ Added [Files & public links](../sales/files-public-links), covering upload, clea
 - **Person Accounts and Business Accounts:** use **Notes → New**.
 - **Contacts:** use **Related → Notes → New**.
 - Notes are available in Ticketing, Event Sales, and Partnership, including the added Notes tab on Partnership Business Accounts.
-- The [Notes walkthrough](../sales/notes.md) explains saving, reopening, choosing the right record, and keeping reference notes separate from activities and follow-up tasks. Notes do not count as completed Tasks in Hustle Score.
+- The [Notes walkthrough](/general/notes) explains saving, reopening, choosing the right record, and keeping reference notes separate from activities and follow-up tasks. Notes do not count as completed Tasks in Hustle Score.
 
 Verified in live Salesforce: saving and reopening notes on Person Accounts and Contacts, plus a Business Account note visible across all three apps. Temporary verification notes and records were removed. The handbook update adds navigation, account/contact guidance, and troubleshooting links for the deployed behavior.
 

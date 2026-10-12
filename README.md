@@ -1,8 +1,10 @@
 # PBG CRM handbook
 
-Public, task-oriented documentation for Prospector Baseball Group’s Salesforce Event Sales and Ticket Sales modules.
+Public, task-oriented documentation for Prospector Baseball Group’s Salesforce shared tools, Event Sales, and Ticket Sales workflows.
 
 **Read the guide:** https://prospector-baseball-group.github.io/pbg-crm-docs/
+
+The General section covers shared Files and libraries, public links, Notes, customer-record basics, list controls, and task reminders. Sales-specific instructions remain in each handbook.
 
 The Event Sales handbook covers accounts and contacts, opportunities, pipeline stages, locations and holds, calendar, activities, the Akron Special Event Agreement workflow, reporting, and troubleshooting. Includes customer-free Salesforce screenshots and an interactive, fictional send-readiness exercise. The companion Ticket Sales section covers the seller workspace, pipeline, activities, ticket history, reporting, and ticketing agreements. Both modules share search, navigation, and publishing. No voice-over video is required.
 
@@ -29,7 +31,7 @@ The build fails on unresolved documentation links. The content check validates l
 
 - Write task-focused steps using the visible Salesforce labels.
 - Verify changes against deployed behavior and the affected seller’s access.
-- Keep verification dates and release limitations current in `docs/event-sales/reference/recent-changes.md`.
+- Keep verification dates and release limitations current in the appropriate General or sales section’s Recent changes page.
 - Capture customer-free views or crop to generic controls; inspect every image before committing it.
 - Never add customer records, internal chat exports, signed agreements, diagnostic evidence, credentials, or Salesforce session links.
 - Keep private evidence in the internal Salesforce workspace, outside this repository.

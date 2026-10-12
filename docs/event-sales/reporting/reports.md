@@ -14,7 +14,7 @@ The Home **View all open opportunities** link takes you to an owner-filtered Eve
 
 If inline editing is unavailable, open the record and use Edit. Available inline fields depend on the list, field type, record type, and your permissions.
 
-For your own filters or columns, clone an appropriate view and choose **Only I can see this list view**. A shared view can be locked for customization even when you can edit the records inside it. See the shared [personal list-view walkthrough](../../ticket-sales/getting-started/list-views); in Event Sales, retain the Event Sales record-type filter.
+For your own filters or columns, clone an appropriate view and choose **Only I can see this list view**. A shared view can be locked for customization even when you can edit the records inside it. See the shared [personal list-view walkthrough](/general/list-views); in Event Sales, retain the Event Sales record-type filter.
 
 ## Use a report
 

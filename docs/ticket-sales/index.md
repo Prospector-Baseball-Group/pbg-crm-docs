@@ -10,11 +10,13 @@ This is the working guide to PBG's **Ticketing** app in Salesforce. Start with t
 
 <div class="ts-journey"><span>Find the customer</span><b>→</b><span>Build the opportunity</span><b>→</b><span>Work the follow-up</span><b>→</b><span>Close & serve</span></div>
 
+Use **[General](/general/)** for shared Files, Notes, Accounts & Contacts, list views, and reminders.
+
 ## Start here
 
 | I want to… | Open this guide |
 | --- | --- |
-| Upload a file or share a public link | [Files & public links](./sales/files-public-links) |
+| Upload a file or share a public link | [Files & public links](/general/files-public-links) |
 | Learn the essentials in 15 minutes | [Your first 15 minutes](getting-started/quick-start.md) |
 | Understand the homepage | [Navigate your workspace](getting-started/workspace.md) |
 | Find or create the right customer | [Accounts and contacts](getting-started/accounts-contacts.md) |
