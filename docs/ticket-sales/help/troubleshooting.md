@@ -57,3 +57,7 @@ Use **Sync Status**, then check Documents. If it remains inconsistent, send the 
 Include: **what you tried, record link, expected result, actual result, exact error, your division, and approximate time**. A cropped screenshot of the relevant controls is often enough. Keep customer information in the approved internal support channel rather than posting it to this public documentation repository.
 
 For quick explanations of common behavior, start with [Frequently asked questions](common-questions.md).
+
+## Uploading files and public links
+
+For upload steps, external sharing, expiration, and missing controls, see [Files & public links](../sales/files-public-links). A link copied from your Salesforce address bar can require login; test the generated public link in a signed-out window before sending it.

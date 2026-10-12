@@ -41,6 +41,7 @@ The **Opportunity** tracks the sale and the booking. The **Special Event Agreeme
 
 | If you need to… | Start here |
 | --- | --- |
+| Upload a file or share a public link | [Files & public links](./sales/files-public-links) |
 | Learn the workspace | [Your first 15 minutes](./getting-started/quick-start) |
 | Enter a new inquiry | [Create an opportunity](./getting-started/create-opportunity) |
 | Check a room or hold a date | [Locations & holds](./sales/locations-holds) |

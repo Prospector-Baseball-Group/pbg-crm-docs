@@ -58,3 +58,7 @@ Start with the visible message and the record’s current state. The fastest fix
 ## Give support something actionable
 
 Use your internal support channel and include the agreement/opportunity reference, action attempted, exact message, time, current status, and a screenshot when helpful. Never paste customer contact details, contract PDFs, or session links into this public documentation repository.
+
+## Uploading files and public links
+
+For upload steps, external sharing, expiration, and missing controls, see [Files & public links](../sales/files-public-links). A link copied from your Salesforce address bar can require login; test the generated public link in a signed-out window before sending it.

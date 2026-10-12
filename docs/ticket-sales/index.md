@@ -14,6 +14,7 @@ This is the working guide to PBG's **Ticketing** app in Salesforce. Start with t
 
 | I want to… | Open this guide |
 | --- | --- |
+| Upload a file or share a public link | [Files & public links](./sales/files-public-links) |
 | Learn the essentials in 15 minutes | [Your first 15 minutes](getting-started/quick-start.md) |
 | Understand the homepage | [Navigate your workspace](getting-started/workspace.md) |
 | Find or create the right customer | [Accounts and contacts](getting-started/accounts-contacts.md) |

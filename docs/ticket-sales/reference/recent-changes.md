@@ -1,5 +1,13 @@
 # Recent changes and verification
 
+## October 12, 2026 — Files and public links
+
+Added [Files & public links](../sales/files-public-links), covering upload, clear file names, record attachments, external links, signed-out testing, expiration/password controls, link removal, and troubleshooting. Both handbook sections include navigation and homepage links.
+
+**Live verification:** a Sales Rep uploaded and previewed the supplied PDF successfully from Files home, with the duplicate-download suffix removed. Files was absent from App Launcher, and the rep's sharing dialog did not offer public links. Permission inspection confirmed no Create Public Links grant for the tested user. The temporary duplicate upload was deleted; the existing file was retained.
+
+**Verification boundary:** public-link creation, signed-out retrieval, and revocation could not be tested as that rep. Those instructions follow Salesforce's documented workflow and are explicitly conditional on access. This documentation update changes no Salesforce permissions or sharing settings.
+
 ## October 7, 2026 — Notes on Accounts and Contacts
 
 - **Person Accounts and Business Accounts:** use **Notes → New**.
