@@ -39,6 +39,7 @@ features:
 | Create an opportunity | [Plan an event](./event-sales/getting-started/create-opportunity) | [Start a ticket sale](./ticket-sales/sales/create-opportunity) |
 | Keep the next step visible | [Activities & follow-up](./event-sales/sales/activities) | [Track your pipeline](./ticket-sales/sales/pipeline) |
 | Save customer or individual context | [Notes on Accounts & Contacts](./event-sales/sales/notes) | [Notes on Accounts & Contacts](./ticket-sales/sales/notes) |
+| Upload or share a file | [Files & public links](./event-sales/sales/files-public-links) | [Files & public links](./ticket-sales/sales/files-public-links) |
 | Build an agreement | [Event agreements](./event-sales/agreements/overview) | [Ticketing agreements](./ticket-sales/agreements/overview) |
 | Understand the numbers | [Home metrics](./event-sales/reporting/home-metrics) | [Hustle Score](./ticket-sales/reporting/hustle-score) |
 | Resolve a problem | [Event Sales help](./event-sales/reference/troubleshooting) | [Ticket Sales help](./ticket-sales/help/troubleshooting) |

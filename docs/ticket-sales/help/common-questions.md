@@ -103,3 +103,7 @@ It needs an administrator's access/integration check. Send the exact error, agre
 Check **App Launcher** first. Ask your administrator to verify the app, record-type, object, field, and record access needed for your role. Being able to see another module's records does not necessarily let you edit them. See [Access and onboarding](../administration/access.md).
 
 Still stuck? Use the [support-request checklist](troubleshooting.md#a-useful-support-request). Share customer details through the internal support channel.
+
+## How do I send a PDF or schedule as a link?
+
+Upload the document to **Files**, create a **Public Link** if your access allows it, and test it in a signed-out window. Follow [Files & public links](../sales/files-public-links) for the steps and help with missing permissions.
