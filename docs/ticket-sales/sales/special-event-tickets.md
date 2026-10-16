@@ -11,7 +11,7 @@ For regular baseball ticket sales, leave the checkbox unchecked. The extra event
 3. Complete the normal customer, Division, Season, Stage, Close Date, and follow-up information.
 4. Under **Product Details**, check **Special Event Ticket Sale**. Four event fields appear.
 5. Select **Event Category** and **Event Type**. Both are required when the box is checked. For Cosmic or Banana Ball, select **Sports → Alternate Baseball Game**.
-6. Enter **Event Title** and **Event Date** when known. Both are required before **Closed Won**.
+6. Enter **Event Title** and **Event Start Date** when known. Both are required before **Closed Won**.
 7. Keep **Ticket Category** and **Ticket Product** set to the actual offering. Save and confirm the checkbox and event details on the record.
 
 | Example field | Illustrative Akron suite sale |
@@ -23,7 +23,7 @@ For regular baseball ticket sales, leave the checkbox unchecked. The extra event
 | Event Category | Sports |
 | Event Type | Alternate Baseball Game |
 | Event Title | Cosmic Takeover Tour |
-| Event Date | The performance date being purchased |
+| Event Start Date | The performance date being purchased |
 | Amount | The package value agreed with the customer |
 
 For an Akron picnic sale, use **Picnic → All You Can Eat Picnic** instead. Product choices depend on Division. The event classification describes the event; it does not replace the ticket offering.
@@ -32,7 +32,7 @@ For an Akron picnic sale, use **Picnic → All You Can Eat Picnic** instead. Pro
 
 Continue using the normal [ticket stages](stages.md), owner, activities, **Follow-Up By**, and **Next Step**. The opportunity remains in ticket reps' working views. Checking the box does not create a second opportunity, an event agreement, or a venue reservation.
 
-**Close Date** is the expected or actual sales close date. **Event Date** is when the event happens. Keep both accurate; they answer different reporting questions.
+**Close Date** is the expected or actual sales close date. **Event Start Date** is when the event happens. Keep both accurate; they answer different reporting questions.
 
 If the box was checked by mistake, uncheck it and save. The event fields hide, and the opportunity no longer qualifies for Special Events reporting through this checkbox. Existing event details are retained so an accidental toggle does not erase them; the saved checkbox determines classification.
 
