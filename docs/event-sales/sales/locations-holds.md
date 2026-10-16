@@ -10,7 +10,7 @@ Reserve the actual spaces an event needs, for the actual time it uses them.
 4. Select **Save Locations**.
 5. Confirm the saved selection and check the calendar.
 
-The division must be selected first. Choices are limited to appropriate active locations. All selected locations share the opportunity’s Event Date, start time, end time, and Booking Status.
+The division must be selected first. Choices are limited to appropriate active locations. All selected locations share the opportunity’s Event Start Date, optional Event End Date, start time, end time, and Booking Status.
 
 The primary location continues to appear in older reports and fields. It does not mean the other selected locations are ignored: calendar filtering and reservation conflict checks include them too.
 
@@ -25,7 +25,7 @@ The primary location continues to appear in older reports and fields. It does no
 
 ## Place a tentative hold
 
-1. Confirm the Event Date and times with the customer.
+1. Confirm the start/end dates and times with the customer.
 2. Check the **Event Calendar** for every required space.
 3. Select the locations and primary location on the opportunity.
 4. Set **Booking Status → Tentative Hold**.
@@ -33,7 +33,11 @@ The primary location continues to appear in older reports and fields. It does no
 6. Save. Resolve any conflict message before promising the hold.
 7. Confirm the hold on the calendar and set a follow-up to review it.
 
-Held or booked events require a location. Tentative holds also require an expiration. The end time must be later than the start time.
+Held or booked events require a location. Tentative holds also require an expiration. The full end date/time must be later than the start date/time. A blank End Date means the same day.
+
+## Consecutive multi-day events
+
+Enter an Event End Date to reserve the selected locations continuously across days, including overnight. Include setup and teardown in the interval. [See the multi-day guide](./multi-day-events) before promising availability.
 
 ## Resolve a conflict
 

@@ -4,7 +4,7 @@ A signed agreement is the beginning of event delivery. Give the operating team a
 
 ## Confirm the booking
 
-Check the Opportunity’s Stage and Booking Status against the actual signed outcome. Review all locations, Event Date, times, attendance, and the customer’s onsite contact.
+Check the Opportunity’s Stage and Booking Status against the actual signed outcome. Review all locations, Event Start Date, Event End Date, times, attendance, and the customer’s onsite contact.
 
 The agreement’s Executed status is separate from these opportunity fields. Review them explicitly rather than assuming every sales or operational step is completed automatically.
 

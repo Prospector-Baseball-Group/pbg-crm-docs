@@ -14,7 +14,7 @@ Have the customer account, a related person for a business customer, the eventâ€
 4. Select **Account Name**. For a business account, choose the related **Primary Contact**.
 5. Set **Close Date**, **Stage**, and **Type**. The usual starting values are Interested and New.
 6. Select **Event Category**, then the appropriate **Event Type** if applicable.
-7. Add the estimated **Amount**, Event Date, times, attendance, and primary location when known.
+7. Add the estimated **Amount**, Event Start Date, optional Event End Date, times, attendance, and primary location when known.
 8. Write **Next Step** and set **Follow-Up By**.
 9. Select **Save**. Review the record and add any additional locations in **Event Locations**.
 
@@ -30,8 +30,9 @@ Have the customer account, a related person for a business customer, the eventâ€
 | Type | New or Renewal; separate from Event Type |
 | Event Category / Event Type | What kind of event is being sold; Event Type depends on category |
 | Season | Fiscal season, normally 2027 for current creation defaults |
-| Close Date | Expected sales close date; required independently of Event Date |
-| Event Date | Required from Quoted onward through Contract Signed |
+| Close Date | Expected sales close date; required independently of Event Start Date |
+| Event Start Date | Required from Quoted onward through Contract Signed |
+| Event End Date | Optional; leave blank for the same day, or enter the last date of a continuous multi-day reservation |
 | Primary Event Location | The primary space; additional spaces are added on the saved record |
 | Booking Status | Starts at Not Held unless the record is intentionally reserved |
 | Probability | Follows the stage; use the stage to reflect sales progress |
@@ -48,8 +49,10 @@ Edit Event Title to rename the event. Changes to Account or Season also update t
 
 ## Check dates and Season together
 
-FY2027 runs **October 1, 2026 through September 30, 2027**. When Event Date changes, Salesforce can derive Season using this October boundary; an explicit Season edit is preserved. Review Season after a date change, especially around October 1.
+FY2027 runs **October 1, 2026 through September 30, 2027**. When Event Start Date changes, Salesforce can derive Season using this October boundary; an explicit Season edit is preserved. Review Season after a date change, especially around October 1.
 
 ## Check the result
 
 Confirm the customer, Primary Contact, title, stage, dates, and division. An opportunity saved as **Not Held** does not reserve the venue. Continue to [Locations & holds](../sales/locations-holds).
+
+For consecutive dates, see [Book a multi-day event](../sales/multi-day-events).

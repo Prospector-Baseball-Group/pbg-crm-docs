@@ -19,9 +19,15 @@ The embedded Home calendar follows the Home My Data / Team Data selection instea
 
 A multi-location event can be found by filtering to any of its selected spaces. The list can display more than one location for the same event.
 
+## Multi-day bookings
+
+Month view shows a booking on each occupied day, including when it started in the previous month. Later days show **Continues** or **Until** the final end time. List view keeps one row and displays the date range. Times remain local to the event location.
+
+All selected locations stay reserved continuously, including overnight. [Book a multi-day event](./multi-day-events) explains the fields and a two-day example.
+
 ## If an event is missing
 
-Check the month, Event Date, booking-status filter, space filter, ownership scope, division, and record access. An undated inquiry cannot be placed on a calendar date. Released events are not part of the All active view.
+Check the month, Event Start Date and Event End Date, booking-status filter, space filter, ownership scope, division, and record access. An undated inquiry cannot be placed on a calendar date. Released events are not part of the All active view.
 
 ## Before promising availability
 

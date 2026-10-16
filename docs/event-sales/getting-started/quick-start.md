@@ -39,7 +39,7 @@ On an eligible Akron Event Sales Opportunity, find **Special Event Agreements â†
 | These look related | What they actually mean |
 | --- | --- |
 | Stage and Booking Status | Stage tracks the sale; Booking Status tracks the space reservation. |
-| Close Date and Event Date | Close Date is the sales close date; Event Date is when the event takes place. |
+| Close Date and Event Start Date | Close Date is the sales close date; Event Start Date is when the event takes place. |
 | Ready to Send and Out for Signature | Ready to Send means prepared and approved; Out for Signature means Adobe has confirmed the signing request is active. |
 
 ::: tip Try it without touching a live record

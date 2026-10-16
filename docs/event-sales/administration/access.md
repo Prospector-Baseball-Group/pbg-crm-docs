@@ -18,6 +18,12 @@ An administrator should verify:
 
 An app assignment or group membership alone does not prove that a user can edit a particular agreement or send through the integration.
 
+## Multi-day field access
+
+The shared **Event Seller** permission set grants editing of Event End Date on Opportunities. **Event Reporting Read** and **FDP Reporting Read** include read access. **Special Event Agreement User** and **Special Event Agreement Admin** grant access to the agreement's End Date. Existing object access and record sharing still apply.
+
+End Date appears on the Event Sales opportunity layout, the Event Sales creation action and pilot record page, and the agreement layout and Event Details workspace. If a user cannot see it, refresh Salesforce and check their shared permission assignments and assigned layout.
+
 ## Agreement configuration
 
 The active template verified for this guide is **Akron Special Event Agreement v2**. The template controls document content and whether Spaces & Access, Services & Add-Ons, and Food & Beverage appear. It also controls the supported food-and-beverage fields.

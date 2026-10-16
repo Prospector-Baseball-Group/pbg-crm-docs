@@ -18,7 +18,7 @@ A source label describes where the inquiry came from. It does not establish that
 
 ## Add an inquiry manually
 
-Use **New Event Opportunity** and start at Interested if the event is still being qualified. Enter only confirmed details. Leave an unknown Event Date blank at this stage rather than entering a made-up date.
+Use **New Event Opportunity** and start at Interested if the event is still being qualified. Enter only confirmed details. Leave an unknown Event Start Date blank at this stage rather than entering a made-up date.
 
 ## Use a short qualification checklist
 

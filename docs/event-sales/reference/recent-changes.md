@@ -2,6 +2,14 @@
 
 This page records changes relevant to using Event Sales, with the release state distinguished from work still under verification.
 
+## October 16, 2026 — Consecutive multi-day events
+
+Event Sales now supports a start/end date range on one Opportunity and agreement. Selected locations remain reserved continuously, including overnight. The calendar displays every occupied day, and the homepage classifies a won event as completed only after its final date. Existing single-day records continue to work with End Date blank.
+
+The fields are included on the relevant creation and record layouts, agreement workspace, and shared seller/reporting/agreement permissions. Agreement snapshots and PDF previews include the date range. Event totals and payment rules are unchanged.
+
+See [Book a multi-day event](../sales/multi-day-events) for the workflow and limitations. Validation covers date-range conflicts, month boundaries, single-day compatibility, agreement snapshots, and financial totals. No customer signature request was sent as part of this release.
+
 ## October 12, 2026 — General section and shared libraries
 
 Shared guidance now lives in [General](/general/): Files and public links, Notes, customer-record basics, personal list views, and future-task troubleshooting. This handbook keeps its sales-specific workflows and links to the shared instructions.
