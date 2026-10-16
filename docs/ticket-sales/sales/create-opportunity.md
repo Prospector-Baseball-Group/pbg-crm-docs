@@ -41,6 +41,10 @@ Find the customer Account, identify the main contact, and confirm the division a
 
 **Primary Division**, if shown, is a separate division lookup. It does not replace the **Division** field that controls Ticket Product choices. Follow your team's setup for this field.
 
+## Tickets for a special event
+
+For Cosmic, Banana Ball, and similar events, check **Special Event Ticket Sale** to reveal the event classification, title, and date fields. See [Sell tickets for a special event](special-event-tickets.md). Leave the box unchecked for regular baseball tickets.
+
 ## Dates are not interchangeable
 
 Season describes what you are selling. Close Date describes when the sale closes. Follow-Up By describes the next action date. Changing one is not a substitute for updating the others.
