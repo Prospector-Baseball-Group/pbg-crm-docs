@@ -11,7 +11,7 @@ Start with the visible message and the record’s current state. The fastest fix
 | Primary Contact is disabled | Has a business account been selected? | Choose the account first; allow related people to load |
 | Contact is not available | Relationship to the selected customer | Verify the existing account relationship; do not duplicate the person |
 | Notes or New is missing | Account versus Contact navigation; page and record/note access | Use Account **Notes** or Contact **Related → Notes**, refresh, then follow [Notes troubleshooting](/general/notes#if-notes-is-missing-or-a-note-cannot-be-found) |
-| Event cannot save without a date | Current Stage | Supply Event Date at Quoted or later active stages |
+| Event cannot save without a date | Current Stage | Supply Event Start Date at Quoted or later active stages |
 | Event Type is disabled | Event Category | Select the category first |
 | Location choices are missing | Division and active location catalog | Correct Division or ask the catalog administrator |
 
@@ -21,9 +21,9 @@ Start with the visible message and the record’s current state. The fastest fix
 | --- | --- | --- |
 | Hold cannot be saved | Location and Hold Expires At | Complete both and resolve any conflict |
 | Conflict message appears | Other held/booked events in every selected location | Agree a valid time/location with the booking owner |
-| Event is absent from calendar | Month, Event Date, status, space, owner scope | Adjust filters and check record access |
+| Event is absent from calendar | Month, start/end dates, status, space, owner scope | Adjust filters and check record access |
 | Calendar includes an unreserved event | Booking Status | All active includes Not Held |
-| Home card differs from report | Event Date versus Close Date, fiscal scope, ownership | Reconcile with the [metric definitions](../reporting/home-metrics) |
+| Home card differs from report | Event Start Date versus Close Date, fiscal scope, ownership | Reconcile with the [metric definitions](../reporting/home-metrics) |
 | Team Data shows more than expected | User Division and accessible records | Ask the administrator to confirm the intended scope |
 
 ## Agreement preparation
@@ -62,3 +62,5 @@ Use your internal support channel and include the agreement/opportunity referenc
 ## Uploading files and public links
 
 For upload steps, external sharing, expiration, and missing controls, see [Files & public links](/general/files-public-links). A link copied from your Salesforce address bar can require login; test the generated public link in a signed-out window before sending it.
+
+For a multi-day booking, an overnight conflict is expected: all selected locations remain reserved between the first start and final end. See [Multi-day events](../sales/multi-day-events).

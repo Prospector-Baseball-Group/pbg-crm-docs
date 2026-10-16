@@ -19,7 +19,7 @@ Choose the stage that reflects the customer’s actual progress. Salesforce supp
 4. Save and check the Stage and Booking Status.
 5. Update the next step and follow-up task.
 
-Event Date can be blank at Interested. It is required at Quoted, Walkthrough, Contract Sent, and Contract Signed. Closed Lost is exempt from that event-date requirement.
+Event Start Date can be blank at Interested. It is required at Quoted, Walkthrough, Contract Sent, and Contract Signed. Closed Lost is exempt from that event-date requirement.
 
 ## Stage and reservation work together
 

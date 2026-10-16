@@ -8,7 +8,7 @@ Confirm these opportunity details:
 
 - Account and Primary Contact, or the primary Opportunity Contact Role.
 - Division with an active agreement template.
-- Event Date, Event Start Time, and Event End Time.
+- Event Start Date, Event Start Time, and Event End Time. Add Event End Date for a consecutive multi-day booking.
 - Primary Event Location and all additional event locations.
 - A clear event description and the correct owner.
 
@@ -27,7 +27,7 @@ The active template verified for this guide is **Akron Special Event Agreement v
 
 The Draft copies the opportunity’s customer, event information, primary contact, and selected locations. The onsite-contact details are seeded from the opportunity contact. For a new Akron agreement, the Company Signer defaults from the opportunity owner; verify that the owner is the right authorized signer.
 
-The agreement’s **Effective Date** defaults to its creation date and is editable before the snapshot is locked. It is distinct from Event Date and the later date of signature completion.
+The agreement’s **Effective Date** defaults to its creation date and is editable before the snapshot is locked. It is distinct from Event Start Date and the later date of signature completion.
 
 ## Refresh after an opportunity change
 

@@ -12,7 +12,8 @@
 | Division | Team/venue context used for access, locations, and templates |
 | Season | Assigned fiscal season; FY2027 covers October 1, 2026–September 30, 2027 |
 | Close Date | Sales closing date |
-| Event Date | Date the event occurs |
+| Event Start Date | First date of the event reservation; also used for fiscal attribution |
+| Event End Date | Last date of a continuous reservation; blank means the start date |
 | Event Locations | All spaces used by one opportunity |
 | Primary Event Location | One selected space used as the primary reference |
 | Booking Status | Not Held, Tentative Hold, Booked, or Released |

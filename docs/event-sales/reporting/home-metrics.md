@@ -7,16 +7,18 @@ The Event Sales Home cards currently show a **fixed FY2027** period: **October 1
 | Card | Meaning |
 | --- | --- |
 | Total Closed Won $ | Amount on won Event Sales opportunities in the home fiscal scope |
-| Closed Won $ Completed Events | Won amount where Event Date is before today |
-| Closed Won $ Upcoming Events | Won amount where Event Date is today or later |
+| Closed Won $ Completed Events | Won amount where the final event date is before today |
+| Closed Won $ Upcoming Events | Won amount where the final event date is today or later, including events still in progress |
 | Pipeline $ | Amount on open Event Sales opportunities in the home fiscal scope |
 | Overdue Tasks | Open overdue tasks related to opportunities qualifying for that fiscal scope, with the selected ownership/division rules |
+
+The final date is Event End Date when supplied, otherwise Event Start Date. A multi-day event is counted once, using its full Opportunity Amount.
 
 An event occurring **today** belongs in Upcoming, not Completed. “Completed Events” is a date-based classification, not evidence that an operational checklist has been completed. Opportunity Amount is a sales value, not a payment receipt total.
 
 ## Which fiscal period is used
 
-For a dated opportunity, the Home metrics use **Event Date**. For an undated opportunity, they use its assigned **Season**. A dated record’s conflicting Season label does not override its Event Date for these cards.
+For a dated opportunity, the Home metrics use **Event Start Date**. For an undated opportunity, they use its assigned **Season**. A dated record’s conflicting Season label does not override its Event Start Date for these cards.
 
 The home fiscal year is fixed in the current implementation. Do not assume these cards automatically advance to another year without an update.
 
@@ -30,9 +32,9 @@ The task and opportunity work previews and calendar retain their broader working
 
 1. Confirm My Data or Team Data.
 2. Use an Event Sales report with the same ownership/division scope.
-3. Apply Event Date from October 1, 2026 through September 30, 2027.
+3. Apply Event Start Date from October 1, 2026 through September 30, 2027.
 4. Account separately for undated opportunities assigned to Season 2027.
 5. Apply the matching open/won condition.
 6. Compare Opportunity Amount, not agreement payment receipts.
 
-Native Opportunity fiscal filters generally follow **Close Date**. A report filtered by a native fiscal-year setting can therefore differ from the home cards, which use Event Date and the undated-Season fallback.
+Native Opportunity fiscal filters generally follow **Close Date**. A report filtered by a native fiscal-year setting can therefore differ from the home cards, which use Event Start Date and the undated-Season fallback.

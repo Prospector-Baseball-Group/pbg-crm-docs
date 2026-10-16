@@ -15,7 +15,7 @@ Select **Preview PDF** in the header. For an editable agreement, Salesforce gene
 Read the whole document, including:
 
 - Correct legal customer name, event description, and Effective Date.
-- Event Date, times, Time Zone, attendance, and every location.
+- Event Start Date, Event End Date when applicable, times, Time Zone, attendance, and every location.
 - Approved access conditions and service selections.
 - Food-and-beverage elections, bartender count, and applicable fees.
 - Usage Fee, Deposit, Balance, and due dates.

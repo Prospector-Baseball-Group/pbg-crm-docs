@@ -5,13 +5,19 @@ Use **Event Details** to turn the opportunity’s sales information into accurat
 ## Complete and save Event Details
 
 1. Open **Event Details**.
-2. Review Event Description, Effective Date, Event Date, start time, end time, Time Zone, attendance, and Primary Event Space.
+2. Review Event Description, Effective Date, Event Start Date, Event End Date, start time, end time, Time Zone, attendance, and Primary Event Space.
 3. Confirm the **Client Legal Entity Name**.
 4. Review **Onsite Contact** and **Legal Notice Contact** separately.
 5. Enter the agreement’s financial details, including Usage Fee and applicable deposit and balance-date values.
 6. Select **Save Event Details** and confirm the save succeeds.
 
 This tab has an explicit Save action. Other tabs use autosave; do not assume that simply leaving Event Details commits your edits.
+
+## Review a multi-day range
+
+The agreement copies both dates from the Opportunity. End Date is optional; blank means a single-day event. A later end date allows an end time earlier on the clock than the first start time. The PDF displays both date/time endpoints and the agreement time zone.
+
+Change the Opportunity first to update calendar availability, then use **Refresh from Opportunity** on an editable Draft. Review all copied details after a refresh. Previously generated documents retain their frozen dates. [Multi-day booking guide](../sales/multi-day-events).
 
 ## Give each contact role the right person
 

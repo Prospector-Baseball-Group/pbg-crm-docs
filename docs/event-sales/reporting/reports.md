@@ -39,12 +39,12 @@ When Finance needs a component breakdown, agree on the source and definitions wi
 | Field | Question it answers |
 | --- | --- |
 | Close Date | When did, or will, the sale close? |
-| Event Date | When does the event happen? |
+| Event Start Date | When does the event happen? |
 | Season | Which fiscal season is assigned? |
 | Agreement Effective Date | When is the agreement effective? |
 | Payment Due Date | When is that payment due? |
 
-These fields are not interchangeable. Native fiscal-year filters based on Close Date can produce different results from the Event Date-based home cards.
+These fields are not interchangeable. Native fiscal-year filters based on Close Date can produce different results from the Event Start Date-based home cards.
 
 ## Dashboards and access
 
