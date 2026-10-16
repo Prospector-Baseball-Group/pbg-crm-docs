@@ -1,12 +1,12 @@
 # PBG CRM handbook
 
-Public, task-oriented documentation for Prospector Baseball Group’s Salesforce shared tools, Event Sales, and Ticket Sales workflows.
+Public, task-oriented documentation for Prospector Baseball Group’s Salesforce shared tools, Event Sales, Ticket Sales, and Partnerships workflows.
 
 **Read the guide:** https://prospector-baseball-group.github.io/pbg-crm-docs/
 
 The General section covers shared Files and libraries, public links, Notes, customer-record basics, list controls, and task reminders. Sales-specific instructions remain in each handbook.
 
-The Event Sales handbook covers accounts and contacts, opportunities, pipeline stages, locations and holds, calendar, activities, the Akron Special Event Agreement workflow, reporting, and troubleshooting. Includes customer-free Salesforce screenshots and an interactive, fictional send-readiness exercise. The companion Ticket Sales section covers the seller workspace, pipeline, activities, ticket history, reporting, and ticketing agreements. Both modules share search, navigation, and publishing. No voice-over video is required.
+The Event Sales handbook covers accounts and contacts, opportunities, pipeline stages, locations and holds, calendar, activities, the Akron Special Event Agreement workflow, reporting, and troubleshooting. Includes customer-free Salesforce screenshots and an interactive, fictional send-readiness exercise. The companion Ticket Sales section covers the seller workspace, pipeline, activities, ticket history, reporting, and ticketing agreements. These modules share search, navigation, and publishing. The Partnerships section covers native opportunity revenue splits and links to the broader Agilitek reference. No voice-over video is required.
 
 ## Develop
 

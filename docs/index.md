@@ -32,9 +32,9 @@ features:
     linkText: Open the Ticket Sales guide
   - icon: ◉
     title: Partnerships
-    details: The companion Agilitek guide to partnership inventory, multi-year agreements, pricing, and activation.
-    link: https://agilitek-solutions.gitbook.io/partnerships-crm-agilitek
-    linkText: Visit the Partnerships guide ↗
+    details: PBG opportunity revenue splits, current workflow limits, and the companion Agilitek reference for inventory, agreements, pricing, and activation.
+    link: /partnerships/
+    linkText: Open the Partnerships guide
 ---
 
 <div class="guide-meta">PROSPECTOR BASEBALL GROUP · SALESFORCE USER GUIDES · OCTOBER 2026</div>

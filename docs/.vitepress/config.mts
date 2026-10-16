@@ -5,7 +5,7 @@ import { generalSidebar, sharedGuides } from './generalSidebar'
 const section = (text: string, pages: [string, string][]) => ({ text, collapsed: false, items: pages.map(([text, link]) => ({ text, link })) })
 export default defineConfig({
   title: 'PBG CRM Handbook',
-  description: 'Shared Salesforce guidance and sales workflows for PBG staff. Practical guides for General, Event Sales, and Ticket Sales.',
+  description: 'Shared Salesforce guidance and sales workflows for PBG staff. Practical guides for General, Event Sales, Ticket Sales, and Partnerships.',
   base: '/pbg-crm-docs/',
   lang: 'en-US',
   cleanUrls: false,
@@ -15,14 +15,14 @@ export default defineConfig({
   themeConfig: {
     logo: '/mark.svg',
     siteTitle: 'PBG CRM',
-    nav: [{ text: 'General', link: '/general/' }, { text: 'Event Sales', link: '/event-sales/' }, { text: 'Ticket Sales', link: '/ticket-sales/' }, { text: 'Partnerships ↗', link: 'https://agilitek-solutions.gitbook.io/partnerships-crm-agilitek' }],
+    nav: [{ text: 'General', link: '/general/' }, { text: 'Event Sales', link: '/event-sales/' }, { text: 'Ticket Sales', link: '/ticket-sales/' }, { text: 'Partnerships', link: '/partnerships/' }],
     socialLinks: [{ icon: 'github', link: 'https://github.com/Prospector-Baseball-Group/pbg-crm-docs' }],
     search: { provider: 'local' },
     outline: { level: [2, 3], label: 'On this page' },
     docFooter: { prev: 'Previous guide', next: 'Next guide' },
     editLink: { pattern: 'https://github.com/Prospector-Baseball-Group/pbg-crm-docs/edit/main/docs/:path', text: 'Suggest an improvement' },
     footer: { message: 'Salesforce workflows, explained. Maintained by Prospector Baseball Group.', copyright: '© 2026 Prospector Baseball Group' },
-    sidebar: { '/general/': generalSidebar, '/ticket-sales/': ticketSalesSidebar, '/event-sales/': [
+    sidebar: { '/partnerships/': [section('PARTNERSHIPS', [['Partnerships hub', '/partnerships/'], ['Opportunity revenue splits', '/partnerships/opportunity-splits'], ['Recent changes', '/partnerships/recent-changes'], ['Agilitek reference ↗', 'https://agilitek-solutions.gitbook.io/partnerships-crm-agilitek']]), sharedGuides], '/general/': generalSidebar, '/ticket-sales/': ticketSalesSidebar, '/event-sales/': [
       section('START HERE', [['Event Sales hub', '/event-sales/'], ['Your first 15 minutes', '/event-sales/getting-started/quick-start'], ['Open your workspace', '/event-sales/getting-started/workspace'], ['Accounts & contacts', '/event-sales/getting-started/accounts-contacts'], ['Create an opportunity', '/event-sales/getting-started/create-opportunity']]),
       section('MANAGE YOUR PIPELINE', [['Move through stages', '/event-sales/sales/stages'], ['Log activity & follow up', '/event-sales/sales/activities'], ['Locations & holds', '/event-sales/sales/locations-holds'], ['Use the event calendar', '/event-sales/sales/calendar'], ['Book a multi-day event', '/event-sales/sales/multi-day-events'], ['Handle incoming inquiries', '/event-sales/sales/inquiries'], ['Close lost or turn down', '/event-sales/sales/close-lost']]),
       section('BUILD AN EVENT AGREEMENT', [['Agreement workflow', '/event-sales/agreements/overview'], ['Create an agreement', '/event-sales/agreements/create'], ['Event details & contacts', '/event-sales/agreements/event-details'], ['Spaces & access', '/event-sales/agreements/spaces-access'], ['Services & food and beverage', '/event-sales/agreements/services-food'], ['Schedule payments', '/event-sales/agreements/payments'], ['Choose & check signers', '/event-sales/agreements/signers'], ['Preview, review & send', '/event-sales/agreements/send'], ['Track signatures & files', '/event-sales/agreements/tracking'], ['Cancel or correct', '/event-sales/agreements/cancel-correct']]),
