@@ -1,5 +1,11 @@
 # Recent changes and verification
 
+## October 16, 2026 — Create and find campaigns
+
+The [Campaign FAQs](../help/common-questions.md#campaigns) explain the unchecked **Active** default, required creation fields, ownership and active-list filters, and how to find an inactive campaign through **Recently Viewed** or global search before activating it. The [email and campaigns guide](../sales/email-campaigns.md#use-campaigns-as-context) links to these steps.
+
+**Verification:** inspected the live New and Edit forms, list selector, and global search for an existing inactive campaign in an administrator session. Separately verified the Sales Rep campaign layout, shared seller permissions for the Campaigns tab and create/edit fields, and the affected seller's read/edit access to the inactive record. This was not a separate seller-session save test. Salesforce defaults, permissions, and campaign records were not changed.
+
 ## October 12, 2026 — General section and shared libraries
 
 Shared guidance now lives in [General](/general/): Files and public links, Notes, customer-record basics, personal list views, and future-task troubleshooting. This handbook keeps its sales-specific workflows and links to the shared instructions.

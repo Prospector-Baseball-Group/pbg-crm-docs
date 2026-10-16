@@ -33,4 +33,6 @@ A shared mailbox or alias needs separate verification of capture and attribution
 
 **Campaigns** organize outreach initiatives and audiences. Select the appropriate **Primary Campaign Source** on an Opportunity when it is known. Review existing Campaign Members and statuses before adding or changing them.
 
+New campaigns have **Active** unchecked by default. For creation steps, the difference between **Active** and **Status**, and how to recover a campaign missing from **My Active Campaigns**, see [Campaign FAQs](../help/common-questions.md#campaigns).
+
 Adding a person to a Campaign does not, by itself, prove that an email was sent or a sales cadence started. Automated cadence configuration is an administrator workflow and is not part of the ordinary Ticket Sales interface.

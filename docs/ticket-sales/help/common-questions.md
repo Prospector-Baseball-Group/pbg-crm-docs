@@ -36,6 +36,44 @@ Check the activity's **Name / Contacts** and **Related To**, plus the actual acc
 
 Compare the actual measures: completed Tasks, outbound calls, and talk minutes are different. Check owner, type, date, time zone, duration availability, and reporting scope. The Ticket Sales homepage also uses a 3CX call's start time when present, while its linked Hustle report currently filters by completion time. Read [Hustle Score](../reporting/hustle-score.md) before comparing totals.
 
+## Campaigns
+
+Campaign guidance verified **October 16, 2026**.
+
+### How do I create an active campaign?
+
+1. Open **Campaigns** from the app navigation menu. If it is not in your menu, use **App Launcher**, search for **Campaigns**, and open it.
+2. Click **New**.
+3. Enter a **Campaign Name**, choose your **Division**, and complete the other details for the initiative.
+4. Check **Active** if the campaign should appear in active-campaign lists. **Active is unchecked by default**; PBG is retaining that Salesforce default.
+5. Click **Save** and confirm the campaign opens successfully.
+
+**Active** and **Status** are separate fields. Choosing a Status such as **In Progress** is not a substitute for checking **Active**. If you intentionally leave Active unchecked, the saved campaign remains inactive and can still be found using the steps below.
+
+### I saved a campaign. Why is it missing from My Active Campaigns?
+
+**My Active Campaigns** includes only campaigns you own with **Active** checked. Creating a campaign and owning it are not always the same thing, so also check **Campaign Owner**.
+
+**All Active Campaigns** includes active campaigns you can access across owners; it still excludes inactive campaigns. There is currently no general **All Campaigns** list in the standard selector. A missing row in an active list does not mean your save failed—find the existing campaign before creating another one.
+
+### How do I find and activate an inactive campaign?
+
+**Start with Recently Viewed if you just created or opened it:**
+
+1. Open **Campaigns**.
+2. Click the list-name dropdown beside **My Active Campaigns** (or whichever list is selected).
+3. Choose **Recently Viewed**, then open the campaign by name. This list can include inactive campaigns, but it is your recent history, not a complete campaign inventory.
+
+**If it is not there, use global search:**
+
+1. Click **Search** at the top of Salesforce. This is separate from **Search this list**, which only searches the selected list and cannot recover a row excluded by that list's filters.
+2. Enter the campaign name and press **Enter**.
+3. Open the matching result under **Campaigns**. If Campaigns is not in the results, use the search box's **Search by object type** dropdown to choose **Campaigns**, then search again. You can also select Campaigns in the search-results sidebar when shown.
+4. On the campaign, click **Edit**, check **Active**, then click **Save**.
+5. Return to **Campaigns → My Active Campaigns** and click **Refresh**. The campaign belongs there when you are its owner and Active is checked. If another user owns it, use **All Active Campaigns** or global search, subject to your record access.
+
+A newly saved record may take a little time to appear in global search. Use the record opened after **Save** or **Recently Viewed** in the meantime. If you still cannot find it, or **New**, **Edit**, or **Active** is unavailable, ask your administrator to check campaign access. Include the campaign name, approximate creation time, and record link if available; do not create a duplicate as a workaround.
+
 ## Customers and ownership
 
 ### Is someone with a work email always a Business Account?
