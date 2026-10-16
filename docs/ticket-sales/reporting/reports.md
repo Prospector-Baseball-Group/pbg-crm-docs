@@ -23,6 +23,10 @@ Your folder and record permissions determine which reports and rows you can see.
 | Why does my quota differ? | Active plan dates, target owner, credit-rep rules, refresh timing |
 | How much ticket revenue was earned? | The approved gross/net revenue definition and source-order reporting |
 
+## Special-event ticket sales
+
+Checked **Special Event Ticket Sale** opportunities appear in **Event Opportunities by Division**, while the two fiscal-year total-amount-won ticket reports exclude them. Reps' operational ticket views still include the sale. See [special-event ticket sales](../sales/special-event-tickets.md) for classification and revenue reconciliation.
+
 ## Compare like with like
 
 The most common reasons for different totals are a different record type, personal versus team scope, Season versus fiscal year, different date fields, Amount versus ticket revenue, or different refresh times.

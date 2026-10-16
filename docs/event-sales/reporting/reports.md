@@ -51,3 +51,7 @@ These fields are not interchangeable. Native fiscal-year filters based on Close 
 Open **Dashboards**, select a dashboard you can access, and check its filters and refresh state. Its running-user and sharing setup can affect what you see. A missing folder or report may be an access issue; a visible report with no rows may be a filter or record-access issue.
 
 For a discrepancy, send the administrator the report name, selected filters, comparison total, and a specific example record through your internal channel. Keep customer examples out of public GitHub issues.
+
+## Tickets sold for special events
+
+**Event Opportunities by Division** also includes Ticketing Opportunities marked **Special Event Ticket Sale**. These keep the ticket-sales stages and use the event fields for classification. See [Sell tickets for a special event](../../ticket-sales/sales/special-event-tickets.md). The agreement report and event calendar still represent the venue/agreement workflow; the checkbox does not create either.
