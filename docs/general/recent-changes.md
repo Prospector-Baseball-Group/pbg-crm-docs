@@ -1,5 +1,11 @@
 # Recent changes and verification
 
+## October 19, 2026 — Employment changes and customer history
+
+Added [employment-change guidance](/general/accounts-contacts#when-someone-leaves-an-organization) for Person Accounts, Contacts, Business Accounts, and direct/indirect relationships, with a link from Ticket Sales data-quality guidance. The procedure separates historical employment from current contact details, retains customer records and completed history, and calls for reviewing pending outreach and current deal contacts.
+
+**Verification scope:** reviewed existing PBG documentation, saved account-page metadata and integration references, and Salesforce's standard relationship documentation. Live seller permissions, relationship edit controls, primary-account retention settings, integration behavior, and end-to-end departure handling remain unverified. Proposed role/status values, archival fields, and automation are explicitly distinguished from standard fields. This update does not deploy Salesforce changes.
+
 ## October 12, 2026 — Shared Salesforce guidance
 
 Created **General** for workflows used across apps. Files and public links, customer Notes, customer-record basics, personal list-view controls, and future-task troubleshooting now have one shared home. Sales-specific contact rules, list choices, follow-up automation, agreements, and reporting remain in their sales handbooks. Existing Files and Notes URLs point readers to the new guides.
