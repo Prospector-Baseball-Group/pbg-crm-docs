@@ -14,6 +14,14 @@ Flagging submits records for review; it does not immediately merge them. The sch
 
 If the action is missing, the record types differ, or you cannot select the suspected match, send the links to your administrator. Do not delete one record to force the result. A Person Account representing an employee and a Business Account representing the employer are usually two different entities that need a relationship.
 
+## Someone has left a customer organization
+
+Keep the Person Account or Contact and the Business Account. Preserve sales, orders, completed activities, and former-employer history. Follow [When someone leaves an organization](/general/accounts-contacts#when-someone-leaves-an-organization) for the Person Account and direct/indirect Contact procedures.
+
+Record the departure in Notes before clearing obsolete work details from current email/phone fields, including secondary fields. Keep valid personal details; a record with no currently usable email or phone can still hold valuable customer history. **Email 2 is not an archive for an invalid work address.** End the relevant relationship using Active and End Date where available, rather than removing it. Ask an administrator before changing a Contact's primary Account Name so the former relationship is preserved.
+
+Review future outreach and current deal contacts separately. Do not rename the old person to their replacement, transfer their historical activity, move old purchases to a new employer, or assume an inactive relationship automatically stops cadences and marketing. Missing relationship controls and unverified automation need administrator review, not record deletion.
+
 ## An old ScoreCRM customer or activity is missing
 
 Search Salesforce by name variants, email, and phone, then inspect the likely records. Check **Email 2**, related contacts, Notes, and the Activity timeline with **All time** selected. Imported activity can be attached to a person even when you first searched the business.
