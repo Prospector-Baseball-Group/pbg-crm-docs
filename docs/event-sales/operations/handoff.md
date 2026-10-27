@@ -31,3 +31,7 @@ Division-specific fulfillment processes may add their own tasks or checklist. Fo
 ## If the event changes
 
 Review the impact on location availability, staffing, catering, payment dates, customer commitments, and the signed agreement. Escalate contractual changes through the authorized correction process. Updating the opportunity alone does not amend an already signed PDF.
+
+## Prepare the Banquet Event Order
+
+Create a [BEO](../beos/overview) from the signed agreement or Opportunity to reuse the event details and complete the operating plan. Review menus, setup, staffing, timing, and charges; issue its PDF and record received approval. Use a [revision](../beos/revisions) when an issued plan changes, and give the team the current version.

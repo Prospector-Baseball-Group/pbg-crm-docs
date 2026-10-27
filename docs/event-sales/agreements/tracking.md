@@ -40,3 +40,7 @@ If either returned file is missing, sync and report the missing artifact. Do not
 Confirm the Opportunity’s Stage and Booking Status reflect the actual sale. Do not assume agreement execution automatically completes every opportunity update, task, invoice, or operational handoff.
 
 [Prepare the event handoff →](../operations/handoff)
+
+## After the agreement is signed
+
+Use the **Banquet Event Orders** card below the agreement workspace to **Create / Open BEO**. Follow [Create a BEO from an Event Agreement](../beos/create#from-an-event-agreement) to turn the agreed details into the event-day operating plan.

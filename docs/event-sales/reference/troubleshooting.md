@@ -66,3 +66,16 @@ Use your internal support channel and include the agreement/opportunity referenc
 For upload steps, external sharing, expiration, and missing controls, see [Files & public links](/general/files-public-links). A link copied from your Salesforce address bar can require login; test the generated public link in a signed-out window before sending it.
 
 For a multi-day booking, an overnight conflict is expected: all selected locations remain reserved between the first start and final end. See [Multi-day events](../sales/multi-day-events).
+
+## Banquet Event Orders
+
+| Problem | What to check |
+| --- | --- |
+| Missing BEO card or tab | Open the Event Sales app; check More in navigation and ask an administrator to verify BEO permissions and Opportunity access. |
+| New asks for an Opportunity | This is expected. Select an Event Sales Opportunity, then Create / Open BEO. Search from the beginning of its name. |
+| Create / Open returns an existing BEO | One current BEO is reused per Opportunity and event date. Use Create revision for an issued or accepted version. |
+| Issue BEO & Save PDF is disabled | Save edits and resolve every item under Approval & Documents, including internal approval and any agreement exception. |
+| Source edits did not appear in the BEO | BEOs retain their copied snapshot. Review and update the Draft deliberately; use a revision after issue. |
+| Create revision is missing | Open the current Issued or Accepted BEO. Edit a current Draft directly. |
+
+See [Create a BEO](../beos/create), [Prepare and issue](../beos/prepare-issue), and [Revisions](../beos/revisions).

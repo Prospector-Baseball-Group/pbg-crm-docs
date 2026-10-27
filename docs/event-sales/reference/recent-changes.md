@@ -2,6 +2,14 @@
 
 This page records changes relevant to using Event Sales, with the release state distinguished from work still under verification.
 
+## October 27, 2026 — Banquet Event Orders
+
+BEOs are available in Event Sales. Create or open one from an Event Agreement or Opportunity, or use **Banquet Event Orders → New** and select an Event Sales Opportunity. The New selector shows the account name, matching the Event Agreement selection pattern.
+
+The workflow reuses existing details, supports club-specific operational rows, saves an issued PDF, records received approval manually, and preserves earlier versions when creating revisions. BEOs do not dispatch Adobe Sign requests. See the [BEO walkthrough](../beos/overview), including screenshots of creation and revisions.
+
+**Verification:** production checks and Chrome verification passed for creation, duplicate prevention, edits, local event times, issue checks, PDF generation, recorded test acceptance, and revisions. Browser verification used an administrator session with fictional records; seller permissions have automated coverage, but separate seller browser acceptance remains outstanding. Temporary workflow records were removed. The October 27 picker update was checked in Chrome without creating customer records.
+
 ## October 26, 2026 — TBD draft downloads and current effective dates
 
 Deployed for Special Event Agreements:

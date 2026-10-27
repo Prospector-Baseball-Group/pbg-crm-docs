@@ -50,6 +50,8 @@ The **Opportunity** tracks the sale and the booking. The **Special Event Agreeme
 | Prepare a contract | [Create an agreement](./agreements/create) |
 | Fix a disabled Send button | [Choose & check signers](./agreements/signers) · [Schedule payments](./agreements/payments) |
 | Find the signed document | [Track signatures & files](./agreements/tracking) |
+| Prepare menus, timing, staffing, and an event-day plan | [Banquet Event Orders](./beos/overview) |
+| Revise an issued operating plan | [Handle BEO revisions](./beos/revisions) |
 | Explain a dashboard number | [Read the home metrics](./reporting/home-metrics) |
 
 ## A guide for the way PBG works
