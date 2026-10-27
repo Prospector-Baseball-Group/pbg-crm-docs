@@ -11,6 +11,8 @@ Use **Event Details** to turn the opportunity’s sales information into accurat
 5. Enter the agreement’s financial details, including Usage Fee and applicable deposit and balance-date values.
 6. Select **Save Event Details** and confirm the save succeeds.
 
+**Effective Date** is read-only and refreshes to the current date whenever a new PDF version is generated, with or without a selected Client Signer. It does not change the event dates or rewrite earlier PDFs.
+
 This tab has an explicit Save action. Other tabs use autosave; do not assume that simply leaving Event Details commits your edits.
 
 ## Review a multi-day range

@@ -14,6 +14,19 @@ Choose the person who is authorized to sign for the customer. The list includes 
 
 If the right person is absent, confirm the account relationship. Use **Add New Contact** only for a genuinely new contact; complete the form and select **Create & Select Contact**. Avoid duplicating an existing person to get them into the list.
 
+## Download a draft when the signer is TBD
+
+For an editable agreement whose customer signer is not yet known:
+
+1. Open **Documents & Signatures**.
+2. Set **Client Signer** to **TBD — leave blank for download**.
+3. Wait for **Client signer updated** to confirm the selection was saved.
+4. Select **Preview PDF**, then use the PDF viewer’s download control to save the copy.
+
+The new PDF leaves the client signer’s name, title, and email blank. The Company Signer remains in the document. Refresh from Opportunity preserves the blank client selection.
+
+A missing Client Signer still appears as a send blocker. It does not prevent this draft preview/download. Before approval and **Send via Adobe Sign**, select the authorized client contact, complete the required details below, and generate a new preview for review. Previewing or downloading does not send a signature request.
+
 ## Complete the Client Signer record
 
 Before sending, the selected signer needs:

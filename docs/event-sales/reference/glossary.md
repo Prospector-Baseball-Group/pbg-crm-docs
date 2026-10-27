@@ -25,7 +25,7 @@
 | Term | Meaning |
 | --- | --- |
 | Client Legal Entity Name | Customer entity entering into the agreement |
-| Effective Date | Agreement’s effective date, distinct from the event and execution dates |
+| Effective Date | Current date when a new agreement PDF version is generated; read-only in the workspace and distinct from event and execution dates. Existing copies retain their original date |
 | Onsite Contact | Event-day customer coordinator |
 | Legal Notice Contact | Formal-notice recipient under the agreement |
 | Company Signer | Authorized company user signing first in the current workflow |
