@@ -32,6 +32,8 @@ Start with the visible message and the record’s current state. The fastest fix
 | --- | --- |
 | New Agreement says opportunity details are missing | Complete the named fields on the opportunity, then create again |
 | No active template for the division | Confirm availability with the administrator; the verified active template is Akron |
+| Client signer is not yet known | Choose **TBD — leave blank for download**, wait for the save, then Preview PDF. Select a real signer before approval and Adobe sending; see [TBD draft downloads](../agreements/signers#download-a-draft-when-the-signer-is-tbd) |
+| Effective Date cannot be edited | It is read-only. Generate a new PDF on an editable agreement to use the current date; opening an existing PDF preserves its date |
 | Missing signer Street or ZIP | Select Edit [signer name], then Save contact & recheck |
 | No Deposit row | Add exactly one Deposit; a $0 deposit still needs a row |
 | Duplicate Deposit or Balance | Reconcile existing payment rows instead of adding more |

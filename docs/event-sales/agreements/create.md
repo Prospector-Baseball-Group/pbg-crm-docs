@@ -27,7 +27,7 @@ The active template verified for this guide is **Akron Special Event Agreement v
 
 The Draft copies the opportunity’s customer, event information, primary contact, and selected locations. The onsite-contact details are seeded from the opportunity contact. For a new Akron agreement, the Company Signer defaults from the opportunity owner; verify that the owner is the right authorized signer.
 
-The agreement’s **Effective Date** defaults to its creation date and is editable before the snapshot is locked. It is distinct from Event Start Date and the later date of signature completion.
+The agreement’s **Effective Date** is read-only. Every newly generated PDF version uses the current date for the Salesforce user generating it, whether the Client Signer is selected or TBD. It is distinct from Event Start Date and the later date of signature completion. Opening an existing PDF does not change that copy’s date.
 
 ## Refresh after an opportunity change
 
@@ -39,7 +39,7 @@ While the agreement is an unlocked **Draft**:
 4. Review copied event details, onsite contact information, and locations again.
 5. Regenerate the PDF after the changes are saved.
 
-Refresh can replace information copied from the opportunity, including its location list. Review any agreement-specific work before using it. Explicit signer choices are preserved by Draft refresh, but still confirm the recipients before sending.
+Refresh can replace information copied from the opportunity, including its location list. Review any agreement-specific work before using it. Explicit signer choices, including **TBD — leave blank for download**, are preserved by Draft refresh, but still confirm the recipients before sending.
 
 Once an agreement is no longer an editable Draft, do not expect Refresh from Opportunity to be available. Use the [correction workflow](./cancel-correct) instead.
 

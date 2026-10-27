@@ -2,6 +2,20 @@
 
 This page records changes relevant to using Event Sales, with the release state distinguished from work still under verification.
 
+## October 26, 2026 — TBD draft downloads and current effective dates
+
+Deployed for Special Event Agreements:
+
+- **Client Signer → TBD — leave blank for download** supports draft previews and downloads with blank client signature details. Draft refresh preserves that selection. A real, complete Client Signer is still required for approval and Adobe sending.
+- **Effective Date** is read-only and uses the current date whenever a new PDF version is generated, whether the client signer is named or TBD.
+- Earlier and signed document copies keep their original content and dates. Opening a saved PDF does not generate a new version.
+
+See [Choose & check signers](../agreements/signers#download-a-draft-when-the-signer-is-tbd) and [Preview, review & send](../agreements/send).
+
+**Verification:** production deployment and automated checks passed. Live PDF generation verified named and blank client signers, refreshed dates on repeated generation, and preservation of the earlier copy. The missing-signer send blocker was also verified. Seller browser acceptance testing remains outstanding; this release verification did not send an agreement or complete a signature cycle.
+
+Tentative-event-time wording remains pending legal approval and is not included in this release.
+
 ## October 16, 2026 — Consecutive multi-day events
 
 Event Sales now supports a start/end date range on one Opportunity and agreement. Selected locations remain reserved continuously, including overnight. The calendar displays every occupied day, and the homepage classifies a won event as completed only after its final date. Existing single-day records continue to work with End Date blank.

@@ -17,6 +17,8 @@ Build the customer-facing contract from an Event Sales Opportunity. The detailed
 | Send | Select Send via Adobe Sign | Adobe confirms the request is Out for Signature |
 | Track | Review signer and document status | Completion, signed PDF, and audit trail |
 
+If you only need a draft download and the client signer is unknown, use [TBD — leave blank for download](./signers#download-a-draft-when-the-signer-is-tbd). A real Client Signer is required before approval and Adobe sending. Every new PDF version gets the current Effective Date; existing copies keep their original dates.
+
 ## Learn the workspace tabs
 
 | Tab | What belongs here |

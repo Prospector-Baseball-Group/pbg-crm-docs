@@ -4,13 +4,15 @@ Work through these steps in order. Previewing and approving do not email the sig
 
 ## 1. Finish and save the agreement
 
-Save Event Details explicitly. Let autosaves finish on services, food and beverage, access, and existing payment terms. Confirm the Company and Client signers.
+Save Event Details explicitly. Let autosaves finish on services, food and beverage, access, and existing payment terms. Confirm the Company and Client signers before sending. For a download while the client signer is unknown, follow [Download a draft when the signer is TBD](./signers#download-a-draft-when-the-signer-is-tbd); the missing-signer send blocker does not prevent that preview.
 
 Read the validation banner above the tabs. **Cannot send — … items need attention** lists the problems and links to the relevant correction. The Send button stays disabled while blockers remain.
 
 ## 2. Preview the PDF
 
-Select **Preview PDF** in the header. For an editable agreement, Salesforce generates the preview and opens it. Once the agreement is locked, Preview PDF opens its current saved document.
+Select **Preview PDF** in the header. For an editable agreement, Salesforce generates the preview and opens it. Every newly generated version uses the current date as its **Effective Date**, for both named-signer and TBD copies. Once the agreement is locked, Preview PDF opens its current saved document without changing its date. Opening an earlier or signed PDF also leaves that historical copy unchanged.
+
+Use the PDF viewer’s download control to save a copy. If the Client Signer is TBD, the client signature details are blank; choose and verify the signer before continuing to approval and sending.
 
 Read the whole document, including:
 
