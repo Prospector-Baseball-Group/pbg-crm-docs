@@ -39,3 +39,7 @@ A technical deployment passing does not prove actual email delivery or completed
 ## Keep support private
 
 Report customer-specific issues through the internal support channel. The public GitHub repository contains user guidance and customer-free examples; it must not contain credentials, Salesforce exports, private agreement PDFs, customer screenshots, or internal diagnostic logs.
+
+## BEO access
+
+Assign **Banquet Event Order User** for BEO work alongside the appropriate Event Sales and agreement permissions. The BEO uses the Opportunity’s record sharing; editing, issuing, recording approval, and revising require edit access to that Opportunity. The launcher cards are on the Event Sales Opportunity and agreement pages. BEO menus and detail rows support all clubs without requiring the Akron agreement template.
