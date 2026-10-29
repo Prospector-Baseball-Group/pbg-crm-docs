@@ -22,6 +22,8 @@ Creating an Opportunity on the same Account does **not** automatically prove tha
 
 A Ticketing deal is paid when its Tickets.com orders are. Each Ticketing opportunity has a **Tickets.com Orders** card for linking them.
 
+Salesforce links most orders for you each night: an order links automatically when exactly one of the account's deals fits it (same team, season, and ticket category, and not Closed Lost). Orders it can't place, such as an account with two fitting deals, stay unlinked with a note saying why, and the **Orders to Link** list view on Ticket Orders shows them. Link those yourself:
+
 1. Open the Ticketing Opportunity and find **Tickets.com Orders**.
 2. Under **Add a Tickets.com order**, enter the **Tickets.com order ID** and select **Find**. The search looks only at your team's orders, because order IDs repeat across teams.
 3. Check the buyer, created date, category, total, paid amount, and balance.

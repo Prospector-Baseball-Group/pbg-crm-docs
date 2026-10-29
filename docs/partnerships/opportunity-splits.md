@@ -11,7 +11,7 @@ Splits moved from the **Opportunity Splits** list to the **Commission** tab with
 - Open the **Agilitek Partnership Module** and the correct partnership opportunity.
 - Agree on the allocation with your manager. A deal starts with **100% for the opportunity owner**; this default doesn't mean an agreed split has been entered.
 - For a multi-year agreement, check each annual opportunity. A split on one opportunity doesn't set the allocation for the other years.
-- You can change splits on deals you own until the deal is fully paid. After that, or on another rep's deal, ask a commission admin.
+- You can change splits on deals you own until the deal is fully paid. Division managers can change them on any deal in their division until then. After that, ask a commission admin.
 
 ## Enter the split
 

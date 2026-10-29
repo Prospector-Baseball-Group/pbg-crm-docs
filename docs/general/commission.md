@@ -38,7 +38,7 @@ Once commission is earned, the deal's splits, owner, and amounts lock. Only a co
 
 ## Change the splits
 
-You can change a deal's splits if you're its owner and it isn't fully paid yet, or if you're a commission admin.
+You can change a deal's splits if you can edit the deal (you're its owner, or a manager for its division) and it isn't fully paid yet, or if you're a commission admin.
 
 1. Open the deal's **Commission** tab.
 2. Select **Edit Splits**.
@@ -96,7 +96,7 @@ The **Commissions & Collections** dashboard summarizes both folders. Finance rev
 | What you see | What to do |
 | --- | --- |
 | *Splits lock once the deal is fully paid. Ask a commission admin to change them.* | The deal is fully paid, so its commission is earned. Ask a commission admin |
-| *Only the deal owner (until the deal is fully paid) or a commission admin can change splits.* | Ask the deal's owner, or a commission admin, to make the change |
+| *Only the deal owner or a division manager (until the deal is fully paid) or a commission admin can change splits.* | Ask the deal's owner, a manager for its division, or a commission admin to make the change |
 | *Commission on this deal is earned. Only a commission admin can change its splits.* | The same lock, reported when saving. Ask a commission admin |
 | *Revenue splits must total 100%.* | Adjust the rows until the total reads 100% |
 | *These splits total 80%. Revenue splits should total 100%.* | An older deal's splits don't add up. Its owner or a commission admin should correct them |
