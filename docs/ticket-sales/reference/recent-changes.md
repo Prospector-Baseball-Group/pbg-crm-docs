@@ -3,7 +3,7 @@
 ## October 28, 2026 — Tickets.com orders, payments, and splits (with the payments release)
 
 - Link a deal's orders on the **Tickets.com Orders** card by Tickets.com order ID, or save a pending link for an order that hasn't synced. An order belongs to one deal. See [Link your Tickets.com orders](../customers/ticket-orders.md#link-your-tickets-com-orders).
-- Salesforce links most orders to their deal automatically each night when exactly one deal fits; the **Orders to Link** list view on Ticket Orders shows the rest, with the reason. See [Link your Tickets.com orders](../customers/ticket-orders.md#link-your-tickets-com-orders).
+- Salesforce links most orders to their deal automatically each night when exactly one deal fits; the **Orders to Link** list view on Ticket Orders shows the rest, with the reason. Orders with no ticket revenue, such as the original order after an exchange, never link automatically. See [Link your Tickets.com orders](../customers/ticket-orders.md#link-your-tickets-com-orders).
 - Ticketing opportunities have a **Payments** tab. Received payments come from the linked orders, and a deal is Fully Paid when they are. See [Track payments on a deal](/general/payments).
 - Ticketing agreement payments are the opportunity's payments. See [Payments and preview](../agreements/payments-preview.md).
 - **Quota Credit Rep** is no longer used. Quota credit and commission follow the Revenue splits on the **Commission** tab. See [Commission & revenue splits](/general/commission).
