@@ -65,7 +65,7 @@ When a deal is won and has no payments yet, Salesforce adds a starting schedule 
 
 | Line | Starting schedule |
 | --- | --- |
-| Partnership | A Full Payment for the cash amount and a Trade (Barter) payment for the barter amount, both due at contract start |
+| Partnership | A Full Payment for the cash amount and a Trade (Barter) payment for the barter amount, both due at contract start, or at the close date when the deal has no contract start date |
 | Event Sales | A Balance for the deal amount, due a week before the event |
 | Ticketing | A Full Payment for the deal amount, due at close and paid through Tickets.com |
 

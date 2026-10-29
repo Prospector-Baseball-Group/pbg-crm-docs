@@ -9,7 +9,7 @@ Two new shared guides cover tabs that now appear on every Ticketing, Event Sales
 
 Revenue splits moved from the Opportunity Splits list to the Commission tab. Agreements read and write the opportunity's payments.
 
-**Verification:** checked in a Salesforce sandbox with fictional records on October 28, 2026. The full automated test suite passed. Automated tests also ran the Payments tab, Commission tab, Tickets.com Orders card, Finalize Event, and Ticketing agreement payments as a sales rep with the permissions sellers hold. Screens were reviewed in an administrator browser session; a separate seller browser session was not used. No agreement was sent for signature and no payment was collected. These changes apply in production when the payments and commissions release goes live; until then, production shows the earlier screens.
+**Verification:** checked in a Salesforce sandbox with fictional records on October 28, 2026. The full automated test suite passed. Automated tests also ran the Payments tab, Commission tab, Tickets.com Orders card, Finalize Event, and Ticketing agreement payments as a sales rep with the permissions sellers hold. Screens were reviewed in an administrator browser session; a separate seller browser session was not used. No agreement was sent for signature and no payment was collected. These changes went live in production the night of October 28, 2026.
 
 ## October 12, 2026 — Shared Salesforce guidance
 

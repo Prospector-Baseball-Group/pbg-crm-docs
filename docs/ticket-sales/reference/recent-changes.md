@@ -9,7 +9,7 @@
 - **Quota Credit Rep** is no longer used. Quota credit and commission follow the Revenue splits on the **Commission** tab. See [Commission & revenue splits](/general/commission).
 - **Event Start Date** appears for Suite, Group, and Picnic ticket categories, and for Special Event Ticket Sales.
 
-**Verification:** checked in a Salesforce sandbox with fictional records on October 28, 2026. The full automated test suite passed. Automated tests also ran the Payments tab, Commission tab, Tickets.com Orders card, Finalize Event, and Ticketing agreement payments as a sales rep with the permissions sellers hold. Screens were reviewed in an administrator browser session; a separate seller browser session was not used. No agreement was sent for signature and no payment was collected. These changes apply in production when the payments and commissions release goes live; until then, production shows the earlier screens.
+**Verification:** checked in a Salesforce sandbox with fictional records on October 28, 2026. The full automated test suite passed. Automated tests also ran the Payments tab, Commission tab, Tickets.com Orders card, Finalize Event, and Ticketing agreement payments as a sales rep with the permissions sellers hold. Screens were reviewed in an administrator browser session; a separate seller browser session was not used. No agreement was sent for signature and no payment was collected. These changes went live in production the night of October 28, 2026.
 
 ## October 16, 2026 — Create and find campaigns
 

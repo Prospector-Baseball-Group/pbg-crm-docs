@@ -9,7 +9,7 @@ This page records changes relevant to using Event Sales, with the release state 
 - **Finalize Event** records post-event charges as a Post-Event F&B payment and marks the event finalized. Fully Paid and commission wait on it. See [Finalize the event](../operations/finalize-event).
 - The opportunity page has a Details tab that opens first, with Payments and Commission after it.
 
-**Verification:** checked in a Salesforce sandbox with fictional records on October 28, 2026. The full automated test suite passed. Automated tests also ran the Payments tab, Commission tab, Tickets.com Orders card, Finalize Event, and Ticketing agreement payments as a sales rep with the permissions sellers hold. Screens were reviewed in an administrator browser session; a separate seller browser session was not used. No agreement was sent for signature and no payment was collected. These changes apply in production when the payments and commissions release goes live; until then, production shows the earlier screens.
+**Verification:** checked in a Salesforce sandbox with fictional records on October 28, 2026. The full automated test suite passed. Automated tests also ran the Payments tab, Commission tab, Tickets.com Orders card, Finalize Event, and Ticketing agreement payments as a sales rep with the permissions sellers hold. Screens were reviewed in an administrator browser session; a separate seller browser session was not used. No agreement was sent for signature and no payment was collected. These changes went live in production the night of October 28, 2026.
 
 ## October 27, 2026 — Banquet Event Orders
 

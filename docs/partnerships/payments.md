@@ -17,7 +17,9 @@ When a partnership deal is won without payments, Salesforce adds a starting sche
 - a **Full Payment** for the cash amount, and
 - a **Trade (Barter)** payment for the barter amount,
 
-both due at contract start. Split the Full Payment into installments to match the agreement.
+both due at contract start, or at the close date when the deal has no contract start date. Split the Full Payment into installments to match the agreement.
+
+Partnership deals that were already won before payment tracking started, and had no scheduled payments, don't get a starting schedule. They show in the **Won but Not Scheduled** report in the **Collections** folder until you add their payments.
 
 For a multi-year agreement, each annual opportunity has its own Payments tab. Schedule each year on its own opportunity.
 
