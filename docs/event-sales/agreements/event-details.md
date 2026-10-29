@@ -41,6 +41,6 @@ The Client Signer’s required details are checked against the selected person�
 
 ## Keep the financial fields consistent
 
-Usage Fee is the amount against which the core payment schedule is validated. Do not stop after changing a header amount: open **Scheduled Payments** and make sure the Deposit and Usage Fee Balance rows still agree with it.
+Usage Fee is the amount against which the core payment schedule is validated. Do not stop after changing a header amount: open **Scheduled Payments** and make sure the Deposit and Usage Fee Balance payments still agree with it. The Deposit and Balance Due Date shown in Event Details come from those payments.
 
 **Next:** [Spaces & access](./spaces-access) · [Schedule payments](./payments).

@@ -1,66 +1,68 @@
-# Split opportunity revenue between reps
+# Split partnership revenue between reps
 
-Use **Opportunity Splits** when more than one rep shares a partnership opportunity. Record each rep’s percentage now; deductions, separate revenue streams, and commission calculations are later work.
+Use **Revenue splits** when more than one rep shares a partnership opportunity. The splits decide who earns commission and quota credit on the deal. They live on the opportunity's **Commission** tab.
 
-::: info Current scope
-Only **Revenue** splits are enabled. The percentages must total **100%** and the split amounts use Salesforce’s standard **Amount**. This records the allocation; existing PBG goal dashboards still use their current credit logic and are not yet connected to these splits.
+::: info Applies with the payments release
+Splits moved from the **Opportunity Splits** list to the **Commission** tab with the payments and commissions update. The [shared commission guide](/general/commission) covers every line. See [Recent changes](./recent-changes) for verification status.
 :::
 
 ## Before you start
 
 - Open the **Agilitek Partnership Module** and the correct partnership opportunity.
-- Agree on the allocation with your manager. Existing opportunities start with **100% for the opportunity owner**; this default does not mean an agreed split has already been entered.
-- For a multi-year agreement, check each applicable annual opportunity. A split on one opportunity does not automatically set the allocation for every year of the agreement.
-- Use an opportunity you own or have appropriate access to manage. If the edit action is unavailable, ask your Salesforce administrator to check your access.
+- Agree on the allocation with your manager. A deal starts with **100% for the opportunity owner**; this default doesn't mean an agreed split has been entered.
+- For a multi-year agreement, check each annual opportunity. A split on one opportunity doesn't set the allocation for the other years.
+- You can change splits on deals you own until the deal is fully paid. Division managers can change them on any deal in their division until then. After that, ask a commission admin.
 
 ## Enter the split
 
-1. Open the opportunity’s **Related** tab.
-2. Scroll to **Opportunity Splits** and select **Edit Opportunity Splits**.
-3. In the **Revenue** tab, edit the existing owner’s **Percent (%)**.
-4. In the empty row, edit **Team Member**, search for the other rep, and select the matching user. Team members can be added while editing splits; a separate team setup step is not required.
-5. Enter that rep’s **Percent (%)**. Use **Add Row** for additional reps and add a **Note** if the allocation needs an explanation.
-6. Check that **Total Percent** is **100%**, then save your changes. Close the editor with **Done** when finished.
-7. Refresh or reopen the opportunity and confirm each rep’s percentage and amount in **Opportunity Splits**.
+1. Open the opportunity's **Commission** tab.
+2. Select **Edit Splits**.
+3. Edit the owner's **Split**.
+4. Select **Add Split**, choose the other **Rep**, and enter their **Split**. Add a row for each additional rep.
+5. Check that the total reads **Total: 100%**.
+6. Select **Save Splits**.
+
+**Expected result:** the *Splits saved* message appears and the **Revenue Splits** table shows each rep and their percentage.
 
 ## Example
 
-This is a fictional example using a standard opportunity Amount of **$10,000**:
+A fictional partnership with a **$10,000** deal value:
 
-| Team member | Percent | Split amount |
+| Rep | Split | Share of deal value |
 | --- | ---: | ---: |
-| Rep A | 60% | $6,000 |
+| Rep A (Owner) | 60% | $6,000 |
 | Rep B | 40% | $4,000 |
 | **Total** | **100%** | **$10,000** |
 
-A revenue split assigns portions of the same opportunity amount. It does not change the opportunity owner or calculate a commission payment.
+A revenue split assigns portions of the same deal. It doesn't change the opportunity owner.
 
-## Understand the amount
+## What the split is paid on
 
-Salesforce calculates the split from its standard **Amount** field. The partnership page can also display Agilitek **Deal Value**, **Cash Amount**, **Barter Amount**, and manual pricing fields. These are not interchangeable: manual pricing can cause Deal Value to differ from the standard Amount.
+Partnership commission is paid on **deal value**: cash plus barter, including manually priced deals. Finance and commission admins see each rep's share of that base in the Commission tab's **Commission** column.
 
-If the total shown in the split editor differs from the amount you expected, confirm the pricing with your administrator before using it in reporting. Do not alter agreed percentages just to force a desired dollar result.
+Commission is earned when the deal is fully paid, including its barter. See [Partnership payments and barter](./payments).
 
-## What comes later
+## Quota credit
 
-The current workflow does not:
+Sales Targets credit each rep with their split of the deal, so goal dashboards follow the splits you enter. A rep at 0% earns no credit.
 
-- Deduct costs or other exclusions to calculate net eligible revenue.
-- Separate corporate partnership revenue from ticketing, food and beverage, events, or other revenue streams.
-- Calculate commission rates or payments.
-- Automatically feed the allocation into PBG’s existing goal dashboards.
+## What isn't covered
 
-For now, record the agreed rep percentages here. Revenue-category rules, deductions, and reporting integration can build on that allocation after the business rules are agreed.
+Splits don't:
+
+- deduct costs or other exclusions to calculate net eligible revenue, or
+- separate corporate partnership revenue from ticketing, food and beverage, events, or other revenue streams.
 
 ## Troubleshooting
 
 | What you see | What to do |
 | --- | --- |
-| The list shows only the owner at 100% | This is the starting allocation. Open the editor to enter the agreed split. |
-| The percentages do not total 100% | Adjust the rows so their combined percentage is exactly 100%, then save. |
-| An extra empty row shows a required-field error | Complete the rep and percentage, or remove the unused row. |
-| A rep is missing from the search results | Confirm the user is active and ask your administrator to check team-member access. |
-| No Opportunity Splits list or edit action | Confirm you opened a partnership opportunity in the Partnership module. Refresh once, then ask your administrator to check the page layout and your access. |
-| A goal report still credits one rep | The existing goal calculation has not yet been connected to native splits. Recording a split alone does not update that calculation. |
+| The table shows only the owner at 100% | This is the starting allocation. Select **Edit Splits** to enter the agreed split |
+| *Revenue splits must total 100%.* | Adjust the rows until the total reads 100%, then save |
+| *Choose a rep for every split.* | Choose the rep, or remove the empty row |
+| A rep is missing from the Rep list | Confirm the user is active, then ask your administrator |
+| *Splits lock once the deal is fully paid…* | Ask a commission admin to change the split |
+| **Edit Splits** is missing | You don't own the deal, or it is fully paid. Ask the owner or a commission admin |
+| No Commission tab | Confirm you opened a partnership opportunity, refresh once, then ask your administrator to check your access |
 
 See [Recent changes](./recent-changes) for the verification date and scope.

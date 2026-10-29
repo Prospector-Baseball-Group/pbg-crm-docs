@@ -24,7 +24,12 @@ Start with the exact record and action that failed. These checks resolve common 
 | An email is missing | Record email address, timeline filter, mailbox connection, saved activity | Ask your administrator to trace the message; avoid duplicate logging. |
 | Team view is absent | Manager permission | Request the control only if it is needed for the role. |
 | Report is empty or totals differ | Owner, record type, Division, Season, date field, refresh time | Align the filters before comparing. |
-| Ticket Order is not on the expected Opportunity | Matching Opportunity and buyer/business relationships | Report the source Order ID and both record links. |
+| Ticket Order is not on the expected Opportunity | The opportunity's Tickets.com Orders card | Find the order by its Tickets.com order ID and link it. If it's linked to another deal, ask a commission admin. |
+| *Commission on this opportunity is earned, so only a commission admin can add orders.* | Commission status of the deal | Ask a commission admin to add or remove the order. |
+| Order isn't found | The order ID and your team | Check the ID; if the order hasn't synced yet, use **Save pending link**. |
+| Received amounts can't be edited on the Payments tab | Ticketing receipts come from Tickets.com | Link the order and use **Recalculate payments**. |
+| Payment Status says **Awaiting Ticket Order** | No order is linked yet | Link the deal's Tickets.com order. |
+| Splits can't be changed | The deal is fully paid, or you don't own it | Ask a commission admin. See [Commission & revenue splits](/general/commission). |
 
 ## Agreement problems
 

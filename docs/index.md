@@ -32,7 +32,7 @@ features:
     linkText: Open the Ticket Sales guide
   - icon: ◉
     title: Partnerships
-    details: PBG opportunity revenue splits, current workflow limits, and the companion Agilitek reference for inventory, agreements, pricing, and activation.
+    details: Revenue splits, payments and barter, and the companion Agilitek reference for inventory, agreements, pricing, and activation.
     link: /partnerships/
     linkText: Open the Partnerships guide
 ---

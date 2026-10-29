@@ -28,6 +28,9 @@ Use **[General](/general/)** for shared Files, Notes, Accounts & Contacts, list 
 | Organize today's work | [Track your pipeline](sales/pipeline.md) |
 | Send a season-ticket agreement | [Agreement overview](agreements/overview.md) |
 | Understand purchase and attendance history | [Ticket orders and customer history](customers/ticket-orders.md) |
+| Link a Tickets.com order to a deal | [Link your Tickets.com orders](customers/ticket-orders.md#link-your-tickets-com-orders) |
+| See what's owed and paid on a deal | [Track payments on a deal](/general/payments) |
+| Check splits and commission | [Commission & revenue splits](/general/commission) |
 | Resolve duplicates or missing CRM history | [Customer data quality](customers/data-quality.md) |
 | Understand my numbers | [Hustle Score](reporting/hustle-score.md) · [Reports and dashboards](reporting/reports.md) |
 | Get a quick answer or resolve a problem | [Frequently asked questions](help/common-questions.md) · [Troubleshooting](help/troubleshooting.md) |

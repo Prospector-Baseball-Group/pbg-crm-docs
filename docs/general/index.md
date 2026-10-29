@@ -11,6 +11,8 @@ Everyday Salesforce guidance for PBG staff across Event Sales, Ticket Sales, and
 | Find or create the right customer record | [Accounts & contacts](./accounts-contacts) |
 | Choose columns, filters, and a personal work list | [Personal list views](./list-views) |
 | Schedule work or find a task missing from the timeline | [Future tasks & reminders](./future-tasks) |
+| See what a customer owes, add a payment, or record a receipt | [Track payments on a deal](./payments) |
+| Split credit between reps or check commission status | [Commission & revenue splits](./commission) |
 
 App navigation, record types, and permissions can affect which controls you see. Each guide identifies where to check your access or follow a sales-specific process.
 
@@ -18,6 +20,6 @@ App navigation, record types, and permissions can affect which controls you see.
 
 - [Event Sales](/event-sales/): event opportunities, locations, holds, agreements, and event delivery.
 - [Ticket Sales](/ticket-sales/): ticket opportunities, products, orders, agreements, and seller metrics.
-- [Partnerships](https://agilitek-solutions.gitbook.io/partnerships-crm-agilitek): partnership inventory, multi-year agreements, and activation.
+- [Partnerships](/partnerships/): revenue splits, payments and barter, and the Agilitek reference for inventory, multi-year agreements, and activation.
 
 [Recent changes and verification →](./recent-changes)

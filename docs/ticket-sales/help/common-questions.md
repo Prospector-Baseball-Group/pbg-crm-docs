@@ -120,7 +120,7 @@ No. Season identifies what you are selling. Close Date identifies when the sale 
 
 ### Does every ticket purchase automatically create a won opportunity?
 
-Do not assume it does. Check the imported Ticket Order, its buyer/business relationships, and **Matching Opportunity**. Historical backfills and review flags do not guarantee a new opportunity for every purchase. See [Ticket orders](../customers/ticket-orders.md).
+Do not assume it does. Check the imported Ticket Order, its buyer/business relationships, and **Matching Opportunity**, and link it from the right opportunity's **Tickets.com Orders** card. Historical backfills and review flags do not guarantee a new opportunity for every purchase. See [Ticket orders](../customers/ticket-orders.md).
 
 ### Why does an export repeat the same opportunity?
 
@@ -130,7 +130,7 @@ A report joining opportunities to several contacts or line items can have severa
 
 ### Does a payment schedule charge the customer?
 
-No. It records the planned installments in the agreement. A sent or signed agreement is also separate from collecting payment or issuing tickets. Follow [Payments and preview](../agreements/payments-preview.md) and your team's collection process.
+No. It records the planned installments, which are the opportunity's payments. A sent or signed agreement is also separate from collecting payment or issuing tickets. Received payments come from the deal's linked Tickets.com orders. Follow [Payments and preview](../agreements/payments-preview.md) and your team's collection process.
 
 ### What does a User External Credential error mean?
 

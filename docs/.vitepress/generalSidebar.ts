@@ -3,7 +3,9 @@ const guideItems = [
   { text: 'Customer notes', link: '/general/notes' },
   { text: 'Accounts & contacts', link: '/general/accounts-contacts' },
   { text: 'Personal list views', link: '/general/list-views' },
-  { text: 'Future tasks & reminders', link: '/general/future-tasks' }
+  { text: 'Future tasks & reminders', link: '/general/future-tasks' },
+  { text: 'Deal payments', link: '/general/payments' },
+  { text: 'Commission & splits', link: '/general/commission' }
 ]
 
 export const sharedGuides = {

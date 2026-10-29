@@ -35,15 +35,26 @@ Start with the visible message and the record’s current state. The fastest fix
 | Client signer is not yet known | Choose **TBD — leave blank for download**, wait for the save, then Preview PDF. Select a real signer before approval and Adobe sending; see [TBD draft downloads](../agreements/signers#download-a-draft-when-the-signer-is-tbd) |
 | Effective Date cannot be edited | It is read-only. Generate a new PDF on an editable agreement to use the current date; opening an existing PDF preserves its date |
 | Missing signer Street or ZIP | Select Edit [signer name], then Save contact & recheck |
-| No Deposit row | Add exactly one Deposit; a $0 deposit still needs a row |
-| Duplicate Deposit or Balance | Reconcile existing payment rows instead of adding more |
+| Usage Fee Balance missing | Add one Usage Fee Balance for the amount the Deposit doesn't cover. A Deposit is needed only when one is charged |
+| Duplicate Deposit or Balance | Correct the extra row's type instead of adding more rows |
 | Fee mismatch | Deposit plus Usage Fee Balance must equal Usage Fee |
-| Balance missing Due Date | Set the date on the payment row |
+| Balance due on or after the event | Move the Usage Fee Balance due date before the event date |
+| Payment type, amount, or due date is gray | The agreement is out for signature or signed. Record receipts or add a payment; revise the agreement to change the plan |
 | Conditional access will not save | Complete Access Detail |
 | A service selection does not save | Complete required hours or quantity and wait for the save |
 | Bar selection requires bartenders | Enter Number of Bartenders as a whole number of at least one |
 | Send remains disabled with no blockers | Check status: Submit for Review, then Approve for Send |
 | Refresh from Opportunity is disabled | It is available only for an unlocked Draft |
+
+## Payments and finalizing
+
+| Problem | Correction |
+| --- | --- |
+| *Select a Lead Source (how this event inquiry reached us) before saving this Event Sales opportunity.* when adding a payment | Saving a payment also updates the opportunity. Set **Lead Source** on the opportunity, then add the payment again |
+| Payment Status stays **Awaiting Event Finalization** | Use [Finalize Event](../operations/finalize-event) after the event |
+| *Finalize Event is available after the event ends.* | Wait until the event's last date |
+| Waive or Delete is missing on a payment | Only finance can waive or delete payments |
+| Splits can't be changed | Splits lock once the deal is fully paid. See [Commission & revenue splits](/general/commission) |
 
 ## Adobe and documents
 

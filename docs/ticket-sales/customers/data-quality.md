@@ -30,12 +30,12 @@ For a general company inbox, use **Company Email** on the Business Account. Add 
 
 ## A company already belongs to another rep or club
 
-Account Owner, Opportunity Owner, Division, and Quota Credit Rep serve different purposes. For a separate sale with the same national business, use the existing Account when it represents the same organization, and set the correct owner and Division on your Opportunity. Follow approved quota-credit rules.
+Account Owner, Opportunity Owner, Division, and the deal's Revenue splits serve different purposes. For a separate sale with the same national business, use the existing Account when it represents the same organization, and set the correct owner and Division on your Opportunity. Quota credit follows the Revenue splits on the [Commission tab](/general/commission).
 
 Use **Parent Account** for a real branch/subsidiary relationship when separate Business Accounts are appropriate. Do not create a duplicate of the same business just to obtain ownership, or change its Account Owner solely because your club has a new deal. Ask an administrator for access or an approved ownership change when needed.
 
 ## A purchase is missing
 
-Start with the [Ticket Order](ticket-orders.md), not a new Opportunity. Verify the source order, buyer, associated business, season, and Matching Opportunity. An imported order, a customer relationship, and a sales opportunity are separate records; one can be correct while another needs attention.
+Start with the [Ticket Order](ticket-orders.md), not a new Opportunity. Verify the source order, buyer, associated business, season, and the deal it's linked to. An imported order, a customer relationship, and a sales opportunity are separate records; one can be correct while another needs attention.
 
 **Success looks like:** the issue is tied to specific record links, the identity is clear, and the reviewer has enough context to correct the right record.

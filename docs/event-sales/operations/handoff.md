@@ -18,7 +18,7 @@ The agreement’s Executed status is separate from these opportunity fields. Rev
 | Access | Approved additional areas and their conditions |
 | Services | Selected services, staffing hours, equipment, and supporting details |
 | Food and beverage | Contract elections plus the separate operational plan |
-| Payments | Agreed amounts and dates; confirmed receipt information where available |
+| Payments | Agreed amounts and dates on the opportunity's [Payments tab](/general/payments); confirmed receipts where available |
 | Documents | The executed PDF and audit trail, with any authorized subsequent documentation |
 | Open actions | Named owners, due dates, and outstanding customer decisions |
 
@@ -31,6 +31,10 @@ Division-specific fulfillment processes may add their own tasks or checklist. Fo
 ## If the event changes
 
 Review the impact on location availability, staffing, catering, payment dates, customer commitments, and the signed agreement. Escalate contractual changes through the authorized correction process. Updating the opportunity alone does not amend an already signed PDF.
+
+## After the event
+
+Use [Finalize Event](./finalize-event) to record post-event charges, or confirm there were none. The deal can't become fully paid, and its commission can't be earned, until the event is finalized.
 
 ## Prepare the Banquet Event Order
 

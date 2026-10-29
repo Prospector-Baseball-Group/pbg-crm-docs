@@ -27,7 +27,7 @@ Active templates are configured for Akron RubberDucks, Jacksonville Jumbo Shrimp
 
 ## Keep the records distinct
 
-The Opportunity records the sale. The Ticket Order records imported purchase details. The Ticketing Agreement records the signature process. A payment schedule on an agreement records agreed dates and amounts; it is not proof of payment collection.
+The Opportunity records the sale. The Ticket Order records imported purchase details. The Ticketing Agreement records the signature process. The agreement's payment schedule is the opportunity's payment schedule: it records agreed dates and amounts. Received payments come from the linked Tickets.com orders; the schedule alone is not proof of payment collection.
 
 ::: warning Agreement type matters
 These instructions apply to **Ticketing Agreements**. Special Event Agreements and Agilitek Partnership Agreements have different workspaces, validation rules, and lifecycles.

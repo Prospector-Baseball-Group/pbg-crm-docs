@@ -46,6 +46,10 @@ When Finance needs a component breakdown, agree on the source and definitions wi
 
 These fields are not interchangeable. Native fiscal-year filters based on Close Date can produce different results from the Event Start Date-based home cards.
 
+## Payments and collections
+
+The **Collections** report folder covers payments on every line. For Event Sales, start with **Past Due Payments**, **Payments Due Next 90 Days**, and **Events Awaiting Finalization**. **Payment Due Date** answers when a payment is due; **Received Date** answers when it was collected. See [Track payments on a deal](/general/payments) and [Commission & revenue splits](/general/commission#reports-and-the-dashboard).
+
 ## Dashboards and access
 
 Open **Dashboards**, select a dashboard you can access, and check its filters and refresh state. Its running-user and sharing setup can affect what you see. A missing folder or report may be an access issue; a visible report with no rows may be a filter or record-access issue.

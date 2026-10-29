@@ -16,7 +16,8 @@ A productive review ends with clear owners and next actions. Use the numbers to 
 - Identify overdue close dates, missing next actions, and stalled conversations.
 - Reconcile newly won sales against the appropriate ticket orders and agreement status.
 - Review losses and the recorded objection or reason.
-- Check target/credit attribution through the approved report rather than assuming Opportunity Owner and Quota Credit Rep are identical.
+- Check target/credit attribution through the approved report. Credit follows each deal's Revenue splits, which can differ from the Opportunity Owner.
+- Check the **Collections** reports for won deals without a linked Tickets.com order and for past-due payments.
 
 ## Access and metrics are separate
 
