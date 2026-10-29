@@ -48,7 +48,7 @@ Older special-event ticket opportunities must be checked and classified before t
 
 ## Connect the ticket order without counting the sale twice
 
-Process the transaction in the ticket system as usual. When its Ticket Order is available in Salesforce, use the existing **Matching Opportunity** relationship to connect it to this opportunity. Follow the [ticket order guide](../customers/ticket-orders.md).
+Process the transaction in the ticket system as usual. When its Ticket Order is available in Salesforce, link it to this opportunity on the **Tickets.com Orders** card. Follow the [ticket order guide](../customers/ticket-orders.md).
 
 Use opportunity **Amount** for sales pipeline and bookings. Use the approved, reconciled ticket-system revenue for financial actuals. Do not add both values together for the same sale. Ticket Order totals also summarize their lines; do not count the order and its lines twice.
 

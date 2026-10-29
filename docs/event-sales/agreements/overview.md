@@ -10,7 +10,7 @@ Build the customer-facing contract from an Event Sales Opportunity. The detailed
 | --- | --- | --- |
 | Create | Open the opportunity’s Special Event Agreements card | Correct account, event date, locations, and template |
 | Complete | Work through the agreement tabs | Customer, onsite and notice contacts, services, access, food and beverage |
-| Reconcile | Complete Scheduled Payments | Exactly one Deposit and one Usage Fee Balance; their total equals Usage Fee |
+| Reconcile | Complete Scheduled Payments | One Usage Fee Balance, plus one Deposit only when one is charged; their total equals Usage Fee |
 | Confirm signers | Review Documents & Signatures | Correct Company and Client signers with complete details |
 | Preview | Generate and read the PDF | Document reflects the current saved agreement |
 | Review and approve | Submit for Review, then Approve for Send | No remaining validation blockers |
@@ -28,7 +28,7 @@ If you only need a draft download and the client signer is unknown, use [TBD —
 | Spaces & Access | Copied event locations and any additional approved access areas |
 | Services & Add-Ons | The division template’s services checklist and required supporting details |
 | Food & Beverage | Template-specific elections, bartender count when applicable, and fee details |
-| Scheduled Payments | Payment types, amounts, due dates, and available receipt fields |
+| Scheduled Payments | The opportunity's payments: types, amounts, due dates, and receipts |
 | Documents & Signatures | Signer selection, document preview, and signature tracking |
 | Activity | Agreement tasks and follow-up |
 

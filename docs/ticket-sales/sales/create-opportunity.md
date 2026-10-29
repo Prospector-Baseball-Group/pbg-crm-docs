@@ -37,7 +37,9 @@ Find the customer Account, identify the main contact, and confirm the division a
 | Ticket Category | The broad offering, such as Full Season, Group, Picnic, or Suite. |
 | Ticket Product | Optional, more specific offering available for the selected Division. |
 | Amount / Number of Tickets | The full agreed package value, including food and beverage, and the ticket quantity. See [revenue definitions](../customers/revenue.md). |
-| Quota Credit Rep | The approved rep for quota attribution, if your workflow requires it. Confirm rather than guessing. |
+| Event Start Date | The date of the event. It appears when Ticket Category is Suite, Group, or Picnic, or when Special Event Ticket Sale is checked. |
+
+Quota credit and commission follow the deal's **Revenue splits** on the **Commission** tab, which start at 100% for the owner. Quota Credit Rep is no longer used; see [Commission & revenue splits](/general/commission).
 
 **Primary Division**, if shown, is a separate division lookup. It does not replace the **Division** field that controls Ticket Product choices. Follow your team's setup for this field.
 

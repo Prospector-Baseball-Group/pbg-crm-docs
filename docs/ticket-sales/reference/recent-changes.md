@@ -1,5 +1,15 @@
 # Recent changes and verification
 
+## October 28, 2026 — Tickets.com orders, payments, and splits (with the payments release)
+
+- Link a deal's orders on the **Tickets.com Orders** card by Tickets.com order ID, or save a pending link for an order that hasn't synced. An order belongs to one deal. See [Link your Tickets.com orders](../customers/ticket-orders.md#link-your-tickets-com-orders).
+- Ticketing opportunities have a **Payments** tab. Received payments come from the linked orders, and a deal is Fully Paid when they are. See [Track payments on a deal](/general/payments).
+- Ticketing agreement payments are the opportunity's payments. See [Payments and preview](../agreements/payments-preview.md).
+- **Quota Credit Rep** is no longer used. Quota credit and commission follow the Revenue splits on the **Commission** tab. See [Commission & revenue splits](/general/commission).
+- **Event Start Date** appears for Suite, Group, and Picnic ticket categories, and for Special Event Ticket Sales.
+
+**Verification:** checked in a Salesforce sandbox with fictional records on October 28, 2026. The full automated test suite passed. Automated tests also ran the Payments tab, Commission tab, Tickets.com Orders card, Finalize Event, and Ticketing agreement payments as a sales rep with the permissions sellers hold. Screens were reviewed in an administrator browser session; a separate seller browser session was not used. No agreement was sent for signature and no payment was collected. These changes apply in production when the payments and commissions release goes live; until then, production shows the earlier screens.
+
 ## October 16, 2026 — Create and find campaigns
 
 The [Campaign FAQs](../help/common-questions.md#campaigns) explain the unchecked **Active** default, required creation fields, ownership and active-list filters, and how to find an inactive campaign through **Recently Viewed** or global search before activating it. The [email and campaigns guide](../sales/email-campaigns.md#use-campaigns-as-context) links to these steps.

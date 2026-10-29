@@ -10,7 +10,7 @@
 | Opportunity | A specific potential or completed sale. |
 | Ticketing Opportunity | The record type for the Ticket Sales process. |
 | Opportunity Owner | The user responsible for managing the sale. |
-| Quota Credit Rep | Separate sales-credit attribution used by configured reporting. |
+| Revenue split | A rep's percentage of a deal on the Commission tab; decides quota credit and commission. Replaces Quota Credit Rep. |
 | Division | The team associated with the sale and controller of Ticket Product availability. |
 | Season | The selling season; new Ticketing Opportunities currently default to 2027. |
 | Close Date | Expected or actual sales close date used by standard Opportunity fiscal reporting. |
@@ -25,7 +25,9 @@
 | Ticket Category | Broad offering; some older materials call this field Product. |
 | Ticket Product | Optional, specific ticket offering valid for the selected Division and category. |
 | Ticket Order | Imported purchase record from the ticketing data process. |
-| Matching Opportunity | Explicit link from a Ticket Order to its associated sale. |
+| Matching Opportunity | Explicit link from a Ticket Order to its associated sale, set from the opportunity's Tickets.com Orders card. |
+| Pending link | A saved request to link a Tickets.com order that hasn't synced yet; it links when the order arrives. |
+| Payment Status | Where the deal's payments stand: Not Scheduled, Awaiting Ticket Order, Scheduled, Partially Paid, or Fully Paid. |
 | Ticketing Agreement | Customer details, payment schedule, and Adobe signature workflow for a Ticketing sale. |
 | Preview Ready | A preview has been generated; changes can require a fresh one. |
 | Signed | Adobe reports completed signing; verify the stored signed document and audit trail. |

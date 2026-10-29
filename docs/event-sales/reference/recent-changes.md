@@ -2,6 +2,15 @@
 
 This page records changes relevant to using Event Sales, with the release state distinguished from work still under verification.
 
+## October 28, 2026 — Payments tab, Finalize Event, and agreement payments (with the payments release)
+
+- Event Sales opportunities have a **Payments** tab and a **Commission** tab. See [Track payments on a deal](/general/payments) and [Commission & revenue splits](/general/commission).
+- An agreement's payment terms are the opportunity's payments. A Deposit is added only when one is charged; there are no $0 payments. The Usage Fee Balance must be due before the event. Once an agreement is out for signature, each payment's type, amount, and due date lock, while receipts can still be recorded. See [Schedule payments](../agreements/payments).
+- **Finalize Event** records post-event charges as a Post-Event F&B payment and marks the event finalized. Fully Paid and commission wait on it. See [Finalize the event](../operations/finalize-event).
+- The opportunity page has a Details tab that opens first, with Payments and Commission after it.
+
+**Verification:** checked in a Salesforce sandbox with fictional records on October 28, 2026. The full automated test suite passed. Automated tests also ran the Payments tab, Commission tab, Tickets.com Orders card, Finalize Event, and Ticketing agreement payments as a sales rep with the permissions sellers hold. Screens were reviewed in an administrator browser session; a separate seller browser session was not used. No agreement was sent for signature and no payment was collected. These changes apply in production when the payments and commissions release goes live; until then, production shows the earlier screens.
+
 ## October 27, 2026 — Banquet Event Orders
 
 BEOs are available in Event Sales. Create or open one from an Event Agreement or Opportunity, or use **Banquet Event Orders → New** and select an Event Sales Opportunity. The New selector shows the account name, matching the Event Agreement selection pattern.

@@ -34,3 +34,13 @@ Do not give broad administrative rights simply to fix one missing action. Verify
 Provide the user's name, team/division, record or report link, action needed, exact error, and a known-good peer who can perform it. The administrator should compare effective access to that same record, not just permission-set names.
 
 For an agreement error mentioning **User External Credential**, include the exact error and Opportunity link. It can be an integration-permission issue; it does not mean the seller should create a new customer or contract.
+
+## Payments and commission access
+
+| Permission set | Who gets it | What it allows |
+| --- | --- | --- |
+| Opportunity Payment User | Every seller | The Payments tab, the Commission tab's splits, the Tickets.com Orders card, and Finalize Event |
+| Opportunity Payment Finance | Finance | Every deal's payments, plus Waive and Delete |
+| Commission Admin | Commission admins | Commission Review, changing any deal's splits, and moving orders between deals |
+
+System administrators don't get the finance or commission admin permissions automatically. Assign the permission set to anyone who needs it. Record sharing still decides which deals a seller can open and edit.

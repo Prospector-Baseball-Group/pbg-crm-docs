@@ -43,3 +43,13 @@ Report customer-specific issues through the internal support channel. The public
 ## BEO access
 
 Assign **Banquet Event Order User** for BEO work alongside the appropriate Event Sales and agreement permissions. The BEO uses the Opportunity’s record sharing; editing, issuing, recording approval, and revising require edit access to that Opportunity. The launcher cards are on the Event Sales Opportunity and agreement pages. BEO menus and detail rows support all clubs without requiring the Akron agreement template.
+
+## Payments and commission access
+
+| Permission set | Who gets it | What it allows |
+| --- | --- | --- |
+| Opportunity Payment User | Every seller | The Payments tab, the Commission tab's splits, the Tickets.com Orders card, and Finalize Event |
+| Opportunity Payment Finance | Finance | Every deal's payments, plus Waive and Delete |
+| Commission Admin | Commission admins | Commission Review, changing any deal's splits, and moving orders between deals |
+
+System administrators don't get the finance or commission admin permissions automatically. Assign the permission set to anyone who needs it. Record sharing still decides which deals a seller can open and edit.

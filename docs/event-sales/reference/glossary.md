@@ -31,12 +31,23 @@
 | Company Signer | Authorized company user signing first in the current workflow |
 | Client Signer | Authorized customer person signing second |
 | Usage Fee | Agreement amount reconciled against Deposit plus Usage Fee Balance |
-| Deposit | Exactly one core payment term, including a $0 row if appropriate |
-| Usage Fee Balance | Exactly one core payment term for the remaining amount, with a due date |
+| Deposit | Optional core payment term, added only when a deposit is charged; at most one |
+| Usage Fee Balance | Core payment term for the rest of the Usage Fee, due before the event; at most one. The opportunity's Payments tab calls it Balance |
 | Additional Access Area | Approved property access separate from the booked event locations |
 | Preview | PDF generated from saved details; does not send email |
 | Snapshot / signature copy | Preserved details used by a specific generated or sent document |
 | Audit trail | Returned record of the signature process |
+
+## Payment and commission fields
+
+| Term | Meaning |
+| --- | --- |
+| Payments tab | The opportunity's payment schedule; agreements read and write the same payments. See [Track payments on a deal](/general/payments) |
+| Payment Status | Not Scheduled, Scheduled, Partially Paid, Awaiting Event Finalization, or Fully Paid |
+| Awaiting Event Finalization | Every payment is received, but the event hasn't been finalized |
+| Finalize Event | Header action that records post-event charges and marks the event finalized. See [Finalize the event](../operations/finalize-event) |
+| Post-Event F&B | Payment created by Finalize Event for charges billed after the event, due 30 days after it |
+| Commission tab | The opportunity's Revenue splits and, for finance and commission admins, its commission status. See [Commission & revenue splits](/general/commission) |
 
 ## Agreement status is not opportunity stage
 

@@ -20,7 +20,9 @@ Your folder and record permissions determine which reports and rows you can see.
 | Who needs follow-up? | Follow-Up By, Next Step, owner, open Stage |
 | What closed this period? | Closed Won, the report's Close Date range, Season, Division |
 | How much activity was completed? | Closed Tasks, activity type, assignee, the activity date definition |
-| Why does my quota differ? | Active plan dates, target owner, credit-rep rules, refresh timing |
+| Why does my quota differ? | Active plan dates, target owner, the deal's Revenue splits, refresh timing |
+| Which won deals still need a Tickets.com order? | **Collections → Ticketing Awaiting Ticket Order** |
+| Does a deal's amount match its ticket revenue? | **Collections → Ticketing Amount vs Net Revenue** |
 | How much ticket revenue was earned? | The approved gross/net revenue definition and source-order reporting |
 
 ## Special-event ticket sales

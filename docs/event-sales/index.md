@@ -49,6 +49,9 @@ The **Opportunity** tracks the sale and the booking. The **Special Event Agreeme
 | Check a room or hold a date | [Locations & holds](./sales/locations-holds) |
 | Prepare a contract | [Create an agreement](./agreements/create) |
 | Fix a disabled Send button | [Choose & check signers](./agreements/signers) · [Schedule payments](./agreements/payments) |
+| Record a payment or see what's owed | [Track payments on a deal](/general/payments) |
+| Record post-event charges | [Finalize the event](./operations/finalize-event) |
+| Check splits or commission status | [Commission & revenue splits](/general/commission) |
 | Find the signed document | [Track signatures & files](./agreements/tracking) |
 | Prepare menus, timing, staffing, and an event-day plan | [Banquet Event Orders](./beos/overview) |
 | Revise an issued operating plan | [Handle BEO revisions](./beos/revisions) |

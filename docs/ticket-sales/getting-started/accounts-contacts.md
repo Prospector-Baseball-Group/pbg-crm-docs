@@ -6,7 +6,7 @@ Start with [General → Accounts & contacts](/general/accounts-contacts) to sear
 
 In the Ticketing Opportunity form, select **Account Name** first. The **Primary Contact** picker then becomes available and prioritizes people related to that account. Verify the selected person, especially if broader search results are offered.
 
-Primary Contact identifies the main person for the sale. The **Opportunity Owner** identifies who manages the sale. **Quota Credit Rep** is a separate reporting attribution field.
+Primary Contact identifies the main person for the sale. The **Opportunity Owner** identifies who manages the sale. The **Revenue splits** on the Commission tab decide who gets quota credit and commission.
 
 ## Move an existing sale to the business
 

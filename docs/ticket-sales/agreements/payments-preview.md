@@ -2,10 +2,12 @@
 
 A ready agreement has complete signer information and a payment schedule that exactly matches **Total Sales Price**.
 
+The agreement's payments are the opportunity's payments. They also appear on the opportunity's [Payments tab](/general/payments), and they stay with the opportunity if the agreement is revised.
+
 ## Set the schedule
 
 1. Open **Payment Schedule**.
-2. Review the first payment, which starts with the Opportunity Amount. Enter its date.
+2. Review the existing payments. A deal without payments starts with one payment for the Opportunity Amount, due at close. Enter or confirm its date.
 3. Use **Add Payment** to split the amount into installments, up to **six payments**.
 4. Give every payment a date and an amount greater than zero.
 5. Use the arrows to put payments in the intended order; use **Delete** to remove an unwanted row.
@@ -20,6 +22,12 @@ A ready agreement has complete signer information and a payment schedule that ex
 For a fictional **$1,200** agreement, you could schedule three agreed payments of **$400**. The total is $1,200. Two $400 payments leave a $400 gap and will not pass readiness. A zero-dollar row also blocks preview, even if the other payments add up correctly.
 
 Payment sequence is visible in the document. Check the dates and order rather than assuming the rows sort themselves chronologically.
+
+## After the agreement is sent
+
+Once the agreement is **Out for Signature** or **Signed**, each payment's date and amount lock, and payments can't be deleted. To change the plan, use the approved revision process.
+
+Ticketing payments are marked received from the deal's linked Tickets.com orders, not typed in. [Link the orders](../customers/ticket-orders.md#link-your-tickets-com-orders) so the schedule shows what the customer has paid.
 
 ## Generate Preview
 
