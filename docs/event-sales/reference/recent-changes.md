@@ -1,5 +1,9 @@
 # Recent changes
 
+## November 5, 2026
+
+- Special Event Agreement deposits may exceed the Usage Fee to cover other event charges, including food and beverage. When the Deposit covers the fee, no Usage Fee Balance is needed. Save, approval, and signature-document checks support the larger deposit. See [Schedule payments](../agreements/payments).
+
 This page records changes relevant to using Event Sales, with the release state distinguished from work still under verification.
 
 ## October 28, 2026 — Payments tab, Finalize Event, and agreement payments (with the payments release)

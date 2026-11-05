@@ -1,15 +1,15 @@
 # Schedule payments
 
-A valid payment schedule explains what the customer owes and when. The core schedule must reconcile to the agreement's Usage Fee.
+A valid payment schedule explains what the customer owes and when. The Deposit covers the Usage Fee first and may also cover other event charges, such as food and beverage.
 
 The payment terms on an agreement are the opportunity's payments. They also appear on the opportunity's [Payments tab](/general/payments), and they stay with the opportunity if the agreement is revised.
 
 ## The rule to remember
 
-**Deposit (only when one is charged) + one Usage Fee Balance = Usage Fee.**
+**The Deposit may exceed the Usage Fee. Add a Usage Fee Balance only for the part of the fee the Deposit does not cover.**
 
 - Add a **Deposit** only when the customer pays one. There are no $0 payments.
-- The **Usage Fee Balance** covers the rest of the fee and must be due **before the event date**. A Deposit for the whole fee needs no Balance.
+- The **Usage Fee Balance** covers the rest of the fee and must be due **before the event date**. A Deposit equal to or greater than the fee needs no Balance.
 - Use at most one of each. Waived payments don't count toward the total.
 
 The opportunity's Payments tab and reports call the Usage Fee Balance a **Balance**. Agreements and PDFs keep the name Usage Fee Balance.
@@ -26,6 +26,14 @@ All amounts in this example are fictional.
 | Core payment total | **$2,400** | Matches the Usage Fee |
 
 A Deposit of $600 plus a Balance of $2,400 would be incorrect: it totals $3,000. The balance is the remaining amount, not another copy of the full fee.
+
+## When the deposit is larger than the usage fee
+
+For a $2,400 Usage Fee, you can request a $3,000 Deposit to also cover food and beverage. The payment schedule shows the full $3,000 Deposit, and no Usage Fee Balance is needed. Add a note such as "Deposit toward usage fee and food and beverage" to explain what the deposit covers on the agreement.
+
+If the agreement already has an unpaid Usage Fee Balance, remove that row when the Deposit covers the full fee. Do not create a $0 or negative Balance. Keep additional charges under their appropriate payment type and avoid scheduling the same amount twice. A payment with a recorded receipt cannot be deleted; ask an administrator to review it.
+
+A larger Deposit can be saved, approved, and prepared for Adobe Sign when the other required agreement details are complete. It does not change the Usage Fee.
 
 ## Add or edit terms
 
@@ -64,7 +72,8 @@ Charges billed after the event are added with [Finalize Event](../operations/fin
 | --- | --- |
 | *Add a Usage Fee Balance payment for the $… of the Usage Fee that the Deposit doesn't cover.* | Add one Usage Fee Balance for the remaining amount |
 | *Only one Deposit payment is allowed…* or *Only one Usage Fee Balance payment is allowed…* | Correct the extra row's type instead of adding more rows |
-| *Deposit + Usage Fee Balance total … but the Usage Fee is … These amounts must match.* | Correct the fee or the payment amounts to match the actual agreement |
+| *Deposit + Usage Fee Balance total … but the Usage Fee is … These amounts must match.* | When the Deposit is below the Usage Fee, set the Balance to the remaining fee |
+| *The Deposit covers the Usage Fee. No Usage Fee Balance is needed.* | Remove the unpaid Balance, or use the appropriate payment type for other event charges |
 | *The Usage Fee Balance must be due before the event date.* | Move the Balance due date before the event |
 | *Amount must be greater than zero.* | Payments can't be $0. If no deposit is charged, don't add a Deposit |
 
