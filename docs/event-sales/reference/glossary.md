@@ -30,7 +30,7 @@
 | Legal Notice Contact | Formal-notice recipient under the agreement |
 | Company Signer | Authorized company user signing first in the current workflow |
 | Client Signer | Authorized customer person signing second |
-| Usage Fee | Agreement amount reconciled against Deposit plus Usage Fee Balance |
+| Usage Fee | Fee covered by the Deposit and any remaining Usage Fee Balance; the Deposit may also cover other event charges |
 | Deposit | Optional core payment term, added only when a deposit is charged; at most one |
 | Usage Fee Balance | Core payment term for the rest of the Usage Fee, due before the event; at most one. The opportunity's Payments tab calls it Balance |
 | Additional Access Area | Approved property access separate from the booked event locations |

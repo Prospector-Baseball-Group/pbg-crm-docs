@@ -37,7 +37,7 @@ Start with the visible message and the record’s current state. The fastest fix
 | Missing signer Street or ZIP | Select Edit [signer name], then Save contact & recheck |
 | Usage Fee Balance missing | Add one Usage Fee Balance for the amount the Deposit doesn't cover. A Deposit is needed only when one is charged |
 | Duplicate Deposit or Balance | Correct the extra row's type instead of adding more rows |
-| Fee mismatch | Deposit plus Usage Fee Balance must equal Usage Fee |
+| Fee mismatch | If the Deposit is below the Usage Fee, the Balance must cover the rest. A Deposit equal to or above the fee needs no Balance |
 | Balance due on or after the event | Move the Usage Fee Balance due date before the event date |
 | Payment type, amount, or due date is gray | The agreement is out for signature or signed. Record receipts or add a payment; revise the agreement to change the plan |
 | Conditional access will not save | Complete Access Detail |

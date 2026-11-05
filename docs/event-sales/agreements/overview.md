@@ -10,7 +10,7 @@ Build the customer-facing contract from an Event Sales Opportunity. The detailed
 | --- | --- | --- |
 | Create | Open the opportunity’s Special Event Agreements card | Correct account, event date, locations, and template |
 | Complete | Work through the agreement tabs | Customer, onsite and notice contacts, services, access, food and beverage |
-| Reconcile | Complete Scheduled Payments | One Usage Fee Balance, plus one Deposit only when one is charged; their total equals Usage Fee |
+| Reconcile | Complete Scheduled Payments | One Deposit when charged, which may exceed the Usage Fee; a Usage Fee Balance only for any remaining fee |
 | Confirm signers | Review Documents & Signatures | Correct Company and Client signers with complete details |
 | Preview | Generate and read the PDF | Document reflects the current saved agreement |
 | Review and approve | Submit for Review, then Approve for Send | No remaining validation blockers |
