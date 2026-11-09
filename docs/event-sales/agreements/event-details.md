@@ -8,7 +8,7 @@ Use **Event Details** to turn the opportunity’s sales information into accurat
 2. Review Event Description, Effective Date, Event Start Date, Event End Date, start time, end time, Time Zone, attendance, and Primary Event Space.
 3. Confirm the **Client Legal Entity Name**.
 4. Review **Onsite Contact** and **Legal Notice Contact** separately.
-5. Enter the agreement’s financial details, including Usage Fee and applicable deposit and balance-date values.
+5. Enter the agreement’s financial details, including Usage Fee and applicable deposit and balance-date values. On an event priced with products, the Usage Fee is read-only; see [Keep the financial fields consistent](#keep-the-financial-fields-consistent).
 6. Select **Save Event Details** and confirm the save succeeds.
 
 **Effective Date** is read-only and refreshes to the current date whenever a new PDF version is generated, with or without a selected Client Signer. It does not change the event dates or rewrite earlier PDFs.
@@ -42,5 +42,7 @@ The Client Signer’s required details are checked against the selected person�
 ## Keep the financial fields consistent
 
 Usage Fee is the amount against which the core payment schedule is validated. Do not stop after changing a header amount: open **Scheduled Payments** and make sure the Deposit covers it or the Usage Fee Balance covers the remaining fee. The Deposit may exceed the Usage Fee to cover other event charges. The Deposit and Balance Due Date shown in Event Details come from those payments.
+
+On an Akron event priced with [products](../sales/event-products), **Financial Details** lists the products and the Usage Fee is the event's client total. You can't edit it on the agreement. While the agreement is a Draft, changing the products on the opportunity's Revenue tab updates the Usage Fee and a single unpaid Usage Fee Balance. See [Events priced with products](./create#events-priced-with-products).
 
 **Next:** [Spaces & access](./spaces-access) · [Schedule payments](./payments).

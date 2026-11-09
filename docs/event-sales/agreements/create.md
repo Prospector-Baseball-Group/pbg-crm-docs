@@ -29,6 +29,20 @@ The Draft copies the opportunity’s customer, event information, primary contac
 
 The agreement’s **Effective Date** is read-only. Every newly generated PDF version uses the current date for the Salesforce user generating it, whether the Client Signer is selected or TBD. It is distinct from Event Start Date and the later date of signature completion. Opening an existing PDF does not change that copy’s date.
 
+## Events priced with products
+
+When an Akron event has [products](../sales/event-products) on its Revenue tab, the agreement's Usage Fee is the event's **client total**: billed products, tax, gratuity, and any city pass-through. The header **Create Agreement** window labels it **Usage Fee (client total)**. Save the event's products before you create the agreement.
+
+- **Event Details** shows the products under **Financial Details**. The Usage Fee is read-only there; change the products on the opportunity's Revenue tab instead.
+- The PDF's **Exhibit A** includes an **Itemized Usage Fee** table with each product, its quantity, rate, and amount, then subtotal, gratuity, tax, and the **Total Usage Fee**.
+- An Actual After Event line, such as a host bar, prints its rate as *Billed on actual* and its amount as *est. $X*, or *After the Event* when there's no estimate. A note explains that these are estimates and that the actual is invoiced or credited after the Event. Estimates count in the Usage Fee.
+
+**While the agreement is a Draft,** saving products updates its Usage Fee and a single unpaid Usage Fee Balance payment. Regenerate the PDF afterward.
+
+**Once it's out for signature or signed,** product changes don't change the agreement or its payments. The Revenue tab shows a notice that the signed agreement differs from the client total, and [Finalize Event](../operations/finalize-event) bills or credits the difference after the event.
+
+Events without products keep a Usage Fee you enter in Event Details.
+
 ## Refresh after an opportunity change
 
 While the agreement is an unlocked **Draft**:

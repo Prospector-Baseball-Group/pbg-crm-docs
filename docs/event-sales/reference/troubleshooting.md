@@ -13,6 +13,8 @@ Start with the visible message and the record’s current state. The fastest fix
 | Notes or New is missing | Account versus Contact navigation; page and record/note access | Use Account **Notes** or Contact **Related → Notes**, refresh, then follow [Notes troubleshooting](/general/notes#if-notes-is-missing-or-a-note-cannot-be-found) |
 | Event cannot save without a date | Current Stage | Supply Event Start Date at Quoted or later active stages |
 | Event Type is disabled | Event Category | Select the category first |
+| *Select a Loss Reason before closing this event…* | Loss Reason | Choose a Loss Reason in **Why it was lost** or the **Close Lost / Turn Down** action. See [Close lost or turn down](../sales/close-lost) |
+| Next Step or Follow-Up By is missing from Edit | Stage | The **Next step** section shows only while the deal is open. See [Move through stages](../sales/stages#keep-next-step-and-follow-up-by-on-the-path) |
 | Location choices are missing | Division and active location catalog | Correct Division or ask the catalog administrator |
 
 ## Locations, calendar, and metrics
@@ -46,6 +48,18 @@ Start with the visible message and the record’s current state. The fastest fix
 | Send remains disabled with no blockers | Check status: Submit for Review, then Approve for Send |
 | Refresh from Opportunity is disabled | It is available only for an unlocked Draft |
 
+## Event products and the Revenue tab
+
+| Problem | Correction |
+| --- | --- |
+| An Akron event's Revenue tab still shows **Split revenue** | Refresh the browser page once |
+| **Save products** is disabled, with *Enter a price for [product], or remove it until it's quoted.* | Enter the Set Per Event product's price, or remove the line until it's quoted. See [price basis](../sales/event-products#how-each-product-starts-price-basis) |
+| A host bar or cash bar line shows **After the event** instead of an amount | Expected: it's billed on actual and has no estimate. Enter the actual at [Finalize Event](../operations/finalize-event) |
+| *This event's Amount comes from its products. Change them on the Revenue tab.* | Change the products instead of typing the Amount |
+| The Revenue tab says the signed agreement differs from the client total | Expected after a product change on a signed agreement. Finalize Event bills or credits the difference |
+| The agreement's Usage Fee can't be edited | On an itemized event it's the client total. Change the products on the Revenue tab while the agreement is a Draft |
+| Jacksonville or Lancaster event has no **Add products** | Their menus aren't set up yet; use **Split revenue** |
+
 ## Payments and finalizing
 
 | Problem | Correction |
@@ -53,6 +67,7 @@ Start with the visible message and the record’s current state. The fastest fix
 | *Select a Lead Source (how this event inquiry reached us) before saving this Event Sales opportunity.* when adding a payment | Saving a payment also updates the opportunity. Set **Lead Source** on the opportunity, then add the payment again |
 | Payment Status stays **Awaiting Event Finalization** | Use [Finalize Event](../operations/finalize-event) after the event |
 | *Finalize Event is available after the event ends.* | Wait until the event's last date |
+| A final amount changed after the event was finalized | On an itemized event, use **Correct final amounts** on the Revenue tab. See [Correct final amounts](../operations/finalize-event#correct-final-amounts) |
 | Waive or Delete is missing on a payment | Only finance can waive or delete payments |
 | Splits can't be changed | Splits lock once the deal is fully paid. See [Commission & revenue splits](/general/commission) |
 

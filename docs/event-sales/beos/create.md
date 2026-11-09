@@ -52,6 +52,8 @@ Search using the beginning of the Opportunity name, including the season when pr
 
 An existing current BEO for the same Opportunity and event date opens without copying over its saved work. To change an issued or accepted BEO, use [Create revision](./revisions), not New.
 
+On an Akron event priced with [products](../sales/event-products), a new BEO also copies the deal's billed products, not tax or gratuity, into **Timeline & Details** as **Included in agreement** lines. Review their quantities with the operating team.
+
 A new BEO is a snapshot, not a live synchronization. If the source changes afterward, review the BEO and update its Draft deliberately. Starting from a different agreement does not replace the source or details of an already existing current BEO.
 
 You can prepare a Draft before the agreement is signed. Before issuing, an unsigned or missing source agreement requires a legitimate, documented **Reason for BEO Without Signed Agreement** under **Event & Operations → Review**. Follow your club’s authorization process; do not use an exception simply to skip a pending signature.

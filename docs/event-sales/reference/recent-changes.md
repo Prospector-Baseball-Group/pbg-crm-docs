@@ -1,5 +1,23 @@
 # Recent changes
 
+## November 9, 2026 — Event products, Next Step on the path, and loss reasons
+
+**Event products (Akron RubberDucks only).** Jacksonville and Lancaster keep the **Split revenue** view until their menus are set up.
+
+- The Revenue tab on an Akron event offers **Add products**: choose items from the club's menu, with 18% gratuity and 6.75% sales tax added automatically. Each product's price basis decides whether it starts at a standard price, needs a price on each event, or is billed on actual after the event. See [Price an event with products](../sales/event-products).
+- For an event with products, the Amount is the event's revenue, including cash bar and excluding tax, gratuity, and city pass-through. The client total is what's billed; the Payments tab and the agreement's Usage Fee follow it. Tax and gratuity aren't commissionable; cash bar is.
+- **Create Agreement** shows **Usage Fee (client total)**, and Exhibit A of the agreement PDF has an **Itemized Usage Fee** table. Product changes update a Draft agreement's Usage Fee, but not an agreement that is out for signature or signed. See [Create an agreement](../agreements/create#events-priced-with-products).
+- A new BEO copies the deal's billed products as **Included in agreement** lines, and BEO charges can be tagged with a product. See [Tag charges with a product](../beos/prepare-issue#tag-charges-with-a-product).
+- **Finalize Event** on an event with products confirms each line's final amount, starting from changes made on the BEO, and adds cash bar or extra consumption. Billed amounts not already scheduled become a **Post-Event Charges** payment. **Correct final amounts** on the Revenue tab fixes them afterward. Events without products keep the single post-event charges form. See [Finalize the event](../operations/finalize-event).
+- The **Event Watch List** report in **Revenue Reporting** breaks Akron itemized events down by category. See [Lists, reports & dashboards](../reporting/reports#event-watch-list).
+- Club event leads keep their club's menu with the **Event Product Editor** permission set. See [Manage the event product menu](../administration/event-products).
+
+**Next Step and Follow-Up By.** In PBG Sales they're key fields on the sales path at every open stage, editable from the **Next Step** box under the path, and in a **Next step** section on the Overview tab and in **Edit**. Event Sales has its own sales path for this. See [Move through stages](../sales/stages#keep-next-step-and-follow-up-by-on-the-path).
+
+**Loss reasons.** **Preferred Date Unavailable** is a new Loss Reason for when the client's date was taken. Event Sales requires a Loss Reason before closing, and the **Why it was lost** section now appears in **Edit** on any deal that isn't won. See [Close lost or turn down](../sales/close-lost).
+
+**Verification:** released to production on November 9, 2026. The full event products flow (Revenue tab, agreement and PDF, BEO, Finalize Event, and Correct final amounts) was run with fictional records in a Salesforce sandbox in the PBG Sales app. In production, the Revenue tab's product editor was opened and cancelled without saving, and the Event Watch List report was run. No agreement was sent for signature and no payment was collected.
+
 ## November 5, 2026
 
 - Special Event Agreement deposits may exceed the Usage Fee to cover other event charges, including food and beverage. When the Deposit covers the fee, no Usage Fee Balance is needed. Save, approval, and signature-document checks support the larger deposit. See [Schedule payments](../agreements/payments).
