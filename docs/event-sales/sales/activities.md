@@ -2,6 +2,8 @@
 
 Leave the record ready for the next person to act: what happened, what happens next, who owns it, and when it is due.
 
+For exact steps to keep the individual and business linked, including captured-email corrections, see [Log activities against a Business Account](/general/business-account-activities).
+
 ## Log the interaction on the opportunity
 
 1. Open the Event Sales Opportunity.

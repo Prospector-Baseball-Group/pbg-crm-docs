@@ -7,6 +7,7 @@ Everyday Salesforce guidance for PBG staff across Event Sales, Ticket Sales, and
 | I need to… | Open this guide |
 | --- | --- |
 | Upload a document, choose a library, or share a public link | [Files & public links](./files-public-links) |
+| Log work against a specific business and individual | [Business Account activities](./business-account-activities) |
 | Save lasting customer or individual context | [Customer notes](./notes) |
 | Find or create the right customer record | [Accounts & contacts](./accounts-contacts) |
 | Choose columns, filters, and a personal work list | [Personal list views](./list-views) |

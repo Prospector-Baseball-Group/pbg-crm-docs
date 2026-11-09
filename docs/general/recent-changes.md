@@ -1,5 +1,11 @@
 # Recent changes and verification
 
+## November 9, 2026 — Business Account activity logging
+
+Added [Business Account activities](./business-account-activities) with steps for linking people and businesses, selecting a specific Opportunity, scheduling future work, correcting captured emails through **Manage Associations**, and verifying the result before relying on a report. It also explains the deployed 3CX linking rule and completed call backfill; emails are outside that automation's scope.
+
+**Verified:** live PBG Sales forms and Sales Rep layout assignments support the required person and related-record controls. The Business Account form keeps the selected business fixed while allowing contact selection. The email composer displays an EAC association warning; the captured email form exposes Account/Opportunity selection and a thread-wide checkbox. Inspection used unsaved forms, without changing customer activities or sending messages. No new layout deployment or fields were needed.
+
 ## October 28, 2026 — Payments and commission (with the payments release)
 
 Two new shared guides cover tabs that now appear on every Ticketing, Event Sales, and Partnership opportunity:
