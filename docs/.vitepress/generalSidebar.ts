@@ -1,5 +1,6 @@
 const guideItems = [
   { text: 'Files & public links', link: '/general/files-public-links' },
+  { text: 'Business Account activities', link: '/general/business-account-activities' },
   { text: 'Customer notes', link: '/general/notes' },
   { text: 'Accounts & contacts', link: '/general/accounts-contacts' },
   { text: 'Personal list views', link: '/general/list-views' },

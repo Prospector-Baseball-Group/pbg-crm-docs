@@ -2,16 +2,18 @@
 
 Use Salesforce to preserve the customer context around outreach. Follow your team's approved communication and consent practices for sending email.
 
+For exact steps to keep the individual and business linked, including captured-email corrections, see [Log activities against a Business Account](/general/business-account-activities).
+
 ## Send a one-to-one email
 
 1. Open the customer or Opportunity you are working.
 2. Choose the available **Email** action.
 3. Verify the recipient and sender address.
 4. Insert an approved template if useful, then check every merged name, date, amount, and link.
-5. Review the complete message before sending.
+5. Check **Related To**, review any EAC association warning, and review the complete message before sending.
 6. Check the record's activity history afterward and set the next follow-up on the Opportunity.
 
-Sending from an Opportunity keeps the deal context close to the conversation. Selecting a Contact or Account alone does not establish the next Opportunity action.
+Starting from an Opportunity provides deal context, but check the saved email association afterward. EAC can determine the final association independently of the composer selection. Use **Manage Associations** on the captured email to correct it. Selecting a Contact or Account alone does not establish the next Opportunity action.
 
 ## Find an email template
 

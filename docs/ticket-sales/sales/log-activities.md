@@ -2,6 +2,8 @@
 
 Log the work once, on the record that explains it. Choose the correct Activity Type and people so the history and activity reporting are useful.
 
+For exact steps to keep the individual and business linked, including captured-email corrections, see [Log activities against a Business Account](/general/business-account-activities).
+
 ## Choose where to start
 
 | Conversation | Recommended starting record |

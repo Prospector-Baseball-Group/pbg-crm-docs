@@ -2,6 +2,8 @@
 
 Start with the customer relationship, then attach the sale. Searching first prevents duplicate history and saves the next rep from having to piece together the conversation.
 
+For exact steps to keep the individual and business linked, including captured-email corrections, see [Log activities against a Business Account](/general/business-account-activities).
+
 ## Choose the right record
 
 | Customer | Record to use | Where the people belong |

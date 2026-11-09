@@ -46,6 +46,7 @@ Start in **[General](./general/)** for workflows shared across teams:
 | I need to… | Guide |
 | --- | --- |
 | Upload or share a document | [Files & public links](./general/files-public-links) |
+| Link calls, emails, or tasks to a business | [Business Account activities](./general/business-account-activities) |
 | Save lasting customer context | [Customer notes](./general/notes) |
 | Find or create a customer | [Accounts & contacts](./general/accounts-contacts) |
 | Customize columns and filters | [Personal list views](./general/list-views) |
