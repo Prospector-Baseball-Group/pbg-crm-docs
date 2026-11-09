@@ -1,6 +1,6 @@
 # Close lost or turn down
 
-Use the dedicated action to preserve why a booking did not happen.
+Record why a booking did not happen. Event Sales requires a **Loss Reason** before an event can be closed lost.
 
 ## Close the opportunity
 
@@ -12,11 +12,32 @@ Use the dedicated action to preserve why a booking did not happen.
 6. Add **Closure Notes**. Notes are required for an Other reason.
 7. Save and confirm **Closed Lost** and **Released**.
 
+## Or close it from the Edit window
+
+In **PBG Sales**, the **Why it was lost** section (**Loss Reason**, **Turned Down Reason**, and **Lost To**) appears in the **Edit** window on any deal that isn't won.
+
+1. Open the opportunity and select **Edit**.
+2. Set **Stage** to **Closed Lost**.
+3. In **Why it was lost**, choose the **Loss Reason**. Add **Turned Down Reason** and **Lost To** when they apply.
+4. Select **Save**.
+
+**Expected result:** the deal saves as **Closed Lost** with its reason. If no Loss Reason is chosen, Salesforce shows *Select a Loss Reason before closing this event. Use Turned Down by Us when we declined the booking.*
+
 ## Choose an accurate reason
+
+| Situation | Loss Reason |
+| --- | --- |
+| The client's preferred date was already taken | **Preferred Date Unavailable** |
+| PBG declined the booking | **Turned Down by Us**, with a **Turned Down Reason** |
+| The customer chose not to proceed | The customer-loss reason that fits, such as **Price** or **Lost to Competitor** |
 
 Use Turned Down by Us when the venue could not accommodate or chose not to accept the event. Use the appropriate customer-loss reason when the customer chose not to proceed. Do not infer a competitor or reason you have not confirmed.
 
+**Preferred Date Unavailable** and the Turned Down Reason **Date unavailable** overlap. Use **Preferred Date Unavailable** when the client wanted a date that was already booked. Use **Turned Down by Us → Date unavailable** when PBG declined the booking for date reasons.
+
 If you change Loss Reason away from Turned Down by Us, clear Turned Down Reason as well.
+
+**Primary Objection**, in the Closing section, is a different field. Use it for what's holding back a deal that's still open, not for why a deal was lost.
 
 ## What happens next
 

@@ -1,5 +1,11 @@
 # Recent changes and verification
 
+## November 9, 2026 — Next Step on the path and Why it was lost in Edit
+
+In **PBG Sales**, **Next Step** and **Follow-Up By** are key fields on the sales path at every open stage, and the **Edit** window has a **Next step** section while the deal is open. The **Why it was lost** section appears in **Edit** on any deal that isn't won, so you can close a deal lost and record its Loss Reason in one save. **Primary Objection** is for open deals. See [Move through sales stages](../sales/stages.md#close-lost) and [General recent changes](/general/recent-changes).
+
+**Verification:** released to production on November 9, 2026.
+
 ## October 28, 2026 — Tickets.com orders, payments, and splits (with the payments release)
 
 - Link a deal's orders on the **Tickets.com Orders** card by Tickets.com order ID, or save a pending link for an order that hasn't synced. An order belongs to one deal. See [Link your Tickets.com orders](../customers/ticket-orders.md#link-your-tickets-com-orders).

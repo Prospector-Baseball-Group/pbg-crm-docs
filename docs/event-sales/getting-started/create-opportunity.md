@@ -14,7 +14,7 @@ Have the customer account, a related person for a business customer, the eventâ€
 4. Select **Account Name**. For a business account, choose the related **Primary Contact**.
 5. Set **Close Date**, **Stage**, and **Type**. The usual starting values are Interested and New.
 6. Select **Event Category**, then the appropriate **Event Type** if applicable.
-7. Add the estimated **Amount**, Event Start Date, optional Event End Date, times, attendance, and primary location when known.
+7. Add the estimated **Amount**, Event Start Date, optional Event End Date, times, attendance, and primary location when known. For an Akron event, the Amount follows the event's [products](../sales/event-products) once you add them on the Revenue tab.
 8. Write **Next Step** and set **Follow-Up By**.
 9. Select **Save**. Review the record and add any additional locations in **Event Locations**.
 

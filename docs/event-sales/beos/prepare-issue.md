@@ -38,6 +38,12 @@ Select **Save BEO details** before switching tasks, previewing, or issuing. Time
 
 Line amounts are **quantity × hours × unit price**; blank hours count as one. Additional charges and consumption estimates are separate. The source agreement value is a reference, not an amount to enter again as an additional charge. These totals are not an invoice balance. Record applicable taxes, service charges, gratuity, and billing terms in **Payment / Billing Instructions**.
 
+### Tag charges with a product
+
+On an event priced with [products](../sales/event-products), choose a **Product** on each **Additional charge** or **Consumption estimate** detail, such as the host bar or extra food. The list only offers event products. [Finalize Event](../operations/finalize-event#how-the-beo-is-used) adds tagged charges to the event's final lines; it reports untagged charges as a total for you to add by hand.
+
+Lines copied from the deal's products are already linked. If the guest count or amount changes, change it on the BEO: Finalize Event uses a BEO quantity or amount only where someone changed it on the BEO.
+
 ## Review and issue
 
 1. Save all changes and select **Preview draft PDF**.

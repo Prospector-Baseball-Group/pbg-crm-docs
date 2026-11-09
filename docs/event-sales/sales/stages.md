@@ -21,6 +21,19 @@ Choose the stage that reflects the customer’s actual progress. Salesforce supp
 
 Event Start Date can be blank at Interested. It is required at Quoted, Walkthrough, Contract Sent, and Contract Signed. Closed Lost is exempt from that event-date requirement.
 
+## Keep Next Step and Follow-Up By on the path
+
+In **PBG Sales**, **Next Step** and **Follow-Up By** are key fields on the sales path at every open stage. You can update them in any of these places:
+
+- **On the path:** select the arrow at the left of the path to show the key fields, then edit them.
+- **In the summary under the path:** use the **Next Step** box.
+- **On the Overview tab:** in the **Next step** section under **Deal**.
+- **In the Edit window:** in the same **Next step** section.
+
+The **Next step** section shows while the deal is open. **Event Requirements** is in **The event** section.
+
+**Expected result:** the new Next Step and Follow-Up By show on the path and in the summary.
+
 ## Stage and reservation work together
 
 Moving to **Contract Signed** sets Booking Status to **Booked** and clears the hold expiration. Moving to **Closed Lost** sets Booking Status to **Released** and clears the expiration.
@@ -35,4 +48,4 @@ A generated PDF or a Ready to Send agreement is not evidence that a contract has
 
 The workflow can create **Follow up on quote**, **Prepare for walkthrough**, and **Follow up on contract** tasks. Review the task’s due date and owner after changing stage. A task is a reminder; it does not mean an email was sent.
 
-To record a loss with the required reason, use [Close lost or turn down](./close-lost).
+To record a loss with the required reason, use [Close lost or turn down](./close-lost). In PBG Sales you can also set Stage to Closed Lost in the **Edit** window and choose the Loss Reason in its **Why it was lost** section.

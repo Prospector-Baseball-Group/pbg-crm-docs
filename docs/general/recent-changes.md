@@ -1,5 +1,17 @@
 # Recent changes and verification
 
+## November 9, 2026 — Next Step on the path and Why it was lost in Edit
+
+These changes apply to Ticketing, Event Sales, and Partnership opportunities in the **PBG Sales** app:
+
+- **Next Step** and **Follow-Up By** are key fields on the sales path at every open stage. Select the arrow at the left of the path to show them. You can also edit them from the **Next Step** box in the summary under the path, or in the **Next step** section under **Deal** on the Overview tab and in the **Edit** window while the deal is open.
+- The **Why it was lost** section (**Loss Reason**, **Turned Down Reason**, **Lost To**) appears in the **Edit** window on any deal that isn't won, so you can set Stage to Closed Lost and choose the reason in one save.
+- **Primary Objection**, in the Closing section, is for what's holding back a deal that's still open. Record why a deal was lost in **Why it was lost**.
+
+Event Sales also changed on the same day: event products for Akron, a new loss reason, and a required Loss Reason. See [Event Sales recent changes](/event-sales/reference/recent-changes). Event products change what the Payments tab expects on an Akron event priced with products; see [Track payments on a deal](./payments#add-a-payment).
+
+**Verification:** released to production on November 9, 2026.
+
 ## November 9, 2026 — Business Account activity logging
 
 Added [Business Account activities](./business-account-activities) with steps for linking people and businesses, selecting a specific Opportunity, scheduling future work, correcting captured emails through **Manage Associations**, and verifying the result before relying on a report. It also explains the deployed 3CX linking rule and completed call backfill; emails are outside that automation's scope.

@@ -34,7 +34,7 @@ Review the impact on location availability, staffing, catering, payment dates, c
 
 ## After the event
 
-Use [Finalize Event](./finalize-event) to record post-event charges, or confirm there were none. The deal can't become fully paid, and its commission can't be earned, until the event is finalized.
+Use [Finalize Event](./finalize-event) to record final amounts or post-event charges, or confirm there were none. The deal can't become fully paid, and its commission can't be earned, until the event is finalized.
 
 ## Prepare the Banquet Event Order
 

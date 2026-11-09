@@ -16,7 +16,7 @@ Use Stage to communicate the customer's progress. The descriptions below are pra
 1. Open the Opportunity.
 2. Use the stage path or **Edit** to choose the new Stage.
 3. Confirm the Amount and Close Date.
-4. Update the Next Step and Follow-Up By for an open deal.
+4. Update the Next Step and Follow-Up By for an open deal. In **PBG Sales**, they're key fields on the sales path: select the arrow at the left of the path to show them.
 5. Save and verify the displayed Stage.
 
 Default probability is a configured forecast assumption. It is not evidence that the customer has committed or paid.
@@ -29,7 +29,7 @@ After closing, check ticket order linkage and follow the [agreement workflow](..
 
 ## Close lost
 
-Record the available **Primary Objection** and **Closing Notes** so the next person understands why the deal ended. Keep the historical outcome accurate. A future selling cycle can be a new Opportunity with the correct Season and Type.
+Record why the deal ended so the next person understands it. In **PBG Sales**, select **Edit**, set **Stage** to **Closed Lost**, and choose the **Loss Reason** in the **Why it was lost** section; add **Lost To** when you know where the buyer went. Add **Closing Notes** for anything else. **Primary Objection** is for what's holding back a deal that's still open. Keep the historical outcome accurate. A future selling cycle can be a new Opportunity with the correct Season and Type.
 
 ## Renewals, upsells, and add-ons
 

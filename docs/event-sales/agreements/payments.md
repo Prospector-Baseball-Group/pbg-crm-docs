@@ -35,6 +35,12 @@ If the agreement already has an unpaid Usage Fee Balance, remove that row when t
 
 A larger Deposit can be saved, approved, and prepared for Adobe Sign when the other required agreement details are complete. It does not change the Usage Fee.
 
+## When the event is priced with products
+
+On an Akron event with [products](../sales/event-products), the Usage Fee is the event's client total, including tax and gratuity. The same rule applies: the Deposit and any Usage Fee Balance must cover it.
+
+While the agreement is a Draft, saving products on the opportunity updates the Usage Fee. When there's a single unpaid Usage Fee Balance, it becomes the client total less the other payments. Otherwise, or when the Deposit already covers the new total, check the line at the top of **Scheduled Payments** and correct the terms yourself. After the agreement is out for signature or signed, product changes don't change its payments; Finalize Event bills or credits the difference after the event.
+
 ## Add or edit terms
 
 1. Open **Scheduled Payments**. The line at the top compares the Usage Fee with Deposit + Usage Fee Balance.

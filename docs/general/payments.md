@@ -15,7 +15,7 @@ This guide describes the Payments tab released with the payments and commissions
 | Summary item | What it shows |
 | --- | --- |
 | Payment Status | Where the whole deal stands; see the table below |
-| Expected | What the customer is expected to pay for this deal |
+| Expected | What the customer is expected to pay for this deal. On an Event Sales deal priced with [event products](/event-sales/sales/event-products), it's the client total, including tax and gratuity |
 | Scheduled | The total of the payments on the schedule, not counting waived payments |
 | Received | What has been recorded as received |
 | Balance Due | What is still owed on the schedule |
@@ -42,7 +42,7 @@ Each payment is a card with its type, number, and status: **Scheduled**, **Invoi
 
 | Field | Use it for |
 | --- | --- |
-| Payment Type | Deposit, Installment, Balance, Full Payment, Trade (Barter), Post-Event F&B, Add-On, F&B/BEO, Staffing, or Other |
+| Payment Type | Deposit, Installment, Balance, Full Payment, Trade (Barter), Post-Event F&B, Post-Event Charges, Add-On, F&B/BEO, Staffing, or Other |
 | Due Date | When the customer agreed to pay |
 | Amount Due | The agreed amount; it must be greater than zero |
 | Balance | What is still owed on this payment |
@@ -66,7 +66,7 @@ When a deal is won and has no payments yet, Salesforce adds a starting schedule 
 | Line | Starting schedule |
 | --- | --- |
 | Partnership | A Full Payment for the cash amount and a Trade (Barter) payment for the barter amount, both due at contract start, or at the close date when the deal has no contract start date |
-| Event Sales | A Balance for the deal amount, due a week before the event |
+| Event Sales | A Balance for the deal amount, due a week before the event. On an event priced with products, the Balance is for the client total, and cash bar sales paid at the event never become a payment |
 | Ticketing | A Full Payment for the deal amount, due at close and paid through Tickets.com |
 
 ### Example

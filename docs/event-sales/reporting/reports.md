@@ -26,13 +26,23 @@ For your own filters or columns, clone an appropriate view and choose **Only I c
 
 For unsuccessful events, use **Event Sales Reports → Event Sales Lost & Turned Down**. Its summed Amount represents estimated opportunity value, not collected revenue.
 
+## Event Watch List
+
+**Revenue Reporting → Event Watch List** breaks Akron events down by revenue category. All internal users can open it. It mirrors the club's Special Events Watch List spreadsheet.
+
+- One row per Akron event, in event-date order.
+- Columns by category, such as Food, Beverage, and Cash Bar, then split into billed to the client and collected at the event.
+- Only events priced with [products](../sales/event-products) appear. Closed Lost events are left out.
+
+Read the totals the same way as the Revenue tab: an event's Amount is its revenue, including cash bar, and its client total adds tax, gratuity, and city pass-through. See [What the numbers mean](../sales/event-products#what-the-numbers-mean).
+
 ## Understand the revenue breakdown limit
 
 Event Sales Home totals sum the **Opportunity Amount** for the selected scope. A total alone does not separate facility rental, food, and bar revenue, or establish that payment was collected.
 
-As of this guide's October 6, 2026 review, a standardized component-revenue breakdown for Event Sales has not been rolled out. The Partnership approach of reporting agreement line items by Product Family / Sub-Family does not automatically apply to Event Sales. Agreement fee fields and scheduled payments also serve different purposes; do not add a deposit to the full fee and count it as extra revenue.
+The Event Watch List gives a component breakdown only for Akron events priced with products. Jacksonville and Lancaster events, and Akron events without products, have no standard component breakdown yet. The Partnership approach of reporting agreement line items by Product Family / Sub-Family does not apply to Event Sales. Agreement fee fields and scheduled payments also serve different purposes; do not add a deposit to the full fee and count it as extra revenue.
 
-When Finance needs a component breakdown, agree on the source and definitions with the administrator and Finance team before distributing a report. Do not present an Opportunity Amount report as a verified facility-rental / food / bar allocation.
+For any other component breakdown, agree on the source and definitions with the administrator and Finance team before distributing a report. Do not present an Opportunity Amount report as a verified facility-rental / food / bar allocation.
 
 ## Compare dates correctly
 
