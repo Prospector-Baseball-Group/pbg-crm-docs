@@ -61,6 +61,6 @@ Reps price events with the permissions they already hold for Event Sales, agreem
 | Permission set | Who gets it | What it allows |
 | --- | --- | --- |
 | Event Product Admin | The Salesforce admin and anyone who manages every club's menu | Edit any club's event products |
-| Event Product Editor | Club event leads | Add, reprice, or retire only their own club's event products, matched on their user **Division** |
+| Event Product Editor | Club event leads | Reprice or retire only their own club's event products, matched on their user **Division**. New menu items come from the Salesforce admin |
 
 An Event Product Editor needs the correct **Division** on their user record. See [Manage the event product menu](./event-products).

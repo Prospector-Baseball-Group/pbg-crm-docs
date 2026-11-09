@@ -11,7 +11,7 @@ Akron's menu is live. Jacksonville and Lancaster get event products once their m
 | Permission set | Who gets it | What it allows |
 | --- | --- | --- |
 | Event Product Admin | The Salesforce admin and anyone who manages every club's menu | Edit any club's event products |
-| Event Product Editor | Each club's event lead | Add, reprice, or retire only their own club's event products, matched on the user's **Division** |
+| Event Product Editor | Each club's event lead | Reprice or retire only their own club's event products, matched on the user's **Division**. New menu items come from the Salesforce admin |
 
 Reps don't need either permission set to price an event. They can change any rate or amount on a deal without changing the menu.
 
