@@ -38,7 +38,7 @@ A revenue split assigns portions of the same deal. It doesn't change the opportu
 
 ## What the split is paid on
 
-Partnership commission is paid on **deal value**: cash plus barter, including manually priced deals. Finance and commission admins see each rep's share of that base in the Commission tab's **Commission** column.
+Partnership commission is paid on **deal value less noncommissionable allocations**, including [Pass-Through reimbursements](./product-revenue-categories). Cash, barter, and manually priced deals follow that same rule. Finance and commission admins see each rep's share of that base in the Commission tab's **Commission** column.
 
 Commission is earned when the deal is fully paid, including its barter. See [Partnership payments and barter](./payments).
 
@@ -48,10 +48,7 @@ Sales Targets credit each rep with their split of the deal, so goal dashboards f
 
 ## What isn't covered
 
-Splits don't:
-
-- deduct costs or other exclusions to calculate net eligible revenue, or
-- separate corporate partnership revenue from ticketing, food and beverage, events, or other revenue streams.
+Product [revenue categories](./product-revenue-categories) determine whether an amount counts as revenue or commissionable value. Rep splits determine who receives credit for that commissionable value. Entering hard or production costs alone does not create a revenue exclusion.
 
 ## Troubleshooting
 

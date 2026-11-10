@@ -28,7 +28,7 @@ Sales reps see the deal's **Payment Status** and **Fully Paid** date in place of
 | --- | --- |
 | Ticketing | Net ticket revenue from the linked Tickets.com orders, not the deal amount |
 | Event Sales | The final amount after **Finalize Event**, including post-event charges. On an event priced with [event products](/event-sales/sales/event-products), that's the event's revenue: tax and gratuity aren't commissionable, and cash bar is |
-| Partnership | Deal value: cash plus barter |
+| Partnership | Deal value (cash plus barter) less noncommissionable allocations, including [Pass-Through reimbursements](/partnerships/product-revenue-categories) |
 
 ## When commission is earned
 
