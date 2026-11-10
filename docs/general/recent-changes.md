@@ -1,5 +1,13 @@
 # Recent changes and verification
 
+## November 9, 2026 — Native Business Account merging for managers
+
+Managers can now open **Duplicate Record Sets** from **PBG Sales**, add two confirmed duplicate Business Accounts even when their names differ, and use **Compare and Merge**. The [merge guide](./merge-accounts) covers the full rule lookup, the required refresh after adding records, principal-record selection, and cases to send for review.
+
+Successful Account merges automatically create a **Pending** internal FDP follow-up record. This captures merge evidence; it does not merge FDP identities.
+
+**Verified:** deployed to production and tested end to end with fictional Accounts using Salesforce's administrator **Login As** feature for a manager. App navigation, set/item creation, native merge, retained contact relationship, and the automatic follow-up record all passed. Access assignments were checked for all 15 current club/function managers. The fictional records were cleaned up. This was delegated-login verification, not a separate manager sign-in.
+
 ## November 9, 2026 — Next Step on the path and Why it was lost in Edit
 
 These changes apply to Ticketing, Event Sales, and Partnership opportunities in the **PBG Sales** app:

@@ -2,6 +2,10 @@
 
 Keep one coherent customer history. Before adding a replacement record, check whether the information is on another record, hidden by a filter, or waiting for review.
 
+## Managers: merge confirmed duplicate businesses
+
+Use [Merge duplicate Business Accounts](/general/merge-accounts) for the native **Duplicate Record Sets → Compare and Merge** workflow in PBG Sales. It supports different names without a duplicate alert. Person Accounts and uncertain or source-linked cases continue through the review process below.
+
 ## Flag a potential duplicate
 
 1. Open both records and compare the organization or person's identity, email, phone, address, and sales history. A similar name alone is not enough.

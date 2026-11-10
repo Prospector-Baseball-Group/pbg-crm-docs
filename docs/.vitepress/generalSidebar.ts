@@ -3,6 +3,7 @@ const guideItems = [
   { text: 'Business Account activities', link: '/general/business-account-activities' },
   { text: 'Customer notes', link: '/general/notes' },
   { text: 'Accounts & contacts', link: '/general/accounts-contacts' },
+  { text: 'Merge duplicate accounts', link: '/general/merge-accounts' },
   { text: 'Personal list views', link: '/general/list-views' },
   { text: 'Future tasks & reminders', link: '/general/future-tasks' },
   { text: 'Deal payments', link: '/general/payments' },
