@@ -10,6 +10,7 @@ Everyday Salesforce guidance for PBG staff across Event Sales, Ticket Sales, and
 | Log work against a specific business and individual | [Business Account activities](./business-account-activities) |
 | Save lasting customer or individual context | [Customer notes](./notes) |
 | Find or create the right customer record | [Accounts & contacts](./accounts-contacts) |
+| Combine confirmed duplicate businesses as a manager | [Merge duplicate accounts](./merge-accounts) |
 | Choose columns, filters, and a personal work list | [Personal list views](./list-views) |
 | Schedule work or find a task missing from the timeline | [Future tasks & reminders](./future-tasks) |
 | See what a customer owes, add a payment, or record a receipt | [Track payments on a deal](./payments) |

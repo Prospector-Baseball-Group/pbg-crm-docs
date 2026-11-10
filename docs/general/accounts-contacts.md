@@ -49,4 +49,4 @@ After saving, check the account type, owner, spelling, and contact details. Oppo
 - [Ticket Sales contacts and moving a sale to a business](/ticket-sales/getting-started/accounts-contacts)
 - [Partnerships CRM guide](https://agilitek-solutions.gitbook.io/partnerships-crm-agilitek)
 
-Ask an administrator to handle a mistaken account type or a duplicate merge.
+Managers can [merge confirmed duplicate Business Accounts](./merge-accounts), including records with different names. Ask an administrator to handle a mistaken account type, Person Account duplicates, or a merge that needs source-data review.
