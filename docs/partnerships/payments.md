@@ -51,6 +51,6 @@ The deal shows **Partially Paid** until the second installment is received and t
 
 ## Commission
 
-Partnership commission is paid on deal value, cash plus barter, once the deal is fully paid. See [Commission & revenue splits](./opportunity-splits) for splits on partnership deals.
+Partnership commission is paid on deal value (cash plus barter) less noncommissionable allocations, including [Pass-Through reimbursements](./product-revenue-categories), once the full contract is paid. See [Commission & revenue splits](./opportunity-splits) for splits on partnership deals.
 
 [Recent changes →](./recent-changes)

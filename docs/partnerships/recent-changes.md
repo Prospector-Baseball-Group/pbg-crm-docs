@@ -1,5 +1,11 @@
 # Recent changes and verification
 
+## November 10, 2026 — Product revenue categories and Pass-Through
+
+Partnership products can explicitly set **Revenue Category**, overriding the family mapping. **Pass-Through** replaces the narrower display label “City pass-through” and covers expense reimbursements as well as city charges. The Revenue tab and updated partnership reports separate net corporate revenue from the full contract value; partnership commissions exclude noncommissionable allocations. Product category changes recalculate existing deals in the background.
+
+See [Product revenue categories and Pass-Through](./product-revenue-categories) for setup steps and a fictional t-shirt reimbursement example.
+
 ## October 28, 2026 — Payments tab and splits on the Commission tab (with the payments release)
 
 - Partnership opportunities track payments on the **Payments** tab instead of the Scheduled Payments list. Existing scheduled payments move onto each deal. Barter is a **Trade (Barter)** payment, marked received when the trade is delivered. See [Payments & barter](./payments).

@@ -10,7 +10,7 @@ These steps use the **PBG Sales** app.
 
 ## The club's menu
 
-Each club has its own menu of event products. Akron's menu includes a room fee, catered food, a beverage package, host bar, cash bar, cash bar tax, net concessions, staffing & services, city pass-through, misc., an 18% gratuity, and 6.75% sales tax.
+Each club has its own menu of event products. Akron's menu includes a room fee, catered food, a beverage package, host bar, cash bar, cash bar tax, net concessions, staffing & services, pass-through, misc., an 18% gratuity, and 6.75% sales tax.
 
 The menu is maintained by the club's event lead and the Salesforce admin. See [Manage the event product menu](../administration/event-products).
 
@@ -63,8 +63,8 @@ An Actual After Event line with no estimate shows **After the event** in the sav
 
 | Figure | Meaning |
 | --- | --- |
-| Revenue (Amount) | The event's revenue: everything except tax, gratuity, and city pass-through. It includes cash bar sales paid by guests. The opportunity's Amount follows it |
-| Client total | What's billed to the client: billed revenue plus tax, gratuity, and city pass-through. The Payments tab and the agreement's Usage Fee follow it |
+| Revenue (Amount) | The event's revenue: everything except tax, gratuity, and pass-through. It includes cash bar sales paid by guests. The opportunity's Amount follows it |
+| Client total | What's billed to the client: billed revenue plus tax, gratuity, and pass-through. The Payments tab and the agreement's Usage Fee follow it |
 | Tax / Gratuity | Calculated from the lines marked **Taxable** and **Gratuity applies** |
 | Paid at event | Collected from guests at the event, such as cash bar. It counts as revenue but isn't billed, so it never becomes a payment |
 | Commissionable | Shown on the saved view. Tax and gratuity aren't commissionable; cash bar is |
