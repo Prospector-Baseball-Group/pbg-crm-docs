@@ -1,8 +1,20 @@
 # Merge duplicate Business Accounts
 
-Managers can use **Duplicate Record Sets** in **PBG Sales** to combine two records for the same business, even when their names differ and Salesforce shows no duplicate warning.
+Managers can start from a **Business Account** in **PBG Sales** to compare and combine two records for the same business, even when their names differ and Salesforce shows no duplicate warning.
 
-## Open the native merge tools
+## Start from the Business Account
+
+1. Open either Business Account in **PBG Sales**.
+2. Open the record's action dropdown and choose **Merge with another Account**.
+3. In **Other Business Account**, search for and select the second record. The search shows the Account owner to help distinguish similar names and excludes Person Accounts and the Account already open.
+4. Click **Prepare comparison**. Salesforce opens a **Duplicate Record Set** containing both Accounts. This step does not change or merge either Account.
+5. Choose **Compare and Merge** from the set's action dropdown, then follow [Compare and merge](#compare-and-merge) below.
+
+The shortcut creates the set and adds both records for you. If you repeat it for the same pair, it can reopen your existing two-record comparison. You still choose which Account survives and confirm the merge in Salesforce's native screens. A prepared set alone does not create an FDP follow-up record; that happens only after a successful merge.
+
+If the action is missing, refresh Salesforce and confirm you are on a Business Account. The action is limited to approved managers and requires access to both Accounts. Use the manual route below if needed.
+
+## Alternative: create the duplicate set manually
 
 1. Open **PBG Sales** from the App Launcher.
 2. Open the navigation dropdown beside the current section and choose **Duplicate Record Sets**.
@@ -23,7 +35,7 @@ For example, **JG Cedar Mechanical** and **JG Cedar Heating** can be added to th
 
 ## Compare and merge
 
-1. Return to the Duplicate Record Set. Refresh the page after adding both Accounts, then choose **Compare and Merge** in the record header (or its action dropdown). The button appears only after the set has at least two records.
+1. Open the prepared Duplicate Record Set and choose **Compare and Merge** in the record header (or its action dropdown). If you added the Accounts manually, refresh the page first. The button appears only after the set has at least two records.
 2. Select the Accounts to combine and click **Next**.
 3. Choose the principal Account to keep. Prefer the established working record with the correct ownership and business history.
 4. Review the available fields and select the values to retain, including the Account name and owner. Salesforce initially shows fields with different values; use **Show All Fields** to review more. Copy useful alternate names or context into a customer Note before merging.
