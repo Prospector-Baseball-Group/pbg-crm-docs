@@ -5,6 +5,7 @@ Use these PBG guides for partnership workflows configured in Salesforce.
 | I need to… | Guide |
 | --- | --- |
 | Log work against a business or specific deal | [Business Account activities](/general/business-account-activities) |
+| Choose Upsell or Addon for a partnership opportunity | [Upsells and add-ons](./upsells-and-add-ons) |
 | Configure a product as Pass-Through or choose its revenue category | [Product revenue categories](./product-revenue-categories) |
 | Share an opportunity between sales reps | [Revenue splits](./opportunity-splits) |
 | Schedule payments, record barter, or see what's owed | [Payments & barter](./payments) |

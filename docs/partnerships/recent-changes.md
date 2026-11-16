@@ -1,5 +1,9 @@
 # Recent changes and verification
 
+## November 16, 2026 — Upsells and add-ons
+
+The new [Upsells and add-ons guide](./upsells-and-add-ons) explains when to choose **Upsell** or **Addon** on a Partnership Opportunity. The examples use Akron's 2027 inventory. Both Type labels were verified in Salesforce.
+
 ## November 10, 2026 — Product revenue categories and Pass-Through
 
 Partnership products can explicitly set **Revenue Category**, overriding the family mapping. **Pass-Through** replaces the narrower display label “City pass-through” and covers expense reimbursements as well as city charges. The Revenue tab and updated partnership reports separate net corporate revenue from the full contract value; partnership commissions exclude noncommissionable allocations. Product category changes recalculate existing deals in the background.
