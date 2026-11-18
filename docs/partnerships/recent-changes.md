@@ -1,5 +1,11 @@
 # Recent changes and verification
 
+## November 18, 2026 — Product creation and category setup guide
+
+Added [Create a product and edit its categories](./create-product), linking to Agilitek’s product creation instructions and explaining the follow-up Product edit step. The guide distinguishes Reporting Category, Revenue Category, Finance Category, and product families.
+
+**Verification:** inspected the screens using Salesforce Login As for an Akron partnership manager. Product Creator was accessible, and Reporting Category was editable with Concourse available. No product was created and no edit was saved during this check. This is a documentation update; the Salesforce workflow and permissions are unchanged.
+
 ## November 16, 2026 — Upsells and add-ons
 
 The new [Upsells and add-ons guide](./upsells-and-add-ons) explains when to choose **Upsell** or **Addon** on a Partnership Opportunity. The examples use Akron's 2027 inventory. Both Type labels were verified in Salesforce.

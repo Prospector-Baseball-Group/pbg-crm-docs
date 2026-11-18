@@ -13,7 +13,7 @@ Product Family and Product Sub-Family still organize inventory. Revenue Category
 
 The field is available to users with product-edit and Revenue Category edit permission. If it is missing or read-only, ask your Salesforce administrator to check both permissions and the assigned product layout.
 
-**Creating a new product:** create its inventory and rates through Agilitek's Product Creator as usual. Then open the saved Product and set Revenue Category using the steps above. Revenue Category is on the Product edit layout; it is not a field inside Agilitek's managed Product Creator wizard.
+**Creating a new product:** follow [Create a product and edit its categories](./create-product) to set up inventory and rates in Product Creator, then edit the saved Product. **Reporting Category** groups assets in Partnership reports (for example, **Concourse**); **Revenue Category** controls financial treatment. Both are on the Product edit screen, outside Agilitek's Product Creator wizard.
 
 ::: warning Product-wide setting
 Changing Revenue Category recalculates existing partnership opportunities that use that Product, including prior seasons. Future deals use it too. Use a dedicated reimbursement product when only that asset should be excluded. Do not reclassify a shared sponsorship product just to change one deal.
